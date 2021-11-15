@@ -1,22 +1,22 @@
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
+import { createDrawerNavigator } from "@react-navigation/drawer"
 import { NavigationContainer } from "@react-navigation/native"
 import React from "react"
 import { ThemeProvider } from "react-native-magnus"
-import Games from "./pages/Games"
-import Hanguls from "./pages/Hanguls"
-import Lessons from "./pages/Lessons"
+import GameList from "./pages/GameList"
+import HangulList from "./pages/HangulList"
+import LessonList from "./pages/LessonList"
 
-const Tab = createBottomTabNavigator()
+const Drawer = createDrawerNavigator<RootDrawerParamList>()
 
 const App = (): JSX.Element => {
 	return (
 		<ThemeProvider>
 			<NavigationContainer>
-				<Tab.Navigator initialRouteName="Lessons" backBehavior="history">
-					<Tab.Screen name="Lessons" component={Lessons} />
-					<Tab.Screen name="Games" component={Games} />
-					<Tab.Screen name="Hanguls" component={Hanguls} />
-				</Tab.Navigator>
+				<Drawer.Navigator initialRouteName="Lessons" backBehavior="history">
+					<Drawer.Screen name="Lessons" component={LessonList} />
+					<Drawer.Screen name="Memory Games" component={GameList} />
+					<Drawer.Screen name="Learning to Read" component={HangulList} />
+				</Drawer.Navigator>
 			</NavigationContainer>
 		</ThemeProvider>
 	)
