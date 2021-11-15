@@ -3,22 +3,20 @@ import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } fr
 import { Hanguls as hanguls } from "../data.json"
 
 const HangulList = (): JSX.Element => {
-	const handleHangul = (hangul: number) => {}
+	const handleHangul = (hangul: string) => {}
 
 	return (
 		<SafeAreaView>
 			<ScrollView>
-				{hanguls
-					.map((_, i) => i + 1)
-					.map(hangul => (
-						<View key={hangul}>
-							<TouchableOpacity
-								style={styles.touchable}
-								onPress={() => handleHangul(hangul)}>
-								<Text style={styles.text}>Page {hangul}</Text>
-							</TouchableOpacity>
-						</View>
-					))}
+				{hanguls.map((hangul, i) => (
+					<View key={i}>
+						<TouchableOpacity
+							style={styles.touchable}
+							onPress={() => handleHangul(hangul)}>
+							<Text style={styles.text}>Page {i + 1}</Text>
+						</TouchableOpacity>
+					</View>
+				))}
 			</ScrollView>
 		</SafeAreaView>
 	)

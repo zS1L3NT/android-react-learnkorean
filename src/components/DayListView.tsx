@@ -2,9 +2,9 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import React from "react"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
 import { Button, Div, Icon } from "react-native-magnus"
-import { Lessons as lessons } from "../../data.json"
+import { Lessons as lessons } from "../data.json"
 
-type Props = NativeStackScreenProps<LessonsStackParamList, "Days">
+type Props = NativeStackScreenProps<iLessonsStackParamList, "Days">
 
 const LessonsDayListView = (props: Props): JSX.Element => {
 	const { month } = props.route.params
@@ -17,7 +17,7 @@ const LessonsDayListView = (props: Props): JSX.Element => {
 		props.navigation.navigate("Days", { month: month + 1 })
 	}
 
-	const handleDay = (day: number) => {}
+	const handleLesson = (lesson: iLesson) => {}
 
 	return (
 		<SafeAreaView>
@@ -44,13 +44,12 @@ const LessonsDayListView = (props: Props): JSX.Element => {
 			</Div>
 			<ScrollView style={styles.scroll}>
 				{lessons[month - 1]
-					.map((_, i) => i + 1)
-					.map(day => (
-						<View key={day}>
+					.map((lesson, i) => (
+						<View key={i}>
 							<TouchableOpacity
 								style={styles.touchable}
-								onPress={() => handleDay(day)}>
-								<Text style={styles.touchableText}>Day {day}</Text>
+								onPress={() => handleLesson(lesson)}>
+								<Text style={styles.touchableText}>Day {i + 1} - {lesson.title}</Text>
 							</TouchableOpacity>
 						</View>
 					))}

@@ -1,9 +1,9 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import React from "react"
-import LessonsDayListView from "../components/Lessons/DayListView"
-import LessonsMonthListView from "../components/Lessons/MonthListView"
+import LessonsDayListView from "../components/DayListView"
+import LessonsMonthListView from "../components/MonthListView"
 
-const Stack = createNativeStackNavigator<LessonsStackParamList>()
+const Stack = createNativeStackNavigator<iLessonsStackParamList>()
 
 const LessonList = (): JSX.Element => {
 	return (

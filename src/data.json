@@ -7,7 +7,8 @@
 				"choices": ["감사합니다", "안녕하세요", "하세요", "감사합", "감사합하세요"],
 				"pages": [
 					"안녕하세요 [annyeong-haseyo] = Good afternoon./ Hello. / Hi.  / etc...\n\n 안녕 = well-being, health\n 하세요 = do you? you do, please do\n\n When someone greets you with 안녕하세요, you can return the greet with 안녕하세요 too.\n\n 감사합니다 [gam-sa hap-ni-da] = Thank you.\n\n 감사 = thankfulness, gratitude\n 합니다 = I do, I am doing \n\n You can say thank you to someone with 감사합니다."
-				]
+				],
+				"title": "Greetings"
 			},
 			{
 				"questions": ["Excuse me. To call a waiter", "I am sorry"],
@@ -16,7 +17,8 @@
 				"pages": [
 					"죄송합니다 [joe-song-ham-ni-da] = I am sorry, excuse me\n\n 죄송 = apology, being sorry\n 합니다 = I do, I am doing\n\n To apologize or say I'm sorry, you can use 죄송합니다.\n\n But if you hear a bad news and want to say sorry to hear that,  you can't use 죄송합니다. It's used to apologize.",
 					"저기요 [jeo-gi-yo] = Excuse me\n\n You can use 저기요 if you want to call waiter in the restaurant.\n\n You can also use 저기요 if you want to get someone attention.\n\n If you want to use 'excuse me' to pass through a crowd, you cannot use 저기요.\n\n You need to use \n 잠시만요 [jam-si-man-yo] = Just a second\n 잠깐만요 [jam-kkan-man-yo] = Just a second\n 죄송합니다 [joe-song-ham-ni-da] \n"
-				]
+				],
+				"title": "Sorry"
 			},
 			{
 				"questions": [
@@ -27,7 +29,8 @@
 				"choices": ["안녕히 계세요", "안녕히 가세요", "하세요", "감사합", "감사합하세요"],
 				"pages": [
 					"안녕히 계세요 [an-nyeong-hi gye-se-yo]\n Goodbye. Stay in peace, safely.\n\n 안녕히 가세요. [an-nyeong-hi ga-se-yo]\n Goodbye. Go safely.\n\n Both are said when goodbye, however there's a difference when to use which phrase.\n\n 안녕히 계세요 [an-nyeong-hi gye-se-yo] is used when you are leaving and the other person is staying\n\n 안녕히 가세요. [an-nyeong-hi ga-se-yo] is used when you are staying and the other person is leaving.\n"
-				]
+				],
+				"title": "Goodbye"
 			},
 			{
 				"questions": [
@@ -43,7 +46,8 @@
 				"choices": ["이", "그", "저", "사람", "이 사람", "그 사람", "저 사람"],
 				"pages": [
 					"이 [i] = this \n\n 그 [geu] = the, that\n\n 저 [jeo] = the, that ... over there\n\n 이, 그, 저 is used to describe something.\n If it's nearby you use 이 [i].\n If it's further away, you use 그 [geu].\n If it's much further away, you use 저 [jeo]\n\n For example, 이 사람 [i sa-ram], means this person. 사람 [sa-ram] means person"
-				]
+				],
+				"title": "This, that"
 			},
 			{
 				"questions": [
@@ -84,7 +88,8 @@
 					"이에요 / 예요 [i-e-yo / ye-yo] = to be.\n\n In English, you build sentence [subject] + [to be] + [object].\n For example: I am Mina.\n\n But in Korean, your [to be] will be built at the end of the sentence.\n [subject] + [object] + [to be]\n\n For example: 미나 [Mina] 예요 [to be], which means I'm Mina in English.\n\n",
 					"Whether to use 이에요 [i-e-yo] or 예요 [ye-yo] is depending on whether the last letter in the previous word ended in a consonant or a vowel.\n\n Final consonant + 이에요 [i-e-yo]\n No final consonant (Only vowel) + 예요 [ye-yo]\n\n 물이에요 = 물 + 이에요\n [mul + i-e-yo]\n (It’s) water.\n\n 가방이에요 = 가방 + 이에요\n [ga-bang + i-e-yo]\n (It’s) a bag.\n\n",
 					"학교예요 = 학교 + 예요\n [hak-gyo + ye-yo]\n (It’s) a school.\n\n 저예요 = 저 + 예요\n [jeo + ye-yo]\n (It’s) me\n\n To ask a question, just change your tone to questioning when speaking\n\n 물이에요. [mul-i-e-yo] = It’s water.\n 물이에요? [mul-i-e-yo?] = Is this water?"
-				]
+				],
+				"title": "Grammar"
 			},
 			{
 				"questions": [
@@ -118,7 +123,8 @@
 				"pages": [
 					"Previously you learned that 이 = this. To built a sentence, this is a ....we use 이거\n\n For example:\n 이거 책이에요. [i-geo chaek-i-e-yo]\n This is a book. \n\n 이거 카메라예요. [i-geo ka-me-ra-ye-yo]\n This is a camera.\n\n 이거 커피예요. [i-geo keo-pi-ye-yo]\n This is coffee.",
 					"이거 뭐예요? [i-geo mwo-ye-yo?]\n What is this? \n\n 뭐예요 [mwo-ye-yo?] = What?\n 이 = this\n\n For example:\n 이거 뭐예요? [i-geo mwo-ye-yo?]\n What is this?\n\n 이거 물이에요. [i-geo mul-i-e-yo]\n This is water.\n\n 이거 뭐예요? [i-geo mwo-ye-yo?]\n What is this?\n\n 이거 커피예요. [i-geo keo-pi-ye-yo]\n This is coffee."
-				]
+				],
+				"title": "This is..."
 			},
 			{
 				"questions": ["Yes", "No", "Is this coffee?"],
@@ -137,7 +143,8 @@
 				],
 				"pages": [
 					"네 [ne] = Yes\n 아니요 [a-ni-yo] = No\n\n For example\n\n 이거 커피예요? [i-geo keo-pi-ye-yo?] =\n Is this coffee?\n 네 [ne] = Yes\n\n 이거 커피예요? [i-geo keo-pi-ye-yo?] =\n Is this coffee?\n 아니요 [a-ni-yo] = No\n"
-				]
+				],
+				"title": "Yes / No"
 			},
 			{
 				"questions": [
@@ -245,7 +252,8 @@
 					"니요",
 					"니요커"
 				],
-				"pages": []
+				"pages": [],
+				"title": "Revision"
 			},
 			{
 				"questions": ["Cat", "Student", "I am not a student", "This is not a cat"],
@@ -265,7 +273,8 @@
 				"pages": [
 					"아니에요 [a-ni-e-yo] = to be not, it is not\n To say 'something is not', you can use 아니에요 [a-ni-e-yo]\n\n 아니에요 [a-ni-e-yo] is the present tense for the verb 아니다 (to be not).  So 아니에요 [a-ni-e-yo] means 'It’s not.' 'I am not.'\n\n 학생 아니에요\n [hak-saeng a-ni-e-yo]\n not a student\n\n 저 학생 아니에요\n [jeo hak-saeng a-ni-e-yo]\n I am not a student",
 					"고양이 아니에요\n [geu-geo go-yang-i a-ni-e-yo]\n not a cat\n\n 이거 고양이 아니에요\n [geu-geo go-yang-i a-ni-e-yo]\n This is not a cat"
-				]
+				],
+				"title": "It's not"
 			},
 			{
 				"questions": [
@@ -299,7 +308,8 @@
 					"있어요 [i-sseo-yo] = have something \n 없어요 [eop-sseo-yo] = don't have\n\n 있어요 [i-sseo-yo] is the present tense for 있다 [it-da].\n\n If you use 있어요 on something, it means you have that something.\n If you use 있어요 on a place, it means 'to be there'\n\n For example:-\n\n 친구 있어요. [chin-gu i-sseo-yo]\n I have friends.\n\n 시간 있어요. [si-gan i-sseo-yo]\n I have time.\n\n 집에 있어요 [jib-e i-sseo-yo.]\n I at home",
 					"없어요 [eop-sseo-yo] is the present tense for 없다 [eop-da], which means 'don't have'\n\n 친구 없어요. [chin-gu eop-sseo-yo]\n I don’t have friends\n\n 시간 없어요. [si-gan eop-sseo-yo]\n I don't have time\n",
 					"Simply by changing your tone to questioning tone, the phrase 있어요, 없어요 can be changed into a question\n\n For example:-\n 있어요? [i-sseo-yo]\n Do you have something?\n\n 없어요? [eop-seo-yo]\n Don’t you have ...?\n\n More example:-\n\n 시간 있어요? [si-gan i-sseo-yo?]\n Do you have some time?\n\n 시간 없어요? [si-gan eop-seo-yo?]\n You don’t have time?\n\n 돈 있어요? [don i-sseo-yo?]\n Do you have money?\n\n 돈 없어요? [don eop-seo-yo?]\n You don’t have money?"
-				]
+				],
+				"title": "Have"
 			},
 			{
 				"questions": [
@@ -341,7 +351,8 @@
 				"pages": [
 					"돈 없어요? [don eop-seo-yo?]\n You don’t have money?\n\n  주세요 [ju-se-yo] = Please give me\n 주세요 [ju-se-yo] comes from 주다 [ju-da] which means 'to give'\n\n [object] + 주세요 [ju-se-yo]\n Please give me [object]\n\n 돈 주세요. [don ju-se-yo]\n Please give me money.\n\n 맥주 주세요. [maek-ju ju-se-yo]\n Please give me a beer\n\n 사과 주세요. [sa-gwa ju-se-yo]\n Please give me (an/some) apple.",
 					"김치 주세요. [gim-chi ju-se-yo]\n Please give me some kimchi\n\n  밥 주세요. [bap ju-se-yo]\n Please give me rice.\n\n 물 주세요. [mul ju-se-yo]\n Please give me water"
-				]
+				],
+				"title": "Please give me..."
 			},
 			{
 				"questions": [
@@ -388,7 +399,8 @@
 				"pages": [
 					"맛있어요 [ma-si-sseo-yo] = It’s tasty.\n 맛 [mat] = taste\n 있어요 [i-sseo-yo] = there is\n Putting this together means 맛있어요 [ma-si-sseo-yo] = It’s tasty.\n\n How about not tasty?\n If 있어요 means there is, 없어요 means there's none.  When combined, it will be 맛없어요 [mad-eop-seo-yo] = It’s not tasty.\n\n Examples:\n 김치 맛있어요[gimchi ma-si-sseo-yo]\n Kimchi is delicious\n\n 저 케익 맛있어요. [jeo ke-ik ma-si-sseo-yo]\n That cake is delicious\n\n 이 차 맛있어요. [i cha ma-si-sseo-yo]\n This tea taste tasty",
 					"저 케익 맛없어요.\n [jeo ke-ik ma-deop-seo-yo]\n That cake is not delicous\n\n 이 차 맛없어요.\n [i cha ma-deop-seo-yo]\n This tea taste bad.\n\n 잘 먹겠습니다. [jal meok-ge-sseum-ni-da] = I will eat well.\n In Korea, this phrase is usually said before having a meal. It's also used  especially to someone who is buying the meal.\n\n When you want to joke that your friend should buy you food, you can say 잘 먹을게! [jal meo-geul-ge!] - informal language\n 잘 먹었습니다\n [jal meo-geo-sseum-ni-da]\n Thank someone after meal\n"
-				]
+				],
+				"title": "Delicious"
 			},
 			{
 				"questions": [
@@ -449,7 +461,8 @@
 					"It's time to learn about number. In Korean, there's 2 type of numbers counting.\n\n The first type is Sino-Korean, which has influence from China.\n\n 일 [il] = 1\n 이 [i] = 2\n 삼 [sam] = 3\n 사 [sa] = 4\n 오 [o] = 5\n 육 [yuk] = 6\n 칠 [chil] = 7\n 팔 [pal] = 8\n 구 [gu] = 9\n 십 [sip] = 10\n",
 					"If you want to say 12, you just say [TEN] + [TWO] = 십이\n\n If you want to say 45, you just say [FOUR] + [TEN] + [FIVE] = 사십오\n\n 십 [sip] = 10\n 십 [sip] + 일 = 11\n 십 [sip] + 이 = 12\n ......\n 이십 [i-sip] = 20\n 이십일 [i-sip-il] = 21\n 이십이 [i-sip-i] = 22\n ......\n 백 [baek] = 100\n 백일 [baek-il] = 101\n ......\n",
 					"삼백일 [sam-baek-il] = 301\n ......\n 천 [cheon] = 1000\n 천구십팔 [cheon-gu-sip-pal]= 1098\n\n Please note that there's no need to say 일 [il] for 100, 1000 or 10000.\n\n 백 [baek] = 100, and not 일백 [il-baek]\n 천 [cheon] = 1000, and not 일천 [il-cheon]\n 만 [man] = 10000, and not 일만 [il-man]\n"
-				]
+				],
+				"title": "Number"
 			},
 			{
 				"questions": [
@@ -531,7 +544,8 @@
 					"The second type of number is called Native Korean Number.\n\n 하나 [ha-na]  = 1\n 둘 [dul] = 2\n 셋 [set] = 3\n 넷 [net] = 4\n 다섯 [da-seot] = 5\n 여섯 [yeo-seot] = 6\n 일곱 [il-gop] = 7\n 여덟 [yeo-deol] = 8\n 아홉 [a-hop] = 9\n 열 [yeol] = 10\n",
 					"From 11 to 19, it's [Ten] + [number 1-9]..\n 열하나 [yeol-ha-na]  = 11\n 열둘 [yeol-dul] = 12\n 열셋 [yeol-set] = 13\n 열넷 [yeol-net] = 14\n\n Same rules apply for 21-29,\n but for 20 it's 스물 [seu-mul]\n 스물 [seu-mul] = 20\n 스물둘 [seu-mul-dul] = 22\n 스물셋 [seu-mul-set] = 23\n\n The same applies for 30-99\n 서른 [seo-reun] = 30\n 마흔 [ma-heun] = 40\n 쉰 [swin] = 50\n 예순 [ye-sun] = 60\n 일흔 [i-reun] = 70\n 여든 [yeo-deun] = 80\n 아흔 [a-heun] = 90",
 					"How about 100, 1000 and above?\n For bigger numbers, native Korean numbers are not used anymore. We use sino-Korean number again.\n\n 백 [baek / 100] (sino-Korean) + 하나 [ha-na / 1] (native Korean) = 101 = 백하나\n\n 사 [sa / 4] (sino-Korean) + 백 [baek / 100] (sino-Korean) + 다섯 [daseot / 5] (native Korean) = 405 = 사백다섯\n\n So when do we use which type of numbers? There's a many situations to use which type and it's  difficult to explain this within today lesson. For example:-\n\n For time, we use native Korean to say the hour and sino-Korean to say the minutes.\n For age - 살 [sal]. we use native-Korean."
-				]
+				],
+				"title": "Number II"
 			},
 			{
 				"questions": [
@@ -571,7 +585,8 @@
 				"pages": [
 					"After learning sino-Korean number and native-Korean number,  it's time to put this to use.  살 [sal] = age\n\n To say 12 years old, we say\n 열두 살 [yeol-dul-sal] = 12 years old\n\n To say this in a sentence, we add 이에요 [i-e-yo] at the end of the sentence.\n\n 한 살이에요 [han-sal i-e-yo]\n I am 1 years old.\n\n 열두 살이에요 [yeol-dul-sal i-e-yo]\n I am 12 years old.\n\n 마흔네 살이에요 [ma-heun-ne-sal i-e-yo]\n I am 44 years old.\n\n",
 					"스물 살이에요\n [seu-mul-sal i-e-yo]\n I am 20 years old.\n\n 스물네 살이에요\n [seu-mul-ne-sal i-e-yo]\n I am 24 years old.\n\n 여든 살이에요\n [yeo-deun-sal i-e-yo]\n I am 80 years old."
-				]
+				],
+				"title": "Age"
 			},
 			{
 				"questions": ["1 person", "2 friends", "5 apples", "2 cats", "3 cars", "1 car"],
@@ -600,7 +615,8 @@
 				"pages": [
 					"More lesson on counting today.\n 개 [gae] = general use to count thing, but can't be used on all objects.\n 명 [myeong] = counter for people\n 마리 [ma-ri] = counter animals\n 대 [dae] = counter for cars\n 장 [jang] = counter for papers\n\n Examples:-\n 한 명 [han myeong]\n 1 person\n\n 친구 두 명 [chin-gu du myeong]\n 2 friends\n\n 사과 다섯 개 [sa-gwa da-seot gae]\n 5 apples",
 					"고양이 두 마리 [goyang-i du mari]\n 2 cats\n\n 차 세 대 [cha se dae]\n 3 cars.\n"
-				]
+				],
+				"title": "Counter"
 			},
 			{
 				"questions": [
@@ -954,7 +970,8 @@
 					"사과 다섯 개",
 					"고양이 두 마리"
 				],
-				"pages": []
+				"pages": [],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -990,7 +1007,8 @@
 				"pages": [
 					"[verb] + 고 싶어요 [-go si-peo-yo] = I want to ...\n\n The above is used to mention I want to do ________.\n\n For example:- \n 보다 [bo-da] = to see\n 먹다 [meok-da] = to eat\n 사다 [sa-da] = to buy\n 마시다 [ma-si-da] = to drink\n\n Drop the 다 and + 고 싶어요 you will have \n 보고 싶어요 [bo-go si-peo-yo]\n I want to watch or I miss you\n\n 먹고 싶어요 [meok-go si-peo-yo]\n I want to eat",
 					"김치 먹고 싶어요\n [gim-chi meok-go si-peo-yo]\n I want to eat kimchi\n\n 영화 보고 싶어요\n [yeong-hwa bo-go si-peo-yo]\n I want to watch movie\n\n 바나나 사고 싶어요\n [ba-na-na sa-go si-peo-yo]\n I want to buy banana\n\n 물 마시고 싶어요\n [mul ma-si-go si-peo-yo]\n I want to drink water."
-				]
+				],
+				"title": "I want to ..."
 			},
 			{
 				"questions": [
@@ -1024,7 +1042,8 @@
 				"pages": [
 					"뭐 하고 싶어요? [mwo ha-go si-peo-yo?] = What do you want to do? \n\n Previously we learned how to say, we want to _____. Today we will learn how to ask the question. What do you want to do?\n\n 뭐 [mwo] = what\n 싶어요 [si-peo-yo] = want to\n\n When combined you get\n 뭐 하고 싶어요? [mwo ha-go si-peo-yo?]\n What do you want to do?\n\n",
 					"Remember previously we learned that to use verb 하다, 보다, etc, we removed 다 from the sentence.\n\n Let's change 하다 [ha-da] to another verb\n\n 뭐 보고 싶어요? [mwo bo-go si-peo-yo?]\n What you want to watch?\n\n 뭐 먹고 싶어요? [mwo meok-go si-peo-yo?]\n What you want to eat?\n\n 뭐 읽고 싶어요? [mwo il-ggo si-peo-yo]?\n What you want to read?\n\n 뭐 놀고 싶어요? [mwo nol-go si-peo-yo]\n What you want to play?"
-				]
+				],
+				"title": "What you want to ....?"
 			},
 			{
 				"questions": ["Go", "Eat", "Watch", "Do"],
@@ -1047,7 +1066,8 @@
 					"It's time to learn about Korean tenses. Just like English, Korean has Present, Past and Future tense. Today we will have a look on present tense.\n\n If you look at Korean dictionary, all verbs ends with 다.\n 가다 [ga-da] = to go\n 자다 [ja-da] = to sleep\n 먹다 [meok-da] = to eat\n\n To form this verb into a sentence, you will need to drop 다. Then, you joined with one of these:-\n 아요 [a-yo]\n 어요 [eo-yo]\n 여요 [yeo-yo]",
 					"If the verb end with ㅏ[a] or ㅗ [o], we joined with 아요 [a-yo].\n\n If the verb is NOT end with ㅏ[a] or ㅗ [o], we joined with 어요 [eo-yo].\n\n If verb is 하 [ha], we joined with 여요 [yeo-yo].",
 					"가다 [ga-da] = to go\n 가 last vowel is ㅏ [a] so you add 아요 [a-yo]\n 가 + 아요 = 가요 [ga-yo]\n\n 먹다 [meok-da] = to eat\n 먹 last vowel is ㅓ [eo], so you add 어요 [eo-yo]\n 먹 + 어요 = 먹어요 [meo-geo-yo]\n\n 보다 [bo-da] = to watch\n 보 last vowel is ㅗ [o], so you add 아요 [a-yo]\n 보 + 아요 = 봐요 [bwa-yo]\n\n 하다 [ha-da] = to do\n If ends with 하, we add 여요. 하 + 여요 = 하여요 [ha-yeo-yo] and it becomes 해요 [hae-yo]."
-				]
+				],
+				"title": "Grammar (Present tense)"
 			},
 			{
 				"questions": ["Went", "Ate", "Watched", "Did"],
@@ -1065,7 +1085,8 @@
 				"pages": [
 					"Today we will learn past tense. It's the same concept as present tense.\n\n To form verb into a sentence, you joined with one of these:-\n 았어요 [a-sseo-yo]\n 었어요 [eo-sseo-yo]\n 였어요 [yeo-sseo-yo]\n\n If the verb (after dropping 다) last vowel is ㅏ[a] or ㅗ [o], it is followed by 았어요 [a-sseo-yo].\n\n If the last vowel is NOT ㅏ[a] or ㅗ [o], it is followed by 었어요 [eo-sseo-yo].\n\n If it's end with 하 [ha], is followed by 였어요 [yeo-sse-yo].\n Similar like the present tense right?",
 					"가다 [ga-da] = to go\n 가 last vowel is ㅏ [a] so you add 았어요 [a-sseo-yo]\n 가 + 았어요 = 갔어요 [ga-a-sseo-yo]\n\n 먹다 [meok-da] = to eat\n 먹 last vowel is ㅓ [eo], so you add 었어요 [eo-sseo-yo]\n 먹 + 었어요 = 먹었어요 [meo-geo-sseo-yo]\n\n 보다 [bo-da] = to watch\n 보 last vowel is ㅗ [o], so you add 았어요 [a-sseo-yo]\n 보 + 았어요 = 봤어요\n\n 하다 [ha-da] = to do\n If ends with 하, we add 였어요\n 하 + 였어요 = 했어요 [hae-sseo-yo]."
-				]
+				],
+				"title": "Grammar (Past tense)"
 			},
 			{
 				"questions": [
@@ -1104,7 +1125,8 @@
 				"pages": [
 					"Previously you have learn how to ask what? 뭐 [mwo]\n\n Today you will learn to ask when?\n 언제 [eon-je] = When\n\n Just add 언제 [eon-je] right in front of your question. For example:-\n When did you did it?\n 언제 했어요? [eon-je hae-sseo-yo?]\n When + you did it?\n\n When did you came?\n 언제 왔어요? [eon-je wa-sseo-yo?]\n When + did you came?\n\n When do you wake up?\n 언제 일어나요? [eon-je i-reo-na-yo?]\n When + do you wake up?",
 					"You will need to learn some vocabulary to reply someone who ask you when did you ______?.\n\n 오늘 [o-neul] = today\n 내일 [nae-il] = tomorrow\n 어제 [eo-je] = yesterday\n 지금 [ji-geum] = now\n 나중에 [na-jung-e] = later\n 아까 [a-kka] = a while ago today\n"
-				]
+				],
+				"title": "When?"
 			},
 			{
 				"questions": [
@@ -1128,7 +1150,8 @@
 				"pages": [
 					"Where? 어디 [eo-di] = where\n Just like what, when, we put where 어디 at the start of the sentence.\n\n 어디 가요? [eo-di ga-yo?]\n Where do you go?\n\n While the above is correct, to make your message is clear, we normally use 에 [e] and 에서 [e-seo]  to mark location. \n\nSo for better way of communicating, we use\n 어디에 가요? [eo-di-e ga-yo?]\n Where do you go?\n\n",
 					"Another example\n 어디에 있어요? [eo-di-e i-sseo-yo?]\n Where are you?\n\n 에서 [e-seo] is used to\n 1. mark a location where action taking place\n or\n 2. from somewhere (from Korea)\n\n 집에서 먹어요 [jib-e-so meog-eoyo]\n I eating at home\n 집에 있어요 [jib-e i-sseo-yo]\n I at home.\n\n Do you see the difference?"
-				]
+				],
+				"title": "Where?"
 			},
 			{
 				"questions": [
@@ -1157,7 +1180,8 @@
 					"For example:-\n 저는 학생이에요\n [jeo-neun hak-saeng-i-e-yo]\n I am a student.\n\n 오늘은 일해요\n [o-neul-eun il-hae-yo]\n Today I am working\n\n Besides marking topics, 은 [eun] / 는 [neun] is used to emphasize of about something\n\n 오늘 날씨 좋네요\n [o-neul nal-ssi jot-ne-yo]\n The weather is good today.\n\n 오늘은 날씨 좋네요\n [o-neul-eun nal-ssi jot-ne-yo]\n (The weather is not good recently) But today it is good\n\n",
 					"오늘 날씨는 좋네요\n [o-neul nal-ssi-neun jot-ne-yo]\n (Today other things is not so good) But the weather  is good.\n\n 오늘 [o-neul] = today\n 날씨 [nal-ssi] = weather\n 좋네요 [jot-ne-yo] = good\n\n",
 					"Subject marking particles are\n 이 [i] / 가 [ga] \n\n Words ending with a last consonant + 이\n Words ending with a vowel + 가\n Subject marking particles (이/가) show what the subject of the sentence is.\n\n 뭐가 좋아요? [mwo-ga jo-a-yo?]\n What is good?\n\n Generally, 은/는 is not so commonly used all over sentences.  Usually, 은/는/이/가 can be dropped, but when you need particles to clarify the  meaning, 이/가 will be more commonly used.\n"
-				]
+				],
+				"title": "Grammar (Marker)"
 			},
 			{
 				"questions": ["Spicy", "Not spicy", "Go", "Don't go", "Didn't go", "Not eating"],
@@ -1180,7 +1204,8 @@
 				"pages": [
 					"In this lesson, we will learn how to build negative sentence.\n\n There's 2 ways to do it\n 1. Add 안 [an] before a verb\n 2. Use 지 않다 [ji an-da]\n\n 먹어요 [meo-geo-yo] = eating\n 안 먹어요 [an-meo-geo-yo] not eating\n\n 매워요 [mae-wo-yo] = spicy\n 안 매워요 [an mae-wo-yo] = not spicy\n\n 가요 [ga-yo] = go\n 안 가요 [an ga-yo] = don't go\n\n Easy right?",
 					"Using method 2, 지 않다 is more complicated as you need to take care of the tense.\n\n 가요 [ga-yo] = go\n 가지 않아요 [ga-ji a-na-yo] = don't go\n 가지 않았어요 [ga-ji a-na-sseo-yo] = didn't go."
-				]
+				],
+				"title": "Negative"
 			},
 			{
 				"questions": [
@@ -1193,7 +1218,8 @@
 				"choices": ["누구예요?", "누가 젠이에요?", "누구", "누가 했어요?"],
 				"pages": [
 					"누구 [nu-gu] = who\n\n 누구예요? [nu-gu-ye-yo?] = Who is it?\n\n Lets try use subject particle 이 [i] / 가 [ga] on the question above.\n\n 누구 (who) + 가 (subject marker) = 누가\n\n 누가 젠이에요? [nu-ga jen-i-e-yo?]\n Who is Jen (among a bunch of people)?\n\n 누가 했어요? [nu-ga hae-sseo-yo?]\n Who did it?\n\n"
-				]
+				],
+				"title": "Who"
 			},
 			{
 				"questions": ["Why didn't you call?", "Why you came?", "Why you did it?", "Why"],
@@ -1201,7 +1227,8 @@
 				"choices": ["왜 안 전화했어요?", "왜 왔어요?", "왜 했어요?", "왜"],
 				"pages": [
 					"왜 [wae] = Why\n\n Again just like what, when, who, we use 왜 [wae] at the start of the sentence.\n\n 왜 안 전화했어요?\n [wae jeon-hwa-hae-sseo-yo?]\n Why didn't you call?\n\n 왜 왔어요? [wae wa-sseo-yo?]\n Why you came?\n\n 왜 했어요? [wae hae-sseo-yo?]\n Why you did it?"
-				]
+				],
+				"title": "Why"
 			},
 			{
 				"questions": [
@@ -1233,7 +1260,8 @@
 				],
 				"pages": [
 					"어떻게 [eo-tteo-ke] = How\n 어떻게 왔어요? [eo-tteo-ke wa-sseo-yo?]\n How did you get here?\n 어떻게 가요? [eo-tteo-ke ga-yo?]\n How do you go?\n\n 얼마 [eol-ma] = How much\n 얼마예요? [eol-ma-ye-yo?]\n How much is it?\n 얼마 냈어요? [eol-ma nae-sseo-yo?]\n How much you paid?\n 내다 = to pay\n\n 얼마나 + adjective/adverb = how  _____\n 얼마나 커요? [eol-ma-na keo-yo?]\n How big is it?\n 커 [keo] = big\n\n 얼마나 매워요? [eol-ma-na mae-wo-yo?]\n How spicy is it?\n 매워요 [mae-wo-yo] = spicy"
-				]
+				],
+				"title": "How"
 			},
 			{
 				"questions": [
@@ -1257,7 +1285,8 @@
 				"pages": [
 					"How to say from A to B?\n\n 에서 [e-seo] or 부터 [bu-teo] = from \n 까지 [kka-ji] = to\n\n We can use this for location, for example\n 서울 [seo-ul] = Seoul\n 서울에서 [seo-ul-e-seo] = from Seoul\n\n 제주 [je-ju] = Jeju\n 제주까지 [je-ju kka-ji] = to Jeju\n\n 서울에서 제주까지\n [seo-ul-e-seo je-ju kka-ji]\n from Seoul to Jeju\n\n 여기에서 저기까지\n [yeo-gie-seo jeo-gi-kka-ji]\n from here to there",
 					"You can also use to describe time.\n 지금부터 [ji-geum-bu-teo] = from now\n 내일까지 [nae-il-kka-ji] = until tomorrow\n\n 지금부터 내일까지\n [ji-geum-bu-teo nae-il-kka-ji]\n from now until tomorrow\n\n Depending on cases, either 에서 [e-seo] or 부터 [bu-teo] can be used to describe from Seoul to Jeju.  But you can't use 에서 to describe 'from now (time)'. You can only use 부터\n\n Another example\n 어제부터 [eo-je-bu-teo] = from yesterday\n 내일까지 [nae-il-kka-ji] = until tomorrow\n 어제부터 내일까지\n [eo-je-bu-teo nae-il-kka-ji]\n from yesterday until tomorrow"
-				]
+				],
+				"title": "From A to B"
 			},
 			{
 				"questions": [
@@ -1797,7 +1826,8 @@
 					"서울에서 제주까지",
 					"여기에서 저기까지"
 				],
-				"pages": []
+				"pages": [],
+				"title": "Exam"
 			}
 		],
 		[
@@ -1850,7 +1880,8 @@
 				"pages": [
 					"Days of the week\n\n 월요일 [wo-ryo-il] = Monday\n 화요일 [hwa-yo-il] = Tuesday\n 수요일 [su-yo-il] = Wednesday\n 목요일 [mo-gyo-il] = Thursday\n 금요일 [geu-myo-il] = Friday\n 토요일 [to-yo-il] = Saturday\n 일요일 [i-ryo-il] = Sunday\n\n 요일 means 'day of the week'",
 					"If 월, 화, 수, 목, 금, 토, 일 used alone, it means\n 월 [wol] = moon\n 화 [hwa] = fire\n 수 [su] = water\n 목 [mok] = wood\n 금 [geum] = gold\n 토 [to] = soil, earth\n 일 [il] = sun\n\n For examples:-\n 저는 금요일에 영화를 봤어요.\n [jeo-neun geu-myo-i-re yeong-hwa-reul bwa-sseo-yo]\n I watched movie on Friday.\n\n 어제는 재미는 일요일이었어요.\n [eo-je-neun jae-mi-neun i-ryo-il-i-eo-sseo-yo]\n Yesterday is a fun Sunday."
-				]
+				],
+				"title": "Days in a week"
 			},
 			{
 				"questions": ["Mars", "Mercury", "Jupiter", "Venus", "Saturn"],
@@ -1858,7 +1889,8 @@
 				"choices": ["화성", "수성", "목성", "금성", "토성"],
 				"pages": [
 					"Planets\n\n Remember days of the week in previous lesson?  You can take the same words for planets.\n\n 화성 [hwa-seong] = Mars\n 수성 [su-seong] = Mercury\n 목성 [mok-seong] = Jupiter\n 금성 [geum-seong] = Venus\n 토성 [to-seong] = Saturn"
-				]
+				],
+				"title": "Planets"
 			},
 			{
 				"questions": [
@@ -1911,7 +1943,8 @@
 					"(이)랑 [(i)rang] = and / with\n\n You can also (이)랑 [(i)rang] to mean 'and'. If noun ends with vowel, you use 랑 and if it ends with a final consonant, you use 이랑\n\n For example:-\n 사과랑 빵 샀어요\n [sa-gwa-rang ppang sa-sseo-yo] = \n I bought apple and bread\n\n 빵 [ppang] = bread\n 사과 [sa-gwa] = apple\n 샀어요 [sa-sseo-yo] = bought\n",
 					"Besides meaning 'and', both 하고 and (이)랑 can also mean 'with', depending on the context.\n\n For example:-\n 친구하고 영화 봤어요.\n [chin-gu-ha-go yeong-hwa bwa-sseo-yo] =\n I watched movie with a friend.\n\n In this context, it is impossible to mean 'I watch friend and movie' right?\n\n 누구랑 갔어요?\n [nu-gu-rang ga-sseo-yo?] =\n Who did you went with?",
 					"More examples:-\n 1. 여자친구하고 데이트 갔어요.\n [yeo-ja-chin-gu-ha-go de-i-teu gass-eo-yo]\n I went to a date with my girlfriend\n\n 여자친구 [yeo-ja-chin-gu] = girlfriend\n 데이트 [de-i-teu] = date\n 갔어요 [gass-eo-yo] = went\n\n 2. 친구하고 밥을 먹었어요\n [chin-gu-ha-go ba-beul meog-eoss-eoyo]\n I ate with friends\n\n 친구 [chin-gu] = friend\n 밥 [bab] = rice\n 먹었어요 [meog-eoss-eoyo] = ate"
-				]
+				],
+				"title": "And"
 			},
 			{
 				"questions": ["And then", "Thefore", "Bread", "Home"],
@@ -1922,7 +1955,8 @@
 					"친구를 만났어요. 그리고 밥을 먹었어요.\n [chin-gu-reul man-na-sseo-yo. geu-ri-go ba-beul meo-geo-sseo-yo]\n I met friend. And then, we ate rice (having a meal).\n\n 친구를 만났어요.\n [chin-gu-reul man-na-sseo-yo.] =\n I met friend.\n\n 밥을 먹었어요.\n [ba-beul meo-geo-sseo-yo.] =\n Ate rice / meal.",
 					"그래서 [geu-rae-seo] = therefore\n\n 오늘은 비가 왔어요.\n [o-neul-eun bi-ga wa-sseo-yo] =\n Today rained.\n\n 집에 있었어요.\n [ji-be i-sseo-sseo-yo] =\n I at home.\n\n 오늘은 비가 왔어요. 그래서 집에 있었어요\n [o-neul-eun bi-ga wa-sseo-yo. geu-rae-seo i-be i-sseo-sseo-yo]\n Today rained. Therefore, I was at home.\n\n",
 					"김치는 맛있어요.\n [gim-chi-neun ma-si-sseo-yo.] =\n Kimchi is delicious.\n\n 김치를 많이 먹어요.\n [gim-chi-reul ma-ni meo-geo-yo.] =\n I eat alot kimchi.\n\n 김치는 맛있어요. 그래서 김치를 많이 먹어요.\n [gim-chi-neun ma-si-sseo-yo. geu-rae-seo gim-chi-reul ma-ni meo-geo-yo] =\n Kimchi is delicious. Therefore, I eat alot.\n"
-				]
+				],
+				"title": "And then, therefore"
 			},
 			{
 				"questions": [
@@ -1959,7 +1993,8 @@
 					"그렇지만 [geu-reo-chi-man] = but.\n 그런데 [geu-reon-de] = but.\n\n You can use 그렇지만, 그런데 to mean 'but / however'. For example:-\n\n 피곤해요. 그렇지만 영화 보고 싶어요.\n  [pi-gon-hae-yo. geu-reo-chi-man yeong-hwa bo-go si-peo-yo.] =\n  I'm tired. But I want to watch movie.\n\n 피곤해요\n [pi-gon-hae-yo] =\n I'm tired.\n\n 영화 보고 싶어요\n [yeong-hwa bo-go si-peo-yo] =\n I want to watch movie.\n",
 					"You can also build the sentence with 그런데 which brings the same meaning.\n\n 피곤해요. 그런데 영화 보고 싶어요.\n [pi-gon-hae-yo. geu-reon-de yeong-hwa bo-go si-peo-yo]\n\n However, there's a difference between 그렇지만 and 그런데. 그렇지만 is used when 2 sentences  has contrasting meaning. 그런데 can mean 'but' but also is used to imply a meaning 'and'. For example:- \n\n",
 					"1. 어제 이거 샀어요. 그런데 정말 작아요.\n [eo-je i-geo sa-sseo-yo. geu-reon-de jeong-mal jag-a-yo.]\n I bought this yesterday. But it's really small. (And I found out it's small)\n\n 2. 어제 이거 샀어요. 그렇지만 정말 작아요.\n [eo-je i-geo sa-sseo-yo. geu-reo-chi-man jeong-mal jag-a-yo.]\n I bought this yesterday. But it's really small. (I'm really disappointed it's small)\n\n 어제 [eo-je] = yesterday\n 이거 [i-geo] = this\n 샀어요 [sa-sseo-yo] = bought\n 정말 [jeong-mal] = really\n 작아요 [jag-a-yo] = small"
-				]
+				],
+				"title": "But, however"
 			},
 			{
 				"questions": [
@@ -2094,7 +2129,8 @@
 					"샀어요",
 					"정말"
 				],
-				"pages": ["You have learned alot and it's time for revision!"]
+				"pages": ["You have learned alot and it's time for revision!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -2137,7 +2173,8 @@
 					"Let's learn to tell time.\n From our 1st Month study, you should know Korean-Sino and Korean-Native numbers by now. Here's  revision for you.\n\n Korean-Sino\n 일 [il] = 1\n 이 [i] = 2\n 삼 [sam] = 3\n 사 [sa] = 4\n 오 [o] = 5\n 육 [yuk] = 6\n 칠 [chil] = 7\n 팔 [pal] = 8\n 구 [gu] = 9\n 십 [sip] = 10\n",
 					"Korean-Native\n 하나 [ha-na] = 1\n 둘 [dul] = 2\n 셋 [set] = 3\n 넷 [net] = 4\n 다섯 [da-seot] = 5\n 여섯 [yeo-seot] = 6\n 일곱 [il-gop]  = 7\n 여덟 [yeo-deol] = 8\n 아홉 [a-hop] = 9\n 열 = 10\n",
 					"To tell the hour, we use Korean Native number + 시 [si].\n To tell the minute, we use Korean-Sino number + 분 [bun].\n\n For example:-\n 다섯 시 [da-seot si] = 5 o’clock \n 열한 시 [yeol-han si] = 11 o’clock\n 아홉 시 [a-hop si] = 9 o’clock\n 열 시 삼십 분 [yeol si sam-sip bun] = 10.30 am/pm\n 두 시 이십 분 [du si i-sip bun] = 2.20 am/pm\n 세 시 십오 분 [se si si-bo bun] = 3.15 am/pm\n ** For 1,2,3,4....11,12... o'clock, we use\n 한 시 [han si] = 1 o’clock (instead of 하나 시)\n 두 시 [du si] = 2 o’clock (instead of 둘 시)\n 세 시 [se si] = 3 o’clock (instead of 셋 시)\n 네 시 [ne si] = 4 o’clock (instead of 넷 시)\n 열한 시 [yeol-han si] = 11 o’clock (instead of 넷 시)\n"
-				]
+				],
+				"title": "Time"
 			},
 			{
 				"questions": [
@@ -2164,7 +2201,8 @@
 				"pages": [
 					"지금 몇 시예요? [ji-geum myeot si-ye-yo?]\n What is the time now?\n\n More Example:-\n 내일 수업이 몇 시에 끝나요?\n [nae-il su-eo-bi myeot si-e kkeut-na-yo?]\n What time your class finish tomorrow?\n\n 내일 수업이 아홉시 반에 끝나요.\n [nae-il su-eo-bi a-hop-si ba-ne kkeut-na-yo]\n My class finish at 9.30 tomorrow.\n\n 수업 [su-eop] = class\n 내일 [nae-il] = tomorrow\n 끝나다 [kkeut-na-da] = to finish",
 					"오늘 몇 시에 친구를 만나요?\n [o-neul myeot si-e chin-gu-reul man-na-yo?]\n What time you will meet your friend today?\n\n 열 시에 친구를 만나요.\n [yeol si-e chin-gu-reul man-na-yo]\n I meet friend at 10 o'clock.\n"
-				]
+				],
+				"title": "Time (Part II)"
 			},
 			{
 				"questions": ["From someone", "To someone", "To receive", "To be dumped"],
@@ -2173,7 +2211,8 @@
 				"pages": [
 					"한테서 [han-te-seo] = from someone\n 한테 [han-te] = from/by/to/ someone (depending on context)\n\n As you can see 한테 can mean 'from' or 'to' depending on context. Let's see example for easier understanding.\n\n 너한테 할 말이 있어.\n [neo-han-te hal ma-ri i-sseo.]\n I have something to say to you.\n\n 여자친구한테 차였어요\n [yeo-ja-chin-gu-han-te cha-yeo-sseo-yo]\n I was dumped by my girlfriend\n 차이다 [cha-i-da] = to be dumped\n",
 					"여자친구한테서 받은 거예요.\n [yeo-ja-chin-gu-han-te-seo ba-deun geo-ye-yo]\n I received from my girlfriend.\n 받다 [bat-da] = to receive\n"
-				]
+				],
+				"title": "To / From someone"
 			},
 			{
 				"questions": [
@@ -2203,7 +2242,8 @@
 				"pages": [
 					"만 [man] = Only\n Today lesson is fairly easy. If we want to say 'only', we use 만. For example:-\n\n 이것만 [i-geot-man] = only this\n 우유만 [u-yu-man] = only milk\n\n The above can be done if we combined 만 into noun. If we are to combine into verb, we need to  add -기만 하다 [gi-man ha-da]. 하다 will need to be converted into relevant tense. For example:-\n\n 보다 [bo-da] = to see\n 보기만 하다 [bo-gi-man ha-da] = to only see\n\n 놀다 [nol-da] = to play\n 놀기만 하다 [nol-gi-man ha-da] = to only play",
 					"Let's try build sentence with this.\n 우유만 주문했어요.\n [u-yu-man ju-mun-hae-sseo-yo]\n I only ordered milk.\n\n 오늘은 이것만 샀어요\n [o-neul-eun i-geot-man sa-sseo-yo] \n Today, I only bought this.\n 사다 [sa-da] = buy\n\n 어제 놀기만 했어요\n [eo-je nol-gi-man hae-sseo-yo] \n Yesterday, I only played.\n 어제 [eo-je] = yesterday\n\n 학교에서 듣기만 했어요.\n [hag-gyo-e-seo deut-gi-man hae-sseo-yo]\n I only listened at school.\n 학교 [hag-gyo]= school\n 듣다 [deut-da] = to listen"
-				]
+				],
+				"title": "Only"
 			},
 			{
 				"questions": [
@@ -2235,7 +2275,8 @@
 				],
 				"pages": [
 					"조금 [jo-geum] = a little\n 아주 [a-ju] = very\n We can use 조금, 아주 to describe 'quantity'\n\n 조금 비싸요. [jo-geum bi-ssa-yo]\n It's a little expensive.\n\n 조금 주세요. [jo-geum ju-se-yo]\n Please give me a little.\n\n 아주 똑똑해요. [a-ju ddok-ddok-hae-yo.]\n Very smart.\n\n 아주 커요. [a-ju keo-yo.]\n Very big.\n\n 아주 예뻐요 [a-ju yep-peo-yo.]\n Very pretty."
-				]
+				],
+				"title": "A little, very"
 			},
 			{
 				"questions": [
@@ -2286,7 +2327,8 @@
 				"pages": [
 					"정말 [jeong-mal] = really\n 정말 비싸요.\n [jeong-mal bi-ssa-yo].\n It's really expensive.\n\n 정말 재미있어요.\n [jeong-mal jae-mi-iss-eo-yo].\n It's really interesting.\n\n 별로 [byeol-lo] = not really\n 별로 is only used in negative sentence. Which means, those sentences with 안 or 없어요. For example:-\n\n 별로 안 빨라요.\n [byeol-lo an ppal-la-yo]\n It not really fast.\n ** Check out Month 4 Lesson 25 to understand why 빠르 + 아요 = 빨라요 and not  어요 since it's NOT end with ㅏ[a] or ㅗ [o]\n\n",
 					"별로 안 이상해요.\n [byeol-lo an i-sang-hae-yo]\n It's not really strange.\n\n 전혀 [jeon-hyeo] = not at all\n\n 전혀 means 'not at all'. For example:-\n\n 전혀 안 이상해요.\n [jeon-hyeo an i-sang-hae-yo]\n It's not strange at all.\n\n 전혀 안 빨라요.\n [jeon-hyeo an ppal-la-yo]\n It's not fast at all."
-				]
+				],
+				"title": "Really, not really, not at all"
 			},
 			{
 				"questions": [
@@ -2553,7 +2595,8 @@
 					"재미있어요",
 					"빨라요"
 				],
-				"pages": ["It's revision day again!"]
+				"pages": ["It's revision day again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": ["Will go", "Will watch", "Will do", "Will eat", "Will sell"],
@@ -2562,7 +2605,8 @@
 				"pages": [
 					"It's time to learn grammar again. In previous month, you have learned past and present tense. Today you will learn about future tense!\n\n To create future tense (will be ..), you add ㄹ/을 거예요 [l/eul geo-ye-yo] to the verb\n\n Verb + ㄹ/을 거예요\n\n As you have guessed,\n verb ending with vowel, we add ㄹ 거예요\n verb ending with consonant, we add 을 거예요\n If verb ending with ㄹ, we just add 거예요\n",
 					"Let's see example now\n\n 가다 [ga-da] = to go\n 갈 거예요. [gal geo-ye-yo] = will go\n\n 보다 [bo-da]= to watch\n 볼 거예요 [bol geo-ye-yo]= will watch\n\n 하다 [ha-da] = to do\n 할 거예요 [hal geo-ye-yo] = will do\n\n 먹다 [meog-da] = to eat\n 먹을 거예요 [meog-eul geo-ye-yo] = will eat\n\n 팔다 [pal-da] = to sell\n 팔 거예요 [pal geo-ye-yo] = will sell\n\n"
-				]
+				],
+				"title": "Grammar (Future tense)"
 			},
 			{
 				"questions": ["Television", "Movie"],
@@ -2571,7 +2615,8 @@
 				"pages": [
 					"In previous month, you learned about subject marker. Today we will learn about object marker.\n\n If noun end with vowel, we use 를 [reul]\n If noun end with consonant, we use 을 [eul]\n\n Example:-\n 영화(를) [yeong-hwa-reul] = movie\n 텔레비전(을) [tel-le-bi-jeon-eul] = television\n\n",
 					"So when do we use object marker? Usually we use it when the object is too far from the verb in the sentence.\n\n 영화 봐요 = I watch movie.\n 영화를 일주일에 몇 번 봐요? = How many times a week do you watch movie?\n\n As you can see the 영화 is far away from the verb 봐요. To make the sentence clear, we will use 를\n\n 영화를 봐요 is fine too but it's unnatural when we speak. So if the verb is near the object, we will drop the marker 를.\n"
-				]
+				],
+				"title": "Grammar (Object marker)"
 			},
 			{
 				"questions": [
@@ -2637,7 +2682,8 @@
 				"pages": [
 					"We use Sino-Korean numbers to talk about month.\n\n 1월 / 일월 [i-rwol] = January\n 2월 / 이월 [i-wol] = February\n 3월 / 삼월 [sa-mwol] = March\n 4월 / 사월 [sa-wol] = April\n 5월 / 오월 [o-wol] = May\n 6월 / 유월 [yu-wol] = June (it's 유, not 육)\n 7월 / 칠월 [chi-rwol] = July\n 8월 / 팔월 [pa-rwol] = August\n 9월 / 구월 [gu-wol] = September\n 10월 / 시월 [si-wol] = October (it's 시, not 십)\n 11월 / 십일월 [si-bi-rwol] = November\n 12월 / 십이월 [si-bi-wol] = December",
 					"Same style is used to describe day. Sino-Korean number + 일\n 1일 (일일) = 1\n 2일 (이일) = 2\n 3일 (삼일) = 3\n 4일 (사일) = 4\n\n Please note, in written form you can either write in hangul 사일 or number 4일.\n\n 오늘 몇 월 며칠이에요?\n [o-neul myeo-dwol myeo-chil-i-e-yo?]\n What date is it today?\n\n 십일월십이일\n November 12"
-				]
+				],
+				"title": "Date"
 			},
 			{
 				"questions": [
@@ -2674,7 +2720,8 @@
 					"We add -(으)ㄹ 수 있다 [-(eu)l su it-da] to the verb to mean 'can'. For example\n\n 보다 = to see\n 볼 수 있다 [bol su it-da] = can see\n 먹다 = to eat\n 먹을 수 있다 [meo-geul su it-da] = can eat\n\n By now you should have an idea when to use (으) or ㄹ.\n Verb ending with vowel, we add -ㄹ\n Verb ending with consonant, we add -을\n\n 수 [su] in this context means, have an idea of solving something.\n So, -(으)ㄹ 수 있다 means 'can'\n",
 					"To say cannot, we use (으)ㄹ 수 없다. Easy right?\n 볼 수 없다 = cannot see\n 먹을 수 없다 = cannot eat\n\n Lets build some sentences.\n\n 한국어 할 수 있어요?\n [han-gug-eo hal su i-sseo-yo?]\n Can you speak Korean?\n 한국어 [han-gug-eo]= Korean language\n\n 지금 만날수있어요?.\n [ji-geum man-nal su i-sseo-yo.]\n Can we meet now?\n\n",
 					"한국어 할 수 없어요\n I can't speak Korean.\n\n Another more common way to say 'cannot' is to use 못 [mot].\n\n 지금 못 만나요.\n [ji-geum mot man-na-yo.]\n I cannot meet you now.\n\n 한국어 못 해요.\n [han-gug-eo mot-hae-yo]\n I can't speak Korean."
-				]
+				],
+				"title": "Can / Cannot"
 			},
 			{
 				"questions": [
@@ -2708,7 +2755,8 @@
 					"Good at ....~을/를 잘 하다\n Bad at ...~을/를 못 하다\n\n 요리 [yo-ri] = cooking\n 요리를 잘 하다 [yo-ri-reul jal ha-da]\n good at cooking\n\n 수영 [su-yeong] = swimming\n 수영을 잘 하다 [su-yeong-eul jal ha-da]\n good at swimming\n\n",
 					"By changing 잘 to 못 , you can mean bad or unable to do something.\n\n 요리를 못 하다 [yo-ri-reul mot ha-da]\n poor at cooking / cannot cook\n\n 수영을 못 하다 [su-yeong-eul mot ha-da]\n poor at swimming / unable swim\n\n If you want to only mean poor at..., we use 잘 못. For example:-\n\n 수영을 잘 못 하다\n [su-yeong-eul jal mot ha-da]\n poor at swimming",
 					"You can also change 하다 to other verb. For example:- \n\n 매운 거 잘 못 먹어요\n [mae-un geo jal mot meo-geo-yo]\n Not good at eating spicy food\n\n 저는 글을 잘 써요.\n [jeo-neun geu-reul jal sseo-yo.]\n I'm good at writing.\n\n 쓰다 [sseu-da] = write"
-				]
+				],
+				"title": "Good / Bad at ..."
 			},
 			{
 				"questions": [
@@ -3095,7 +3143,8 @@
 					"저는 글을 잘 써요",
 					"쓰다"
 				],
-				"pages": ["Revision time again!"]
+				"pages": ["Revision time again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -3126,7 +3175,8 @@
 					"Have to / should\n To say 'have to / should' we use...\n verb + -아/어/여 + 야 되다/하다\n\n 가다 [ga-da] = to go\n 가야 되다 (가 + 아 = 가) = should go\n\n 쓰다 [sseu-da] = to write\n 써야 되다 (쓰 + 어 = 써)= should write\n\n When to use -아/어/여?\n By now, you should have a good grasp on on these.\n If verb ending in vowels 'ㅏ' or 'ㅗ', we joined 아.\n If verb ending in other vowels, we joined with 어.\n If 하, we joined with 여.",
 					"자야 돼요\n [ja-ya dwae-yo]\n Should sleep\n\n 해야 돼요\n [hae-ya dwae-yo]\n Should do\n\n 있어야 돼요\n [i-sseo-ya dwae-yo]\n Should be here\n\n 사야 돼요\n [sa-ya dwae-yo]\n Should buy\n\n You can replace 돼요 with 하요 too. It brings the same meaning. For example:- 사야 하요\n",
 					"To remember easier, we should understand why -야 되다 = should.\n\n 1. 아/어/여 + 야 = only when you do _____.\n 2. 되다 = to be possible\n\n When combined, it means, 'only when you do _____, it works'.\n\n Which therefore means 'should/have to'\n\n Why there's 되다 and 돼요?\n The present tense for 되다 is 돼요 :)"
-				]
+				],
+				"title": "Should / Have to"
 			},
 			{
 				"questions": [
@@ -3140,7 +3190,8 @@
 				"choices": ["더 비싸요", "더 예뻐요", "더 빨라요", "더 착해요", "더 좋아해요"],
 				"pages": [
 					"더 [deo] = more\n To say more, you just add 더 before the word. Easy right?\n 비싸요 [bi-ssa-yo]= expensive\n 더 비싸요 [deo bi-ssa-yo]= more expensive\n\n 예뻐요 [yep-peo-yo] = pretty\n 더 예뻐요 [deo yep-peo-yo]= prettier\n\n 착해요 [cha-ka-yo] = nice to people\n 더 착해요 [deo cha-ka-yo] = nicer to people\n\n 좋아해요 [joh-a-hae-yo]= like\n 더 좋아해요 [deo joh-a-hae-yo] = more like\n\n 빨라요 [ppa-leu-yo]= fast.\n 더 빨라요 [deo ppa-leu-yo]  =  faster"
-				]
+				],
+				"title": "More"
 			},
 			{
 				"questions": [
@@ -3180,7 +3231,8 @@
 				"pages": [
 					"보다 [bo-da] = than (compare something). \n To compare something we use 보다 [bo-da].\n\n 영어는 한국어보다 어려워요\n [yeong-eo-neun han-gug-eo-bo-da eo-ryeo-wo-yo.]\n English is more difficult than Korean.\n\n 영어 [yeong-eo] = English\n 한국어 [han-gu-geo] = Korean\n 보다 [bo-da] = than\n 어려워요 [eo-ryeo-wo-yo] = difficult\n\n To compare, we say A + B + 보다 + description/adjective",
 					"More examples:-\n\n 오늘은 어제보다 추워요\n [o-neu-reun eo-je-bo-da chu-wo-yo.]\n Today is colder than yesterday.\n 추워요 [chu-wo-yo] = cold\n 오늘 [o-neu] = today\n 어제 [eo-je] = yesterday\n\n 수박은 사과보다 더 비싸요\n [su-ba-geun sa-gwa-bo-da deo bi-ssa-yo]\n Watermelon is more expensive than apple.\n 수박 [su-bag] = watermelon\n 사과 [sa-gwa] = apple\n 비싸요 [bi-ssa-yo] = expensive\n You can add 더 to the sentence, but it's not always necessary."
-				]
+				],
+				"title": "Than (compare)"
 			},
 			{
 				"questions": [
@@ -3195,7 +3247,8 @@
 				"pages": [
 					"Ask someone do something politely = (으)세요\n To ask someone to do something politely, we use -(으)세요 [-(eu)se-yo].\n\n 어서오세요? [eo-seo-o-se-yo]\n Welcome\n 안녕히 가세요  [an-nyeong-hi ga-se-yo]\n Goodbye\n 주세요  [ju-se-yo]\n Please give\n\n These phrases are familiar to you right? But did you noticed why there's 세요 in those phrases earlier?  Now you understand. \n\n When to use (으)세요 or 세요?",
 					"Verb ending with consonant, we use 으세요\n Verb ending with vowel, we use 세요\n Verb ending with ㄹ, we drop the ㄹ and add 세요\n\n More examples:-\n 팔다 [pal-da] = to sell\n 파세요 [pa-se-yo] = Please sell it\n\n 공부하세요 [gong-bu-ha-se-yo]\n Please do your studies\n\n 내일 세 시에 오세요 [nae-il se si-e o-se-yo.]\n Please come at 3 o'clock tomorrow\n\n 쉬세요 [swi-se-yo] = Please get some rest\n 접으세요 [jeo-beu-se-yo] = Please fold it\n"
-				]
+				],
+				"title": "Ask politely"
 			},
 			{
 				"questions": [
@@ -3209,7 +3262,8 @@
 				"pages": [
 					"아직 [a-jik] = Still\n We use 아직 [a-jik] to say still doing something. For example:- \n\n 아직 안 했어요\n  [a-jik an hae-sseo-yo]\n  I still haven't done it\n\n 아직 몰라요\n [a-jik mol-la-yo]\n I still don't know\n\n 아직 두 시예요\n [a-jik du si-ye-yo]\n It’s still 2 o’clock",
 					"You can emphasize the 'still' meaning by using  아직도 [a-jik-do]\n\n 아직 몰라요?\n [a-jik mol-la-yo?]\n You still don't know yet?\n\n 아직도 몰라요?\n [a-jik-do mol-la-yo?]\n You still don't know yet? How is it possible you still don't know?"
-				]
+				],
+				"title": "Still"
 			},
 			{
 				"questions": [
@@ -3680,7 +3734,8 @@
 					"아직 두 시예요",
 					"아직"
 				],
-				"pages": ["It's revision day again"]
+				"pages": ["It's revision day again"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -3697,7 +3752,8 @@
 				],
 				"pages": [
 					"벌써 [beol-sseo] = already\n\n 벌써 열 시예요?\n [beol-sseo yeol si-ye-yo?]\n It's already 10 o'clock?\n 벌써 왔어요?\n\n [beol-sseo  wass-eo-yo?]\n You already came?\n\n You can use 이미 [i-mi] to replace 벌써 too. It brings the same meaning = already. However  for 이미, you use when you are aware of the fact already. For example\n\n 수진은 이미 학교를 떠났어요\n [su-jin-eun i-mi hak-gyo-reul ddeo-nass-o-yo]\n Sujin already left school (you are already aware of it and telling someone the fact)"
-				]
+				],
+				"title": "Already"
 			},
 			{
 				"questions": [
@@ -3734,7 +3790,8 @@
 					"To say 'if' in Korean, we have to use 2 expression.\n 1. 만약 [man-yak] (to be added before the verb)\n 2. (으)면 [-(eu)myeon] (to be joined after the verb)\n\n Let's look at the example below:-\n 자다 [ja-da] = to sleep\n 자면 [ja-myeon] = if sleep\n 만약 지금 자면 [man-yak ji-geum ja-myeon]\n In case I sleep\n\n 만약 actually means 'in case', but can mean 'if' too\n\n 만약 내일 저는 오면\n [man-yak nae-il na-neun o-myeon]\n If I come tomorrow",
 					"만약 지금 비가 오면\n [man-yak ji-geum bi-ga o-myeon]\n If it rains now\n\n If the sentence is short, you can drop 만약, and just use 지금 비가 오면. To make things clear, we add 만약.\n\n You can also use past tense and future tense with this. For example:-\n 내일 안 오면, 후회할 거예요\n [nae-il an o-myeon hu-hoe-hal geo-ye-yo.]\n If you don't come tomorrow, you will regret it.",
 					"지금 안 먹으면, 배고플거예요\n [ji-geum an meo-geu-myeon, bae-go-peul-geo-ye-yo]\n If you don't eat now, you will hungry\n\n  지금 비가 오면, 집에 있을 거예요\n [ji-geum bi-ga o-myeon, ji-be i-sseul geo-ye-yo]\n If it rains now, I will go home"
-				]
+				],
+				"title": "In case / If"
 			},
 			{
 				"questions": ["I have done all", "Please give me all", "Bought all", "Eat all"],
@@ -3742,7 +3799,8 @@
 				"choices": ["다 했어요", "다 주세요", "다 샀어요", "다 먹어요"],
 				"pages": [
 					"다 [da] = all\n\n We just add 다 to mean 'all'.\n\n 다 했어요. [da hae-sseo-yo.]\n I have done all.\n\n 다 주세요. [da ju-se-yo.]\n Please give me all.\n\n 다 샀어요 [da sa-sseo-yo]\n Bought all.\n\n 다 먹어요 [da meo-go-yo]\n Eat all\n"
-				]
+				],
+				"title": "All"
 			},
 			{
 				"questions": [
@@ -3772,7 +3830,8 @@
 				"pages": [
 					"Self introduction = 자기소개 [ja-gi-so-gae]\n\n After learning so much, today we will try to build some sentences by introducing yourself.\n\n 저는 연아예요.\n [jeo-neun yeon-a-ye-yo.]\n I'm Yeona.\n\n 저는 선생님이에요\n [jeo-neun seon-saeng-nim-i-e-yo.]\n I'm a teacher.\n\n 저는 20살이에요 [jeo-neun seu-mu-sal-i-e-yo.]\n I am 20 years old.\n\n",
 					"저는 언니가 있어요.\n [jeo-neun eon-ni-ga i-sseo-yo.]\n I have an older sister.\n\n 저는 취미가 수영이에요\n [jeo-neun chwi-mi-ga su-yeong-i-e-yo]\n My hobby is swimming\n\n 저는 서울에 살아요.\n [ jeo-neun seo-u-re sa-ra-yo.]\n I live in Seoul."
-				]
+				],
+				"title": "Self Introduction"
 			},
 			{
 				"questions": [
@@ -4308,7 +4367,8 @@
 				],
 				"pages": [
 					"Congratulations for reaching 2 month of this course. By now, you should be able to understand quite alot of Korean.  Let's take an exam and graduate to 3rd month course, which will be coming soon!"
-				]
+				],
+				"title": "Exam!"
 			}
 		],
 		[
@@ -4340,7 +4400,8 @@
 				"pages": [
 					"Verb + 지 마세요 [... ji ma-se-yo] = Don't do something\n\n 말다 [mal-da] = to quit, stop doing\n\n If you remember 세요 [se-yo], it's used to ask someone to do something. So when combined 말다 + (으)세요, you get 마세요 [ma-se-yo].\n\n However, when used with verb, you need add 지 마세요 [ji ma-se-yo]\n\n Examples:-\n 가지 마세요 [ga-ji ma-se-yo]\n Don't go\n\n 하지 마세요 [ha-ji ma-se-yo]\n Don't do\n\n",
 					"걱정하지 마세요 [geok-jeong-ha-ji ma-se-yo]\n Don't worry\n\n 웃지 마세요 [ut-ji ma-se-yo]\n Don't laugh\n\n 울지 마세요 [ul-ji ma-se-yo]\n Don't cry\n\n 떠나지 마세요 [tteo-na-ji ma-se-yo]\n Don't leave\n\n"
-				]
+				],
+				"title": "Don't do"
 			},
 			{
 				"questions": [
@@ -4368,7 +4429,8 @@
 					"주세요 = Please do ... for me\n In previous month, you learned that (으)세요 is to used to ask people do something.\n\n For example:-\n 오세요 [o-se-yo]\n Please come\n\n If you use 아/어/여 + 주세요, it will mean 'please do something for me'.\n\n For example:-\n 와 주세요 [wa ju-se-yo]\n Please come (because of me / do me a favor)\n\n 해 주세요 [hae ju-se-yo]\n Please do for me\n\n",
 					"김치 사세요 [gim-chi sa-se-yo]\n Please buy kimchi for yourself / for someone\n\n 김치 사 주세요\n [gim-chi sa ju-se-yo]\n Please buy kimchi for me.\n\n As you have noticed, you will need to combine 아/어/여 to the verb before adding 주세요.\n\n By now, you should be familiar when to use 아/어/여 when combining with verb. If you don't, you will need to revise previous months lessons:)\n\n",
 					"More examples:-\n 같이 가 주세요 [ga-chi ga ju-se-yo]\n Please go together (for me)\n\n 도와 주세요 [do-wa ju-se-yo]\n Please help me (for me)\n\n 주세요 comes from 주다 [ju-da] which means 'to give'. So, when combined 주세요 with verb, it means do something(verb) for me."
-				]
+				],
+				"title": "Do ... for me"
 			},
 			{
 				"questions": [
@@ -4404,7 +4466,8 @@
 				"pages": [
 					"Today, you will learn how to say 'someday, something, someone, somewhere'. Just add -ㄴ가 (-n-ga) to the verb\n\n 언제 (when) + -ㄴ가 = 언젠가\n [eon-jen-ga]\n someday\n\n 뭐 (what) + -ㄴ가 = 뭔가\n [mwon-ga]\n something\n\n 누구 (who) + -ㄴ가 = 누군가\n [nu-gun-ga]\n someone\n\n 어디 (where) + -ㄴ가 = 어딘가\n [eo-din-ga]\n somewhere\n\n",
 					"Easy right? Let's try to build some sentence with these.\n\n 여기 어딘가에 있어요\n [yeo-gi eo-din-ga-e i-sseo-yo]\n It's somewhere here.\n\n 누군가 했어요\n [nu-gun-ga hae-sseo-yo]\n Someone did it.\n\n 뭔가 재미있어요\n [mwon-ga jae-mi-iss-eo-yo]\n Something is interesting.\n\n 언젠가 한국에 가고 싶어요.\n [eon-jen-ga han-gug-ge ga-go si-peo-yo]\n I want to go to Korea someday."
-				]
+				],
+				"title": "Something, someday ..."
 			},
 			{
 				"questions": [
@@ -4430,7 +4493,8 @@
 				],
 				"pages": [
 					"너무 [neo-mu] = too (much)\n We use 너무 [neo-mu] to mean 'too much/very'. For example:-\n\n 너무 비싸요. [neo-mu bi-ssa-yo]\n It's too expensive\n\n 너무 빨라요. [neo-mu ppal-la-yo]\n It's too fast\n\n 너무 맛있어요. [neo-mu ma-si-sseo-yo]\n It's very tasty\n\n 너무 멋있어요 [neo-mu meo-si-sseo-yo.]\n Too cool/handsome.\n\n 너무 더워요. [neo-mu deo-wo-yo.]\n It’s too hot. / It’s very hot\n\n"
-				]
+				],
+				"title": "Too much"
 			},
 			{
 				"questions": [
@@ -4476,7 +4540,8 @@
 					"From last month lesson, we have learned 어디 있어요? [eo-di i-sseo-yo?] = Where is it?\n Today, we will learn how to describe the position\n\n 앞 [ap] = front\n 뒤 [dwi] = back\n 위 [wi] = top\n 밑 [mit] = bottom\n 옆 [yeop] = side\n\n To use in sentence, we will need to add location particle 에 [-e]. For example:\n\n 앞에 [a-pe] = in front of\n 뒤에 [dwi-e] = behind\n 위에 [wi-e] = top of\n 밑에 [mit-e] = under\n 옆에 [yeop-e] = side\n",
 					"Let's build some sentences\n\n 나무 앞에 있어요\n [na-mu a-pe i-sseo-yo.]\n It’s in front of the tree.\n\n 나무 밑에 있어요\n [na-mu mi-te i-sseo-yo.]\n It’s under the tree\n\n 나무 뒤에 있어요\n [na-mu dwi-e i-sseo-yo.]\n It’s behind the tree\n\n",
 					"나무 옆에 있어요\n [na-mu yeop-e i-sseo-yo.]\n It’s next to the tree\n\n 나무 위에 있어요\n [na-mu wi-e i-sseo-yo.]\n It’s on top of the tree\n\n 나무 [na-mu] = tree\n\n"
-				]
+				],
+				"title": "Up, bottom, top, under, next"
 			},
 			{
 				"questions": [
@@ -4590,7 +4655,8 @@
 					"나무 위에 있어요",
 					"나무"
 				],
-				"pages": ["It's revision day again!"]
+				"pages": ["It's revision day again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -4636,7 +4702,8 @@
 					"(으)로 [(eu)ro].\n (으)로 [-(eu)ro] can have various function as below:-\n 1. With (The ingredient something is made of)\n 2. The direction someone is going\n 3. The reason of something happened\n\n Let see examples for better understanding\n\n 나무 [na-mu] + 로 + 만들다 [man-deul-da]\n 나무로 만들다 [na-mu-ro man-deul-da]\n to make something with wood\n\n 나무 [na-mu] = wood\n 만들다 [man-deul-da] = to make",
 					"오른쪽 [o-leun-jjog] + 으로 + 가다 [ga-da]\n 오른쪽으로 가다 [o-leun-jjo-geu-ro ga-da]\n to go to the right\n\n 연필 [yeon-pil] + 로 + 쓰다 [sseu-da]\n 연필로 쓰다 [yeon-pil-ro sseu-da]\n to write with pencil\n\n 노래 [nolae] + 로 + 유명하다 [yu-myeong-ha-da]\n 노래로 유명하다 [no-lae-ro yu-myeong-ha-da]\n to be famous by song\n\n 오른쪽 [o-leun-jjog] = right side\n 연필 [yeon-pil] = pencil\n 노래 [nolae] = song\n 유명하다 [yu-myeong-ha-da] = to be famous",
 					"When to use 으로 or 로?\n For nouns ending with a consonant we use 으로\n For nouns ending in a vowel or the consonant ㄹ, we use 로\n\n Let's see more sample sentences.\n\n 오늘 버스로 왔어요?\n [o-neul beo-seu-ro wa-sseo-yo?]\n Today you came by bus?\n\n 상상을 현실로 만들다\n [sang-sang-eul hyeon-sil-ro man-deul-da]\n Make imagination a reality\n\n 현실 [hyeon-sil] = reality\n 상상 [sang-sang] = imagination\n"
-				]
+				],
+				"title": "Grammar"
 			},
 			{
 				"questions": [
@@ -4652,7 +4719,8 @@
 				"pages": [
 					"쯤 [jjeum] = approximately\n\n 쯤 [jjeum] means approximately / around / about, and we use it after noun. For example\n\n 백 원쯤 [baek won-jjeum]\n About 100 won\n\n 다섯 시쯤 [da-seot si-jjeum]\n Around 5 o'clock\n\n 백 명쯤 [baek myeong-jjeum]\n Approximately 100 people\n\n",
 					"We can use 정도 [jeong-do] too, that has the same meaning.\n\n 천 원 정도 [cheon won jeong-do]\n Around 1000 won\n\n 다섯 시 정도 [da-seot si jeong-do]\n Approximately 5 o'clock\n\n We can also use 약 [yak], that also has the same meaning but it's used before noun\n\n 약 한 달 [yak han dal] = about a month"
-				]
+				],
+				"title": "Approximately"
 			},
 			{
 				"questions": [
@@ -4681,7 +4749,8 @@
 				],
 				"pages": [
 					"전에 [jeo-ne] = Before\n We use 전에 [jeo-ne] before a noun.\n\n 월요일 전에 [wo-ryo-il jeo-ne]\n before Monday\n\n 수업 전에 [su-eop jeo-ne]\n before class\n\n To use on a verb, we add 기 전에 [gi jeo-ne]\n\n 학교에 가기 전에 [hag-gyo-e ga-gi jeo-ne]\n Before going to school\n\n 여기 오기 전에 [yeo-gi o-gi jeo-ne]\n Before coming here\n\n 공부하기 전에 먹을 거예요\n [gong-bu-ha-gi jeo-ne meog-eul geo-ye-yo]\n Eat before you study"
-				]
+				],
+				"title": "Before"
 			},
 			{
 				"questions": [
@@ -4704,7 +4773,8 @@
 				],
 				"pages": [
 					"비슷하다 [bi-seu-ta-da] = to be similar\n To say A is similar to B, we use 랑 or 하고 along with 비슷하다\n\n A랑 비슷해요. [A-rang bi-seu-tae-yo.]\n It’s similar to A.\n B하고 비슷해요. [B-ha-go bi-seu-tae-yo.]\n It’s similar to B.\n\n 부산은 서울하고 비슷해요?\n [bu-san-eun seo-ul-ha-go bi-seut-hae-yo?]\n Is Busan similar to Seoul?\n\n 저 사람은 미나하고 비슷해요\n [jeo sa-ram-eun mi-na-ha-go bi-seut-hae-yo]\nThat person is similar to Mina"
-				]
+				],
+				"title": "Similar"
 			},
 			{
 				"questions": [
@@ -4731,7 +4801,8 @@
 				"pages": [
 					"같다 [gat-da] = to be the same\n Similar to previous lesson, we will use 랑 or 하고 along with 같다\n\n A랑 같다요\n [A-rang ga-ta-yo]\n It’s same as A.\n\n 이거하고 저거는 같아요\n [i-go-ha-go jeo-go-neun ga-ta-yo]\n A and B are the same.\n\n",
 					"If you use 같다 without 랑 or 하고, it will mean 'like something', instead of same\n\n 미나는 천사 같아요\n [mi-na-neun cheon-sa ga-ta-yo.]\n Mina is like an angel.\n\n 고양이 같아요.\n [go-yang-i ga-ta-yo]\n Like a cat\n\n 거짓말 같아요.\n [geo-jit-mal ga-ta-yo]\n Like a lie\n\n"
-				]
+				],
+				"title": "Same"
 			},
 			{
 				"questions": [
@@ -4941,7 +5012,8 @@
 					"고양이 같아요",
 					"거짓말 같아요"
 				],
-				"pages": ["Let's revise what we have learned."]
+				"pages": ["Let's revise what we have learned."],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -4965,7 +5037,8 @@
 				"pages": [
 					"그러면 [geu-reo-myeon] = in that case, if so\n\n 그러면 is a combination of 그렇다 [geu-reot-ta], which means 'to be so' + (으)면. We have already introduced (으)면 in last month lessons, which means 'if'. So when combine, 그렇다 + 면 we get 그러면\n\n Let's see some example\n 그럼면 언제 바빠요?\n [geu-reom-myeon eon-je ba-ppa-yo?]\n If so, when you are busy?\n\n 그럼면 이제 어떻게 해요?\n [geu-reom-myeon i-je eo-tteo-ke hae-yo?]\n If so, what do we do now?\n\n",
 					"We can also use 그럼 [geu-reom] as short form.\n\n 그럼 이제 바빠요?\n [geu-reom i-je ba-ppa-yo?]\n If so, are you busy now?\n\n 그럼 김치도 좋아해요?\n [geu-reom gim-chi-do jo-a-hae-yo?]\n If so, do you like kimchi too?"
-				]
+				],
+				"title": "If so"
 			},
 			{
 				"questions": [
@@ -4979,7 +5052,8 @@
 				"pages": [
 					"그래도 [geu-rae-do] = But still, nonetheless\n\n 그래 = 그렇게 해 (to do that) +  도 = too. When combined you get 그래도, which means even if that happen, you still ...\n\n Let's see example:- \n 피곤해요. 그래도 갈 거예요?\n [pi-gon-hae-yo. geu-lae-do gal geo-ye-yo?]\n I'm tired. Nonetheless, are you still going?\n\n 한국어는 어려워요. 그래도 한국어를 공부하고 있어요.\n [han-gu-geo-neun eo-ryeo-wo-yo. geu-rae-do han-gu-geo-reul gong-bu-ha-go i-sseo-yo.]\n Korean is difficult. But still, I'm still studying Korean.\n\n",
 					"요즘 아파요. 그래도 일해요.\n[yo-jeum a-pa-yo. geu-rae-do il-hae-yo]\n I'm sick these days. But still, I'm working.\n\n 아파요 [a-pa-yo]= sick\n 요즘 [yo-jeum] = recently"
-				]
+				],
+				"title": "But still, nonetheless"
 			},
 			{
 				"questions": ["The secret of seeing", "Living well", "Knowing you", "Not looking"],
@@ -4989,7 +5063,8 @@
 					"We use -는 것 [-neun geot] to change verb into noun\n\n By changing verb into noun, it can mean\n 1. the act of doing something\n 2. the thing you doing\n\n For example:-\n 보다 [bo-da] = to see\n 보는 것 [bo-neun geot] = the act of seeing, the thing you see\n\n 먹다 [meok-da] = to eat\n 먹는 것 [meok-neun geot] = the act of eating, the thing you eat\n\n 가다 [ga-da] = to go\n 가는 것 [ga-neun geot] = the act of going\n",
 					"보는것의 비밀\n [bo-neun-geos-ui bi-mil]\n The secret of seeing\n\n 난 쇠고기가 먹는 것 좋아해요\n [nan soe-go-gi-ga meog-neun geot joh-a-hae-yo]\n I like eating beef\n\n 잘 사는 것\n [jal sa-neun geot]\n Living well\n\n 너를 알아가는 것\n [neo-leul al-a-ga-neun geot]\n Knowing you\n\n",
 					"Instead of using 는 것, you can also use 는 거 for ease of pronunciation\n\n 보는 거 아니에요\n [bo-neun geo a-ni-e-yo]\n Not looking\n\n 여기에서 먹는거  맛있어요\n [yeo-gi-e-seo meog-neun-geo mas-iss-eo-yo]\n It's delicious eating here.\n\n Please note that 는 것 is only used for present tense. For past tense, we will use (으)ㄴ 것 and (으)ㄹ 것 for future tense."
-				]
+				],
+				"title": "Grammar (Making verb into noun)"
 			},
 			{
 				"questions": [
@@ -5013,7 +5088,8 @@
 				"pages": [
 					"(으)ㄹ까요? [(eu)l-kka-yo?] = Shall we?\n\n (으)ㄹ까요? [(eu)l-kka-yo?] can have few meanings depending on context\n 1. Shall we ... ?\n 2. Asking oneself question\n 3. Ask a question and attracting others attention\n\n When to use (으)ㄹ or ㄹ?\n For verb ending with consonant, we use 을까요\n For verb ending with vowel, we use ㄹ까요\n For verb ending with ㄹ, we use 까요\n\n Examples:-\n 내일 우리 밥 먹을까요?\n [nae-il u-ri bab meog-eul-kka-yo?]\n Shall we eat dinner tomorrow?\n\n",
 					"오늘 비가 올까요?\n [o-neul bi-ga ol-kka-yo?]\n I wonder it will rain today?\n\n 커피 마실까요?\n [keo-pi ma-sil-kka-yo?]\n Shall we drink coffee?\n\n 여긴 왜 유명할까요?\n [yeo-gin wae yu-myeong-hal-kka-yo?]\n Why here is famous?\n\n"
-				]
+				],
+				"title": "Shall we?"
 			},
 			{
 				"questions": [
@@ -5047,7 +5123,8 @@
 					"다음에 [da-eu-me] After\n To say after doing something, we use\n Verb + (으)ㄴ + 다음에\n\n 받다 [bat-da] = to receive\n 받은 다음에 [ba-deun da-eu-me] = after receiving\n\n 가다 [ga-da] = to go\n 간 다음에 [gan da-eu-me] = after going\n\n We can also use 후에 [hu-e] or 뒤에 [dwi-e] to replace 다음에.\n\n 간 뒤에 [gan dwi-e] = after going\n 간 후에 [gan hu-e] = after going\n\n",
 					"보다 [bo-da] = watch\n 본 다음에 [bon da-eu-me] = after watching\n\n 먹다 [meog-da] = eat\n 먹은 다음에 [meo-geun da-eu-me] = after eating\n\n 하다 [ha-da] = to do\n 한 다음에 [han da-eu-me] = after doing\n\n Let's build longer sentence.\n\n 영화 본 다음에 우리 소주 마셔요\n [yeong-hwa bon da-eu-me u-ri so-ju ma-syeo-yo.]\n After watching movie, let's drink soju.\n",
 					"이거 한 후에 뭐 할 거예요?\n [i-geo han hu-e mwo hal geo-ye-yo?]\n After doing this, what you will do?\n\n 점심을 먹은 뒤에, 집에 갈 거예요\n [jeom-si-meul meo-geun dwi-e, ji-be gal geo-ye-yo]\n After having lunch, I will go home\n\n Below are the meaning of these 'after'\n 다음 [da-eum] = next\n 후 [hu] = after\n 뒤 [dwi] = behind\n"
-				]
+				],
+				"title": "After"
 			},
 			{
 				"questions": [
@@ -5326,7 +5403,8 @@
 					"다음",
 					"후"
 				],
-				"pages": ["Let's revise what we have learned"]
+				"pages": ["Let's revise what we have learned"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -5352,7 +5430,8 @@
 					"Please note that 만났고 is in past tense. Usually we use present tense for the first verb and past/future on the last verb. So we can also use 만나고 instead of 만났고\n\n 친구를 만나고, 집에 갔어요\n [chin-gu-reul man-na-go, jib-e gass-eo-yo]\n I met friend, and then I went home.\n\n Let's look at more examples\n 영화를 볼 거예요. 그리고 학교에 갈 거예요\n [yeong-hwa-reul bol geo-ye-yo. geu-ri-go hag-gyo-e gal geo-ye-yo] =\n\n 영화를 보고,학교에 갈 거예요\n [yeong-hwa-reul bol-geo, hag-gyo-e gal geo-ye-yo]\n I watch a movie and then go to school.\n\n",
 					"친구를 만났어요. 그리고 밥을 먹었어요.\n [chin-gu-reul man-nass-eo-yo. geu-ri-go ba-beul meo-geo-sseo-yo] =\n\n 친구를 만나고, 밥을 먹었어요\n [chin-gu-reul man-na-go, ba-beul meo-geo-sseo-yo]\n I met friend, and then we ate rice (having a meal).\n\n 커피 마시고, 케익 먹고, 맥주 마시고, 밥 먹었어요\n [keo-pi ma-si-go, ke-ig meog-go, maeg-ju ma-si-go, bab meog-eoss-eo-yo]\n I drank coffee, and eat cake, and drank beer, and ate rice.\n\n",
 					"어제는 한국에 가고, 내일은 태국에 갈 거예요\n [eo-je-neun han-gu-ge ga-go, nae-il-eun tae-gu-ge gal geo-ye-yo]\n Yesterday I went to Korea, and today I will go to Thailand.\n\n"
-				]
+				],
+				"title": "Grammar - Link Verbs"
 			},
 			{
 				"questions": [
@@ -5368,7 +5447,8 @@
 					"In previous month, you have learned about future tense. So what future tense we will learn today? Before that, let's refresh.\n\n We combined verb + (으)ㄹ 거예요 to become future tense. For example\n\n 할 거예요 [hal geo-ye-yo] = will do\n\n Today we will use (으)ㄹ게요.\n\n 할게요 [hal-ge-yo] = will do (this is used as reaction after someone spoke something, or you hope for reply)\n\n For example, someone told you to do something. Then you reply 할게요 = I will do\n\n",
 					"Or you say 할게요, hoping someone will reply you on that sentence.\n\n More examples:-\n\n 저 갈게요 [jeo gal-ge-yo]\n (Since you say so) I will go\n I will go (If you don't mind)\n\n 공부할게요 [gong-bu-hal-ge-yo]\n (Since you say so) I will study\n I will study (Waiting if the person have anything to say on this)\n\n 공부할 거예요 [gong-bu-hal geo-ye-yo.]\n I will study (regardless what the person say or didn't say)\n\n",
 					"먹을게요 [meog-eul-ge-yo]\n (Since you say so) I will eat\n I will eat (Waiting if the person have anything to say on this)\n\n 마실게요 [ma-sil-ge-yo]\n (Since you say so) I will drink\n I will drink (Waiting if the person have anything to say on this)\n\n"
-				]
+				],
+				"title": "Grammar - Future Tense II"
 			},
 			{
 				"questions": [
@@ -5411,7 +5491,8 @@
 					"위해 / 위해서 [wi-hae] / [wi-hae-seo] = in order to/for\n To mean 'In order to', 'for the sake of', we use 위해서 [wi-hae-seo] or 위해 [wi-hae].\n\n To use this with verb, we use\n Verb + 기 위해/위해서\n\n 학교에 가기 위해서\n [hag-gyo-e ga-gi wi-hae-seo]\n In order to go to school\n\n 먹기 위해서\n [meog-gi wi-hae-seo]\n In order to eat\n\n",
 					"To use this with noun, we use\n Noun + 을/를 위해/위해서\n\n 학교를 위해서\n [hag-gyo-reul wi-hae-seo]\n For the sake of school\n\n 건강을 위해서\n [geon-gang-eul wi-hae-seo]\n For the sake of health\n\n Let's try longer sentence\n 저는 태국에 가기 위해서 열심히 일해요\n [jeo-neun tae-gu-ge ga-gi wi-hae-seo yeol-si-mi il-hae-yo.]\n I work hard in order to go to Thailand\n\n 열심히 [yeol-si-mi] = diligent\n 일해요 [il-hae-yo] = work\n\n",
 					"건강을 위해서 열심히 운동하고 있어요\n [geon-gang-eul wi-hae-seo yeol-si-mi un-dong-ha-go i-sseo-yo.]\n For the sake of health, I exercise diligently.\n 건강 [geon-gang] = health\n\n 돈을 위해서 일해요\n [don-eul wi-hae-seo il-hae-yo]\n I work for money\n\n You can also use 위해 to replace 위해서 for all the examples we have gone through.\n\n For your knowledge, 위해 / 위해서 comes from 위하다 [wi-ha-da] which means 'to do something for the benefit of something'\n"
-				]
+				],
+				"title": "For sake of"
 			},
 			{
 				"questions": ["might eat", "might do", "might come", "might know", "might meet"],
@@ -5432,7 +5513,8 @@
 				"pages": [
 					"(으)ㄹ 수도 있다 [(eu)l su-do it-da] = it might be possible\n\n Previously you have learned that (으)ㄹ 수 있다 means 'can do'. And 수 [su] in this context means, have an idea of solving something.\n By adding 도 [do] = too, you get the meaning of 'it might be possible'\n\n 만나다 [man-na-da] = to meet\n 만날 수도 있다 [man-nal su-do it-da]\n might meet\n\n 오다 [o-da] = to come\n 올 수도 있다 [ol su-do it-da]\n might come\n\n 먹다 [o-da] = to eat\n 먹을 수도 있다 [meog-eul su-do it-da]\n might eat\n\n",
 					"하다 [ha-da] = to do\n 할 수도 있다 [hal su-do it-da] = might do\n\n Let's build longer sentence\n 미나는 알 수도 있어요.\n [mi-na-neun al su-do i-sseo-yo]\n Mina might know\n\n 다음주 다시 만날 수도 있어요\n [da-eum-ju da-si man-nal su-do i-sseo-yo] Let's meet again next week.\n\n 미나는 내일 올 수도 있어요\n [mi-na-neun ol su-do i-sseo-yo.]\n Mina might come tomorrow"
-				]
+				],
+				"title": "It might"
 			},
 			{
 				"questions": [
@@ -5450,7 +5532,8 @@
 					"On previous lesson, you have learned 그래도 [geu-rae-do] = nevertheless. Today, we will shorten it and to join sentence again\n\n We will use 아/어/여 + 도 [a/eo/yeo + do]\n\n Verb ending with ㅗ or ㅏ, we use 아도\n Verb ending with other vowels, we use 어도\n Verb ending with 하, we use 여도\n\n 요즘 아파요. 그래도 일해요.\n [yo-jeum a-pa-yo. geu-rae-do il-hae-yo]\n I'm sick these days. But still, I work.\n\n 요즘 아파도, 일해요.\n [yo-jeum a-pa-do, il-hae-yo]\n Even though I'm sick these days, I still work.\n\n",
 					"한국어는 어려워요. 그래도 한국어를 공부하고 있어요.\n [han-gu-geo-neun eo-ryeo-wo-yo. geu-rae-do han-gu-geo-reul gong-bu-ha-go i-sseo-yo.]\n Korean is difficult. But still, I'm still studying Korean.\n\n 한국어는 어려워도, 한국어를 공부하고 있어요.\n [han-gu-geo-neun eo-ryeo-wo-do, han-gu-geo-reul gong-bu-ha-go i-sseo-yo.]\n Even though Korean is difficult, I'm still studying Korean.\n\n",
 					"피곤해요. 그래도 갈 거예요.\n [pi-gon-hae-yo. geu-lae-do gal geo-ye-yo]\n I'm tired. Nonetheless, I am still going\n\n 피곤해도 갈 거예요\n [pi-gon-hae-do gal geo-ye-yo]\n Even though I'm tired, I am still going\n\n"
-				]
+				],
+				"title": "Grammar - Even though"
 			},
 			{
 				"questions": [
@@ -5804,7 +5887,8 @@
 					"만날 수도 있다",
 					"피곤해도 갈 거예요"
 				],
-				"pages": ["After learning a lot of grammar lessons, it's time to revision!"]
+				"pages": ["After learning a lot of grammar lessons, it's time to revision!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -5835,7 +5919,8 @@
 					"If you watch movies or lyrics, you will noticed alot of ending with 네요 [ne-yo].\n\n 네요 [ne-yo] is used to express surprised or your thought about something\n\n For example\n 커요 [keo-yo]= big (stating the fact)\n 크네요 [keu-ne-yo] = big (but you are surprised it's big / you found out it's big)\n\n While 커요 can also mean big (surprised) with right tone, it can't bring out the surprised / thought meaning if it's written. Right?\n\n",
 					"Please note the way to join the words. By now you should be good in joining these\n\n 크다 + 어요 = 커요 big (stating a fact)\n 크다 + 네요 = 크네요 big (expressed surprised)\n\n 있다 + 어요 = 있어요 have (stating a fact)\n 있다 + 네요 = 있네요 have (expressed surprised)\n\n 맛있다 + 어요 = 맛있어요 delicious (stating a fact)\n 맛있다 + 네요 = 맛있네요 delicious (expressed surprised)\n\n",
 					"More examples:-\n\n 이거 맛있네요.\n [i-geo mas-iss-ne-yo.]\n This is delicious (Expressing surprised / your thought)\n\n 오늘은 너무 춥네요.\n [o-neul-eun neo-mu chup-ne-yo.]\n Today is very cold (Expressing surprised / your thought)\n\n 이 영화 재미있네요.\n [i yeong-hwa jae-mi-it-ne-yo.]\n This movie is interesting (Expressing surprised / your thought)\n\n"
-				]
+				],
+				"title": "Expressing surprised/thought"
 			},
 			{
 				"questions": [
@@ -5874,7 +5959,8 @@
 				"pages": [
 					"Verb + 자 [ja] = Let's\n\n To say 'lets do something', we use 자 [ja]. Please note that this is 반말 [ban-mal](casual language), and can only be used with someone close to you, such as friends. You will notice alot of 반말 in movies, dramas too.\n\n 가요 [ga-yo] = go\n 가자 [ga-ja]= Let's go\n\n 놀어요 [nol-eo-yo] = play\n 놀자 [nol-ja]= Let's play\n\n 먹어요 [meog-eo-yo] = eat\n 먹자 [meog-ja]= Let's eat\n\n 해요 [hae-yo] = do\n 하자 [ha-ja]= Let's do\n\n",
 					"사요 [sa-yo] = buy\n 사자 [sa-ja]= Let's buy\n\n More examples:-\n 이거 사자\n [i-geo sa-ja]\n Let's buy this\n\n 같이 가자\n [ga-chi ga-ja]\n Let's go together\n\n 내일은 쉬자\n [nae-il-reun swi-ja]\n Let's rest tomorrow\n\n 저녁 먹자\n [jeo-nyeog meog-ja]\n Let's eat dinner\n\n"
-				]
+				],
+				"title": "Let's"
 			},
 			{
 				"questions": [
@@ -5913,7 +5999,8 @@
 					"Usage:-\n 1. Explain the background of situation before making a suggestion / question.\n 내일 금요일인데, 뭐 할 거예요?\n [nae-il geum-ryo-il-in-de, mwo hal geo-ye-yo?]\n Tomorrow is Friday, what will you do?\n\n 질문이 있는데, 어디에 가요? \n [jil-mun-i iss-neun-de, eo-di-e ga-yo?]\n I have a question, where you will go?\n 질문 [jil-mun] = question\n\n 2. Explain the situation before explaining what had happened\n 어제 피곤하는데, 일찍 잤어요\n [eo-je pi-gon-ha-neun-de, il-jjig jass-eo-yo] I am tired yesterday, so I slept early\n 일찍 [il-jjig] = early\n\n",
 					"3. Showing a contrasting situation with the action\n 아직 7시인데, 벌써 잤어요\n [a-jik il-gop-si-in-de beol-sseo jass-eo-yo]\n It's still 7 o'clock, I slept already\n\n 4. Asking a question and expecting and answer\n 지금 어디에 있는데?\n [ji-geum eo-di-e it-neun-de?]\n Where are you now?\n\n 5. Statement but expecting a reply.\n 내일 바쁜데\n [nae-il ba-ppeun-de]\n I'm busy tomorrow (expecting a reply)\n\n",
 					"6. Expressing surprise\n 그림자를 봤는데\n [geu-lim-ja-leul bwatt-neun-de]\n I saw a shadow\n 그림자 [geu-lim-ja] = shadow"
-				]
+				],
+				"title": "Grammar"
 			},
 			{
 				"questions": [
@@ -5928,9 +6015,10 @@
 				"answers": ["안녕", "안녕 / 잘 가", "안녕 / 잘 있어", "응", "나", "너", "아니"],
 				"choices": ["안녕", "안녕 / 잘 가", "안녕 / 잘 있어", "응", "나", "너", "아니"],
 				"pages": [
-					"After a long lesson yesterday, we will have a light one today. In 'Let's' lesson, we have explained that 반말 (casual language) is used for people close to you such as close friends.\n\n Let's look at more 반말 example phrases\n\n 안녕하세요 [an-nyeong-ha-se-yo] ---&gt; \n 안녕 [an-nyeong]\n Hello\n\n 안녕히 가세요 [an-nyeong-hi ga-se-yo] ---&gt; \n 안녕 [an-nyeong] / 잘 가 [jal ga]\n Goodbye (you staying people leaving)\n\n 안녕히 계세요. [an-nyeong-hi ge-se-yo] ---&gt; \n 안녕 [an-nyeong] / 잘 있어. [jal i-sseo]\n Goodbye (you leaving people staying)\n\n",
-					"아니요 [a-ni-yo] ---&gt; \n 아니 [a-ni] / 아니야 [a-ni-ya]\n No\n\n 저 [jeo] ---&gt; \n 나 [na]\n I\n\n 씨 [ssi] ---&gt; \n 너 [neo]\n You\n\n"
-				]
+					"After a long lesson yesterday, we will have a light one today. In 'Let's' lesson, we have explained that 반말 (casual language) is used for people close to you such as close friends.\n\n Let's look at more 반말 example phrases\n\n 안녕하세요 [an-nyeong-ha-se-yo] ---> \n 안녕 [an-nyeong]\n Hello\n\n 안녕히 가세요 [an-nyeong-hi ga-se-yo] ---> \n 안녕 [an-nyeong] / 잘 가 [jal ga]\n Goodbye (you staying people leaving)\n\n 안녕히 계세요. [an-nyeong-hi ge-se-yo] ---> \n 안녕 [an-nyeong] / 잘 있어. [jal i-sseo]\n Goodbye (you leaving people staying)\n\n",
+					"아니요 [a-ni-yo] ---> \n 아니 [a-ni] / 아니야 [a-ni-ya]\n No\n\n 저 [jeo] ---> \n 나 [na]\n I\n\n 씨 [ssi] ---> \n 너 [neo]\n You\n\n"
+				],
+				"title": "Casual language"
 			},
 			{
 				"questions": [
@@ -5973,7 +6061,8 @@
 					"When verb has ㄷ ending  and followed by vowel, we remove ㄷ, and replace with ㄹ. For example\n\n 듣다 [deud-da] = to listen\n 들어요 [deul-eo-yo] = listen\n\n 묻다 [mut-da] = to ask\n 물어요 [mul-eo-yo] = ask\n\n 싣다 [sit-da] = to load\n 실어요 [sil-eo-yo] = load\n\n 깨닫다 [kkae-dat-da] = to realise\n 깨달았어요 [kkae-dal-as-seo-yo] = realised\n\n 걷다 [geot-da] = to walk\n 걸었어요 [geo-reo-seo-yo] = walked",
 					"However, there's some irregular verb that remain ㄷ, and NOT replaced by ㄹ. Such as\n\n 받다 [bat-da] = to receive\n 받아요 [ba-da-yo] = receive\n\n 닫다 [dad-da] = to close\n 닫아요 [da-da-yo] = close\n\n 믿다 [mid-da] = to believe\n 믿어요 [mi-deo-yo] = believe\n\n More examples next page:-\n\n",
 					"걷는 것 싫어요 [geot-neun geot shi-reo-yo]\n I hate walking\n ㄷ doesn't change to ㄹ because it's followed by consonant 는\n\n 걸었어요 [geo-reo-seo-yo]\n walked\n ㄷ change to ㄹ because it's followed by vowel 었\n\n 듣고 있어요 [deud-go-i-sseo-yo]\n I am listening\n ㄷ doesn't change to ㄹ because it's followed by consonant 고\n\n 듣었어요 [deud-eo-sseo-yo]\n listened\n ㄷ change to ㄹ because it's followed by vowel 었"
-				]
+				],
+				"title": "Grammar"
 			},
 			{
 				"questions": [
@@ -6449,7 +6538,8 @@
 				],
 				"pages": [
 					"We definitely learn alot of grammar this month. So, it's time to take an exam to wrap up this month. 4th month will be coming soon!"
-				]
+				],
+				"title": "Exam"
 			}
 		],
 		[
@@ -6496,7 +6586,8 @@
 				"pages": [
 					"Today we will learn about 실 [sil]. 실 is related to rooms, which can mean room or an area of enclosed space. There's alot type of rooms that has the word 실. For example\n\n 교실 [gyo-sil] = classroom\n\n 사무실 [sa-mu-sil] = office\n\n 병실 [byeong-sil] = hospital's room\n\n 화장실[hwa-jang-sil] = toilet (direct translation is makeup room)\n\n 연습실 [yeon-seup-sil] = practise room\n\n",
 					"대기실 [dae-gi-sil] = waiting room\n\n 교무실 [gyo-mu-sil] = teacher's office\n\n 회의실 [hoe-ui-sil] = meeting room\n\n 미용실 [mi-yong-sil] = beauty room\n\n 실내 [sil-nae] = indoor\n\n 실외 [sil-oe] = outdoor\n\n"
-				]
+				],
+				"title": "Room"
 			},
 			{
 				"questions": [
@@ -6547,7 +6638,8 @@
 				"pages": [
 					"Let's build more vocabulary. Today we will learn 학 [hak]. 학 is related to learning. For example\n\n 학생 [hak-saeng] = student\n\n 학원 [ha-gwon] = private institute\n\n 학교 [hak-gyo] = school\n\n 학기 [hak-gi] = semester\n\n 학자 [hak-ja] = scholar\n\n 과학 [gwa-hak] = science\n\n 수학 [su-hak] = mathematics\n\n 어학 [eo-hak] = language learning\n\n",
 					"유학 [yu-hak] = studying abroad\n\n 유학생 [yu-hak-saeng] = student studying abroad\n\n 전학 [jeon-hak] = change school\n\n 장학금 [jang-hak-geum] = scholarship\n\n 장학생 [jang-hak-saeng] = student on scholarship\n\n"
-				]
+				],
+				"title": "Learning"
 			},
 			{
 				"questions": [
@@ -6562,7 +6654,8 @@
 					"To say the more [A], the more [B], we use A + 을수록 [-eul-su-rok] + B\n\n Verb ending in vowel, we use ㄹ 수록\n Verb ending in consonant, we use 을수록\n Verb ending with ㄹ, we use 수록\n\n 예쁘다 [ye-ppeu-da] + ㄹ수록 [eul-su-rok]\n 예쁠수록  [ye-ppeu-su-rok]\n the more prettier, the more ...\n\n 맛있다 [ma-sit-da] + 을수록 [eul-su-rok]\n 맛있을수록 [ma-si-sseul-su-rok]\n the more delicious, the more ...\n\n 가다 [ga-da] + ㄹ수록 [eul-su-rok]\n 갈수록 [gal-su-rok]\n the more you go, the more ...\n\n",
 					"비싸다 [bi-ssa-da] + -ㄹ수록 [eul-su-rok]\n 비쌀수록  [bi-ssal-su-rok]\n the more expensive, the more ...\n\n Let's build full sentence\n\n 맛있을수록 잘 팔려요\n [ma-si-sseul-su-rok jal pal-lyeo-yo]\n The more delicious it is, the more it sells\n\n 예쁠수록 인기가 많아요\n [ye-ppeu-su-rok in-gi-ga ma-na-yo]\n The more pretty you are, the more famous you are\n\n 비쌀수록 좋아요\n [bi-ssal-su-rok jo-a-yo]\n The more expensive it is, the better\n",
 					"미나는 갈수록 한국어를 잘 해요\n [mi-na-neun gal-su-rok han-gu-geo-reul jal hae-yo]\n Mina keep getting better at Korean\n\n 갈수록 [gal-su-rok] means 'the more you go', but it can also, and usually means 'as time goes by'\n"
-				]
+				],
+				"title": "The more A, the more B"
 			},
 			{
 				"questions": [
@@ -6576,7 +6669,8 @@
 				"pages": [
 					"당신 [dang-sin] = you\n\n When watching movie, you should hear alot of 당신 [dang-sin]. 당신 means you. But, you must learn when to use this word. Otherwise you will appear awkward or rude\n\n We use 당신 [dang-sin] when\n 1. You are angry at someone\n 2. Inside lyric, movie text\n 3. Addressing you spouse\n 4. Addressing someone who is not in the place in honorific way\n\n For examples:-\n\n 당신 뭐야?\n [dang-sin mwo-ya?]\n What are you?\n\n",
 					"당신의 시처럼?\n [dang-sin-ui si-cheo-reom]\n Like your poem (lyric)\n\n 당신의 하우스헬퍼\n [dangsin-ui ha-u-seu-hel-peo]\n Your house helper (movie title)\n\n 당신 바빠요?\n [dang-sin ji-geum eo-di-ye-yo?]\n Honey, are you busy?\n\n"
-				]
+				],
+				"title": "You!"
 			},
 			{
 				"questions": [
@@ -6606,7 +6700,8 @@
 				"pages": [
 					"When we to express an intention or a will to do something, we use (으)ㄹ래요. It's quite similar to 고 싶어요 (want to do something), which you have learned previously.\n\n Please note that this is only used when you talk with someone in casual setting and not formal.\n\n Verb ending with vowel, we use -ㄹ래요\n Verb ending with consonant, we use 을래요\n Verb ending with  ㄹ, we use 래요\n\n 집에 갈래요\n [ji-be gal-lae-yo]\n I want to go home\n\n",
 					"뭐 마실래요?\n [mwo ma-sil-lae-yo?]\n What you want to drink?\n\n 뭐 먹을래요?\n [mwo meog-eul-lae-yo?]\n What you want to eat?\n\n 혼자 할래요\n [hon-ja hal-lae-yo]\n I'll do it alone\n\n 이거 볼래?\n [i-geo bol-lae?]\n You want to see this?\n\n 어디에 만날래?\n [eo-di-e man-nal-lae?]\n Where do we meet?\n\n"
-				]
+				],
+				"title": "Intention to do"
 			},
 			{
 				"questions": [
@@ -6729,7 +6824,8 @@
 					"이거 볼래?",
 					"어디에 만날래?"
 				],
-				"pages": ["Let's revise what we have learned!"]
+				"pages": ["Let's revise what we have learned!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -6757,7 +6853,8 @@
 					"Often times, we will hear or come across 지요 [jiyo]. What does it mean? You use 지요 when\n\n 1. You talk about something and supposing the other person already know about it.\n\n If it's used in a question, 지요 it means\n\n 1. Both of you know about the something and you are reiterating the fact.\n 2. You are asking yourself a question and at the same time asking other people.\n 3. You are asking yourself a question.\n\n Present tense: 지요 [jiyo]\n Past tense: 았/었/였 + 지요\n Future tense: (으)ㄹ 거 + 지요",
 					"You can also use  죠 [jyo]. 죠 [jyo] is shortform for 지요 [jiyo].\n\n For example\n 김치 정말 맛있죠.\n [gim-chi jeong-mal ma-sit-jyo]\n Kimchi is delicious (You know the other person thinks kimchi is delicious)\n\n 어제 날씨 춥지요?\n [o-je nal-ssi chup-ji-yo?]\n Yesterday the weather is cold, right? (You know the other person know the weather is cold too)\n\n",
 					"이거 뭐지요?\n [i-geo mwo-ji-yo?]\n 이거 뭐지?\n [i-geo mwo-ji?]\n What is this? (Asking yourself a question)\n\n 재미 없지요.\n [jae-mi eob-ji-yo]\n It's not fun (You know the other person think it's not fun too)\n\n 지금 갈 거 지요.\n [ji-geum gal geo ji-yo]\n I will go now (You know the other person know you will be go now)\n\n"
-				]
+				],
+				"title": "Grammar (Reassure)"
 			},
 			{
 				"questions": [
@@ -6792,7 +6889,8 @@
 					"As you have guessed, for\n Verb ending with vowel, we use ㄹ 리가 없어요\n Verb ending with consonant, we use 을 리가 없어요\n Verb ending with ㄹ, we use 리가 없어요\n\n Let's see some examples.\n\n 눈이 오다 [nu-ni o-da] = to snow\n 눈이 올 리가 없어요.\n [nu-ni ol li-ga eop-seo-yo.]\n It's impossible to snow\n\n 알다 [al-da] = to know\n 알 리가 없어요.\n [al li-ga eop-seo-yo]\n It's impossible he/she know\n\n",
 					"To make this past tense, we add 을 리가 없어요 after 았/었/였. For example\n\n 왔어요 [wass-eo-yo] = came\n 왔을 리가 없어요\n [wass-eul li-ga eop-seo-yo]\n Impossible he/she came\n\n 알았어요 [al-a-sseo-yo] = knew\n 알았을 리가 없어요\n [al-a-sseul li-ga eop-seo-yo]\n Impossible he/she knew",
 					"For future tense, it's the same structure as present tense\n\n More examples:\n\n 그럴 리가 없어요.\n [geu-reol li-ga eop-seo-yo.]\n That is impossible\n\n 있었을 리가 없어요.\n [i-sseo-sseul li-ga eop-seo-yo.]\n It's impossible there was\n\n 미나가 할 리가 없어요.\n [mi-na-ga hal li-ga eop-seo-yo]\n It's impossible Mina will do"
-				]
+				],
+				"title": "It's impossible ..."
 			},
 			{
 				"questions": ["It's okay", "It's okay (past tense)", "It's okay (future tense)"],
@@ -6801,7 +6899,8 @@
 				"pages": [
 					"괜찮아요 [gwaen-cha-na-yo] = It's okay\n\n Today lesson is pretty easy. 괜찮아요 [gwaen-cha-na-yo] means it's okay. For sure, you all know what this it right?\n\n Let's see some example when this can be used\n 1. If you are hurt, and you want to say you are okay, you say 괜찮아요.\n 2. No thanks. If someone offered you something and you refuse politely, you say 괜찮아요.\n 3. If you want to tell someone not to worry, you say 괜찮아요.\n 4. If you want to say everything is okay, you say 괜찮아요.\n\n",
 					"How to say this in past tense and future tense?\n\n Past tense: 괜찮았어요 [gwaen-cha-na-sseo-yo]\n Future tense: 괜찮을 거예요 [gwaen-cha-neul geo-ye-yo]\n"
-				]
+				],
+				"title": "It's okay"
 			},
 			{
 				"questions": [
@@ -6835,7 +6934,8 @@
 					"아/어/여도 되다 [a/eo/yeo-do doe-da] = It's okay to ...\n\n We can use 아/어/여도 되다 [a/eo/yeo-do doe-da] to mean 'it's okay to do something'\n\n It's a combination of\n 아/어/여 + 도 = even if\n 되다 [doe-da] = can do / to function\n\n Let's see some example\n 하다 [ha-da] = to do\n 해도 되다 [hae-do doe-da]\n it is okay even if you do\n\n 나중에 해도 돼요\n [na-jung-e hae-do dwae-yo]\n It's okay even if you do it later\n\n",
 					"먹다 [meog-da] = to eat\n 먹어도 되다 [meo-geo-do doe-da]\n it is okay even if you eat\n\n 이거 먹어도 돼요\n [i-go meo-geo-do dwae-yo]\n It's okay even if you eat this\n\n 쓰다 [sseuda-da] = to use\n 써도 되다 [sseo-do doe-da]\n it is okay even if use\n\n 그거 써도 돼요\n [geu-geo sseo-do dwae-yo]\n It's okay even if you use that",
 					"If you add 안 [an] + verb + 아/어/여도 되다 [-a/eo/yeo-do doe-da], it will mean 'it's okay even if you don't do'. For example\n\n 나중에 안 해도 돼요\n [na-jung-e an hae-do dwae-yo]\n It's okay even if you don't do it later\n\n 이거 안 먹어도 돼요\n [i-go an meo-geo-do dwae-yo]\n It's okay even if you don't eat this\n\n 그거 안 써도 돼요\n [geu-geo an sseo-do dwae-yo]\n It's okay even if you don't use that"
-				]
+				],
+				"title": "It's okay even if ..."
 			},
 			{
 				"questions": [
@@ -6869,7 +6969,8 @@
 					"Anything, anywhere, anyone\n\n To express anything, anywhere, anyone, we use the word 아무 [a-mu] + 나 [na] /  도 [do]\n\n 아무거나 [a-mu-geo-na] = anything\n 거 comes from 것 [geot] means 'thing'\n\n 아무데나 [a-mu-de-na] = anywhere\n 데 [de] means 'place'\n\n 아무나 [a-mu-na] = anyone\n\n We use 나 [na] to express positive sentence\n\n 아무거나 좋아요\n [a-mu-geo-na jo-a-yo.]\n Anything is good.\n\n",
 					"아무데나 가자\n [a-mu-de-na ga-ja.]\n Lets go anywhere.\n\n 아무나 올 수 있어요\n [a-mu-na ol su i-sseo-yo.]\n Anybody can come.\n\n We use 도 [do] to express negative sentence\n\n 아무것도 안했는데\n [a-mu-geo-do an-haess-neun-de]\n I didn't do anything.\n\n Please note for thing, it's 아무것도 and not 아무거도\n\n",
 					"아무데도 못가\n [a-mu-de-do mot-ga.]\n Can't go anywhere.\n\n 아무도 올 수 없어요\n [a-mu-do ol su eop-seo-yo.]\n Nobody can come.\n\n If you use 나 [na] in negative sentence, it will mean 'not just anybody/anywhere/anything'\n\n 아무나 올 수 없어요\n [a-mu-na ol su eop-seo-yo.]\n Not everybody can come\n\n 아무도 올 수 없어요\n [a-mu-do ol su eop-seo-yo.]\n Nobody can come.\n\n"
-				]
+				],
+				"title": "Anything, anywhere, anyone"
 			},
 			{
 				"questions": [
@@ -7079,7 +7180,8 @@
 					"아무도 올 수 없어요",
 					"아무나 올 수 없어요"
 				],
-				"pages": ["It's revision day again!"]
+				"pages": ["It's revision day again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -7113,7 +7215,8 @@
 					"(으)면 안 되다 [-(eu)myeon an doe-da] = You shouldn't\n\n In movie, you should hear a lot of 안 돼요 [an dwae-yo] right? Let's learn how it comes from.\n\n 돼요 is the present tense of 되다. Previously we have learned 되다 [doe-da] = can do / to function / to possible.\n\n안 + 되다 [an doe-da] means 'it can't be done/function/possible'. In previous month, we also learned (으)면 means 'if'.\n\n If combined (으)면 + 안 + 되다 you get 'it is not possible/can't function if .....' which naturally means 'you should not'\n\n",
 					"Verb ending consonant, we use 으면 안 돼요\n Verb ending vowel or ㄹ, we use 면 안 돼요\n\n Let's see some example\n\n 팔다 [pal-da] = to sell\n 팔면 안 돼요 [pal-myeon an dwae-yo.]\n should not sell\n\n 가다 [ga-da] = to go\n 가면 안 돼요 [ga-myeon an dwae-yo.]\n should not go\n\n 말하다 [mal-ha-da] = to talk/tell\n 말하면 안 돼요 [ma-ra-myeon an dwae-yo.]\n should not talk/tell\n\n",
 					"먹다 [meog-da] = to eat\n 먹으면 안 돼요 [meo-geum-myeon an dwae-yo]\n should not eat\n\n 마시다 [ma-si-da] = to drink\n 마시면 안 돼요 [ma-si-myeon an dwae-yo]\n should not drink\n\n 앉다 [anj-da] = to sit\n 앉으면 안 돼요 [an-jeu-myeon an dwae-yo]\n should not sit\n\n 들어가다 [deul-eo-ga-da] = to go in\n 들어가면 안 돼요 [deul-eo-ga-myeon an dwae-yo]\n should not go in\n\n"
-				]
+				],
+				"title": "You shouldn't"
 			},
 			{
 				"questions": [
@@ -7159,7 +7262,8 @@
 					"아/어/여 보다 [a/eo/yeo bo-da] = Try to do something\n\n 보다 [bo-da] = to see. Verb + 아/어/여 보다  means do something and see what happens, which literally means 'try to do something'\n\n 쓰다 [sseu-da] = to use\n 써 보다 [sseo bo-da] = to try using\n 그거 써 봐요 [geu-geo sseo bwa-yo]\n Try using that\n\n 먹다 [meog-da] = to eat\n 먹어 보다 [meo-geo bo-da] = to try eat\n 이거 먹어 봐요 [meo-geo bwa-yo]\n Try eat this\n\n",
 					"하다 [ha-da] = to do\n 해 보다 [hae bo-da] = to try do\n 제가 먼저 해 볼게요\n [je-ga meon-jeo hae bol-ge-yo]\n I will try doing it first\n\n There's also expressions that are commonly used and already in the form of 아/어/여 보다. For example\n\n 알아보다 [a-ra-bo-da]\n to look into something\n (there's no space between 아 보, so\n 알아 보다 is wrong)\n\n",
 					"물어보다 [mu-reo-bo-da] = to ask\n 물어 보다 [mu-reo bo-da] = to try asking\n For this there's space and no space version\n\n Sample sentence:\n\n 제가 알아볼게요\n [je-ga a-ra-bol-ge-yo]\n I'll look into it\n\n 영어로 물어봐요\n [yeon-geo-ro mul-eo-bwa-yo]\n Ask in English"
-				]
+				],
+				"title": "Try"
 			},
 			{
 				"questions": [
@@ -7187,7 +7291,8 @@
 					"To say among/between a list of choices, we use 중에서 [jung-e-seo] or in short form 중에 [jung-e].\n\n For example\n\n A하고 B 중에서 [A-ha-go B jung-e-seo]\n Between A and B\n 하고 [ha-go] = and\n\n 사과하고 바나나 중에서\n [sa-gwa-ha-go ba-na-na jung-e-seo]\n Between apple and banana\n 바나나 [ba-na-na] = banana\n\n 이 사 명 중에서\n [i sa myeong jung-e-seo]\n Among this four people",
 					"As 중에서 means among/between, you can't use this to describe location, such as 'I am at between the bank and the pharmacy'\n\n To describe location, we use 사이에 [sa-i-e]\n\n 은행하고 약국 사이에 있어요\n [eun-haeng-ha-go yak-guk sa-i-e i-sseo-yo]\n I at between the bank and pharmacy\n\n 은행은 학교하고 약국 사이에 있어요. [eun-haeng-eun hak-gyo-ha-go yak-guk sa-i-e i-sseo-yo.]\n The bank is in between the school and pharmacy\n\n",
 					"To express among a group of people, such as famous among friends, we use 사이에서 [sa-i-e-so]\n\n 친구들 사이에서 인기가 많아요.\n [chin-gu-deul sa-i-e-seo in-gi-ga ma-na-yo.]\n He is popular among friends\n"
-				]
+				],
+				"title": "Among, between"
 			},
 			{
 				"questions": [
@@ -7233,7 +7338,8 @@
 					"Today we will look into how to describe frequency.\n\n 자주 [ja-ju] = often\n 가끔 [ga-kkeum] = sometimes\n 거의 [geo-ui] = almost not at all\n\n 별로 [byeol-lo] = seldom, rarely\n 전혀 [jeon-hyeo] = not at all\n\n 항상 [hang-sang] = always (mostly used in writing)\n 맨날 [maen-nal] = all the time, always, everyday (mostly used in speaking)\n\n Usually, these words are used before verb. However, you can also use this after the verb. For example:-\n\n",
 					"가끔 도서관에 가요\n [ga-kkeum do-seo-gwan-e ga-yo]\n Sometimes I go to library\n\n 도서관에 가끔 가요\n [do-seo-gwan-e ga-kkeum ga-yo]\n Sometimes I go to library (emphasize more on 'sometimes')\n\n 항상 영화 봐요.\n [hang-sang yeong-hwa bwa-yo]\n I always watch movie.\n\n 영화 항상 봐요.\n [yeong-hwa hang-sang bwa-yo]\n I always watch movie. (emphasize more on 'sometimes')\n\n",
 					"친구들을 거의 못 만나요.\n [chin-gu-deu-reul geo-ui mot man-na-yo.]\n I almost didn't meet my friend.\n\n 자주 추천\n [ja-ju chu-cheon]\n Often recommended.\n\n 학교에 맨날 가요\n [hak-gyo-e maen-nal ga-yo]\n I always(everyday) go to school.\n\n"
-				]
+				],
+				"title": "Frequency"
 			},
 			{
 				"questions": [
@@ -7261,7 +7367,8 @@
 					"Spacing in Korean. 띄어쓰기 [ttieosseugi]\n\n If you have tried 'Memory Attack' feature, you will surely having a hard time in spacing initially. Today, let's learn about spacing.\n\n Generally, you should keep these 3 things in mind.\n\n 1. Korean Markers (particle)\n Basically, each word in Korean should stand alone. However, markers should be attached to the word. For example:-\n\n 서울에 살아요\n [seo-ul-e sa-layo]\n I live in Seoul\n Noticed that 에 is attached to the word and so does the tenses 아요\n\n",
 					"저는 한국어를 공부해요\n [jeo-neun han-gu-geo-leul gong-bu-hae-yo]\n I study Korean\n Noticed that 는, 를 is attached to the word and so does the tenses 해요\n\n Spacing can be important as incorrect spacing will lead to wrong meaning. For example:-\n\n 친구가 죽을 먹어요\n [chin-gu-ga ju-geul meo-geo-yo]\n My friend is eating rice soup\n\n 친구 가죽을 먹어요\n [chin-gu ga-ju-geul meo-geo-yo]\n My friend is eating leather\n\n",
 					"2. Names in Korean\n Sometimes, Korean family name is written separately by space\n\n 김 미나 [kim mi-na]\n Kim is family name. Last name is Mina\n\n 3. Numbers\n There's space after 10 thousands 만 [man]. For example\n\n 오십만 오백 [o-sip-man o-baek]\n 50,500\n\n Of course there's alot more spacing rules, that even Korean themselves got confused. But these are the commons guideline for you."
-				]
+				],
+				"title": "Spacing"
 			},
 			{
 				"questions": [
@@ -7588,7 +7695,8 @@
 					"친구 가죽을 먹어요",
 					"저는 한국어를 공부해요"
 				],
-				"pages": ["Revision day again!"]
+				"pages": ["Revision day again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -7601,7 +7709,8 @@
 				"choices": ["덜 먹다", "덜 덥다", "덜 빠르다", "덜 비싸다"],
 				"pages": [
 					"덜 [deol] = less\n As you have learned, 더 [deo] = more. To say less, we use 덜 [deol] = less.\n\n 덜 먹다 [deol meok-da] = to eat less\n 덜 덥다 [deol deob-da] = to be less hot\n 덜 빠르다 [deol ppa-leu-da] = to be less fast\n 덜 비싸다 [deol bi-ssa-da] = to be less expensive\n\n 어제보다 덜 더워요\n [eo-je-bo-da deol deo-wo-yo.]\n It's less hot than yesterday.\n\n 여기에 덜 사야 돼요\n [yeo-gi-e deol sa-ya dwae-yo]\n You should buy less here\n\n"
-				]
+				],
+				"title": "Less"
 			},
 			{
 				"questions": [
@@ -7637,7 +7746,8 @@
 				"pages": [
 					"제일 [je-il] / 가장 [ga-jang] = best / most\n\n We use 제일 [je-il] or 가장 [ga-jang] to describe best / most.\n\n 제일 예뻐요\n [je-il ye-ppeo-yo]\n most pretty\n\n 제일 비싸요\n [je-il bi-ssa-yo]\n most expensive\n\n 가장 더워요\n [ga-jang deo-wo-yo]\n most hot\n\n 가장 좋아요\n [ga-jang jo-a-yo]\n most good , best\n\n",
 					"제일은행\n [je-il-eun-haeng]\n best bank\n\n 제일학교\n [je-il-hag-gyo]\n best school\n\n 내가 제일 잘 나가\n [nae-ga je-il jal na-ga]\n I am the best\n\n 엄마가 제일 예뻐요\n [eom-ma-ga je-il jal na-ga]\n Mum is the prettiest\n\n"
-				]
+				],
+				"title": "Best / Most"
 			},
 			{
 				"questions": [
@@ -7667,7 +7777,8 @@
 				"pages": [
 					"Short form\n\n As you have encountered in movies or lyrics, there's alot of phrases that can be shorten for ease of pronounciation.\n\n 저는 [jeo-neun] = 전 [jeon]\n I am\n\n 나는 [na-neun] = 난 [nan]\n I am\n\n 어제는 [eo-je-neun] = 어젠 [eo-jen]\n When\n\n 이것은 [i-geo-seun] = 이건 [i-geon]\n this (thing)\n\n 이거는 [i-geo-neun] = 이건 [i-geon]\n this (thing)\n\n",
 					"Let's see some example sentences\n\n 전 윤아예요.\n [jeon yun-a-ye-yo.]\n I'm Yuna.\n\n 이건 뭐예요?.\n [i-geon mwo-ye-yo?]\n What is this?\n\n 어젠 한국에 가요?.\n [eo-jen han-gug-ge ga-yo?]\n When you go to Korea?\n\n"
-				]
+				],
+				"title": "Short form"
 			},
 			{
 				"questions": [
@@ -7702,7 +7813,8 @@
 					"How to do this in future tense? We use the form\n\n (으)ㄹ + noun\n\n 보다 [bo-da] = to see\n 보는 것 [bo-neun geot] = the act of seeing, the thing you see (present tense)\n 볼 것 [bol geot] = something to be seen (future tense)\n 볼 영화 [bol yeong-hwa] = movie to be seen\n\n 먹다 [meok-da] = to eat\n 먹는 것 [meok-neun geot] = the act of eating, the thing you eat (present tense)\n 먹을 것 [meo-geul geot] = something to be eaten (future tense)\n\n",
 					"공부하다 [gong-bu-ha-da] = to study\n 공부하는 것 [gong-bu-ha-neun geot] = the act of studying, the thing you study\n 공부할 것 [gong-bu-hal geot] = something to be studied\n\n Let's see example sentence for better understanding\n\n Present tense\n 제가 보는 영화예요\n [je-ga bo-neun yeong-hwa-ye-yo]\n It's a movie that I am seeing\n\n Future tense\n 제가 볼 영화예요\n [je-ga bol yeong-hwa-ye-yo]\n It's a movie that I will be seeing\n\n",
 					"Present tense\n 요즘 공부하는 한국어예요\n [yo-jeum gong-bu-ha-neun han-gu-geo-ye-yo]\n It's Korean language that I am studying recently\n\n Future tense\n 내일 공부할 한국어예요\n [nae-il gong-bu-hal han-gu-geo-ye-yo]\n It's Korean language that I am studying tomorrow\n\n"
-				]
+				],
+				"title": "Grammar - Verb to Noun (Future tense)"
 			},
 			{
 				"questions": [
@@ -7733,7 +7845,8 @@
 					"To turn verb into noun in past tense, we use\n\n (으)ㄴ + noun\n\n 보다 [bo-da] = to see\n 본 [bon] = seen\n\n 먹다 [meok-da] = to eat\n 먹은 [meog-eun] = eaten\n\n 공부하다 [gong-bu-ha-da] = to study\n 공부한 [gong-bu-han] = studied\n\n",
 					"Let's see example sentence for better understanding\n\n Present tense\n 제가 보는 영화예요\n [je-ga bo-neun yeong-hwa-ye-yo]\n It's a movie that I am seeing\n\n Future tense\n 제가 볼 영화예요\n [je-ga bol yeong-hwa-ye-yo]\n It's a movie that I will be seeing\n\n Past tense\n 제가 본 영화예요\n [je-ga bon yeong-hwa-ye-yo]\n It's a movie that I had seen\n\n",
 					"Present tense\n 요즘 공부하는 한국어예요\n [yo-jeum gong-bu-ha-neun han-gu-geo-ye-yo]\n It's Korean language that I am studying recently\n\n Future tense\n 내일 공부할 한국어예요\n [nae-il gong-bu-hal han-gu-geo-ye-yo]\n It's Korean language that I am studying tomorrow\n\n Past tense\n 어제 공부한 한국어예요\n [eo-je gong-bu-han han-gu-geo-ye-yo]\n It's Korean language that I had studied yesterday\n\n"
-				]
+				],
+				"title": "Grammar - Verb to Noun (Past tense)"
 			},
 			{
 				"questions": [
@@ -8144,7 +8257,8 @@
 					"것",
 					"볼"
 				],
-				"pages": ["It's time to revise what you have learned"]
+				"pages": ["It's time to revise what you have learned"],
+				"title": "Revision"
 			},
 			{
 				"questions": ["pick", "don't know", "cut", "grow"],
@@ -8154,7 +8268,8 @@
 					"Let's refresh how to create present tense.\n\n If the verb end with ㅏ[a] or ㅗ [o], we joined with 아요 [a-yo].\n\n If the verb is NOT end with ㅏ[a] or ㅗ [o], we joined with 어요 [eo-yo].\n\n If verb is 하 [ha], we joined with 여요 [yeo-yo]. For example\n\n 예쁘다 [ye-ppeu-da] = to be pretty\n 예쁘 + 어요 = 예뻐요 [ye-ppeo-yo] = pretty\n\n 빠르다 [ppa-leu-da] = to be fast\n 빠르 + 아요 = 빨라요 [ppa-la-yo] = fast\n\n But why 빠르 + 아요 and not 어요 since it's NOT end with ㅏ[a] or ㅗ [o]?\n\n",
 					"This is one of the many exceptions words. For 르, we remove 르 and add ㄹ at the end of previous vowel and add another ㄹ before the verb ending\n\n Thus from 빠르 will become 빨ㄹ + 아요 (because 빠 end with ㅏ[a]) = 빨라요\n\n More examples:-\n 고르다 [go-reu-da] = to pick\n 골ㄹ + 아요 = 골라요 [gol-la-yo] = pick\n\n 모르다 [mo-reu-da] = not to know\n 몰ㄹ + 아요 = 몰라요 [mol-la-yo] = don't know\n\n",
 					"자르다 [ja-reu-da] = to cut\n 잘ㄹ + 아요 = 잘라요 [jal-la-yo] = cut\n\n 기르다 [gi-reu-da] = to grow\n 길ㄹ + 어요 = 길러요 [gil-leo-yo] = grow\n\n"
-				]
+				],
+				"title": "Exception 르"
 			},
 			{
 				"questions": [
@@ -8191,7 +8306,8 @@
 					"훨씬 [hwol-ssin] = much more / much less\n\n You have learned more = 더 [deo]. To say much more, we use 훨씬 더 [hwol-ssin deo] or just 훨씬 [hwol-ssin]\n\n 쉽다 [swib-da] = to be easy\n 더 쉽다 [deo swib-da]\n to be more easy\n 훨씬 더 쉽다 [hwol-ssin deo swib-da]\n to be much more easy\n\n 비싸다 [bi-ssa-da] = to be expensive\n 더 비싸다 [deo bi-ssa-da]\n to be more expensive\n 훨씬 더 비싸다 [hwol-ssin deo bi-ssa-da]\n to be much more expensive",
 					"영어보다 한국어가 훨씬 쉬워요\n [yeong-eo-bo-da han-gu-geo-ga hwol-ssin swi-wo-yo]\n English is much more easier than Korean\n\n 이게 훨씬 재미있어요\n [i-ge hwol-ssin jae-mi-iss-eo-yo]\n This is much more interesting\n\n 이 사과가 훨씬 비싸요\n [i sa-gwa-ga hwol-ssin bi-ssa-yo]\n This apple is much more expensive\n",
 					"However to say much less you can't only use 훨씬 [hwol-ssin]. You need to use 훨씬 덜 [hwol-ssin deol].\n\n Remember 덜 [deol] = less?\n\n 이 사과가 훨씬 덜 비싸요\n [i sa-gwa-ga hwol-ssin deol bi-ssa-yo]\n This apple is much less expensive\n\n 이게 훨씬 덜 재미있어요\n [i-ge hwol-ssin deol jae-mi-iss-eo-yo]\n This is much less interesting\n\n"
-				]
+				],
+				"title": "Much more / much less"
 			},
 			{
 				"questions": [
@@ -8227,7 +8343,8 @@
 				"pages": [
 					"부/불 [bul /bu] = 'not'\n\n 부/불 [bul /bu] literally means 'not', and there's alot of words that comes with 부/불\n\n 불 (not) + 편 (convenient) =\n 불편 [bul-pyeon] =\n inconvenient\n\n 불 (not) + 균형 (balance) =\n 불균형 [bul-gyun-hyeong] =\n imbalance\n\n 불 (not) + 안 (comfortable) =\n 불안 [bul-an] =\n anxious\n\n 불 (not) + 완전 (complete) =\n 불완전 [bul-wan-jeon] =\n incomplete\n\n",
 					"부 (not) + 주의 (attention) =\n 부주의 [bu-ju-ui] =\n unnoticed\n\n 부 (not) + 적절 (proper) =\n 부적절 [bu-jeog-jeol] =\n inappropriate\n\n 부 (not) + 정확 (correct) =\n 부정확 [bu-jeong-hwag] =\n incorrect\n\n 부 (not) + 당 (right) =\n 부당 [bu-dang] =\n unjust\n\n"
-				]
+				],
+				"title": "'Not'"
 			},
 			{
 				"questions": [
@@ -8253,7 +8370,8 @@
 					"먹다 = to eat\n 먹게 되다 = eventually/end up eat\n\n 알다 = to know\n 알게 되다 = eventually/end up know\n\n 하다 = to do\n 하게 되다 = eventually/end up do\n\n You can use present, past, and future tense as well. Just change the tenses on 되다\n\n",
 					"Present tense\n 보게 돼요 [bo-ge dwae-yo]\n 먹게 돼요 [meok-ge dwae-yo]\n 알게 돼요 [al-ge dwae-yo]\n 하게 돼요 [ha-ge dwae-yo]\n\n Past tense\n 보게 됐어요 [bo-ge dwae-sseo-yo]\n 먹게 됐어요 [meok-ge dwae-sseo-yo]\n 알게 됐어요 [al-ge dwae-sseo-yo]\n 하게 됐어요 [ha-ge dwae-sseo-yo]\n\n Future tense\n 보게 될 거예요 [bo-ge doel geo-ye-yo]\n 먹게 될 거예요 [meok-ge doel geo-ye-yo]\n 알게 될 거예요 [al-ge doel geo-ye-yo]\n 하게 될 거예요 [ha-ge doel geo-ye-yo]\n\n",
 					"Let's see some example sentences\n\n 어제 영화를 보게 됐어요\n [eo-je yeong-hwa-reul bo-ge dwae-sseo-yo]\n I didn't plan to, but I ended up watching movie yesterday\n\n 나중에 알게 될 거예요\n [na-jung-e al-ge doel geo-ye-yo]\n You will eventually know later\n\n 다 사게 될 거예요\n [da sa-ge doel geo-ye-yo]\n You will eventually buy everything\n\n 이거 맛없어요. 그런데 먹게 돼요\n [i-geo mad-eop-seo-yo. geu-reon-de meok-ge dwae-yo]\n This is not tasty but I end up eating it\n\n"
-				]
+				],
+				"title": "End up doing"
 			},
 			{
 				"questions": [
@@ -8290,7 +8408,8 @@
 					"아/어/여지다 [a/eo/yeo-ji-da] = To become\n In order to describe 'to be come something', we use the form\n\n Verb + 아/어/여지다 [a/eo/yeo-ji-da]\n\n 빠르다 [ppa-leu-da] = to be fast\n 빠르 + 아지다 = 빨라지다 [ppa-leu-ji-da]\n to become fast\n Why it's 아지다 and not 어지다? Check out Month 4 Lesson 25\n\n 예쁘다 [ye-ppeu-da] = to be pretty\n 예쁘 + 어지다 = 예뻐지다 [ye-ppeo-ji-da]\n to become pretty\n\n 재미있다 [jae-mi-it-da] = to be interesting\n 재미있 + 어지다 = 재미있어지다\n [jae-mi-i-sseo-ji-da]\n to become interesting\n\n",
 					"이상하다 [i-sang-ha-da] = to be strange\n 이상하 + 여지다 = 이상해지다\n [i-sang-hae-ji-da]\n to become strange\n\n After making 'to become' phrase, you can join it with present, past, future tense as usual.\n\n Let's see some example sentence\n\n 저 자동차가 빨라졌어요\n [jeo ja-dong-cha-ga ppal-la-jyeo-sseo-yo]\n That car had become fast\n\n 미나가 재미있어졌어요\n [mi-na-ga jae-mi-i-sseo-jyeo-sseo-yo]\n Mina had become interesting\n\n",
 					"다음주 다시 추워질 거예요\n [da-eum-ju da-si chu-wo-jil geo-ye-yo]\n Next week will become cold again\n\n 물이 따뜻해졌어요\n [mul-i tta-tteu-tae-jyeo-sseo-yo]\n Water had become warm\n\n"
-				]
+				],
+				"title": "To become"
 			},
 			{
 				"questions": [
@@ -8799,7 +8918,8 @@
 				],
 				"pages": [
 					"Congratulations. You have completed the 4th month course and it's time to take an exam!"
-				]
+				],
+				"title": "Exam"
 			}
 		],
 		[
@@ -8818,7 +8938,8 @@
 				"choices": ["수영장", "시장", "주차장", "운동장", "장소", "예식장", "장면", "목장"],
 				"pages": [
 					"장 [jang] literally means venue/location. There's alot of words that has the word 장 and maybe some those you have already encountered in previous lessons.\n\n 수영장 [su-yeong-jang] = swimming pool\n 시장 [si-jang] = market\n 주차장 [ju-cha-jang] = parking lot\n 운동장 [un-dong-jang] = playground\n 장소 [jang-so] = venue\n 예식장 [ye-sig-jang] = wedding hall\n 장면 [jang-myeon] = scene\n 목장 [mog-jang] = farm"
-				]
+				],
+				"title": "Venue / Location"
 			},
 			{
 				"questions": [
@@ -8843,7 +8964,8 @@
 					"At Month 3 lesson 11, you have learned 같아요 [ga-ta-yo] = to be the same/similar.\n\n Then at Month 4 lesson 22, 23, you have learned how to turn verb into noun using\n\n Present tense\n 는 것\n Past tense\n (으)ㄴ 것\n Future tense\n (으)ㄹ 것\n\n By combining these two structures\n\n Turn verb into noun + 같아요, it will mean 'I think ...'\n\n",
 					"For example\n 먹다 [meog-da] = to eat\n 먹는 것 같다 [meog-neun geot ga-ta]\n the act of eating, the thing you eat (present tense) + I think\n\n 먹을 것 같다 [meo-geul geot ga-ta]\n something to be eaten (future tense) + I think\n\n 먹은 것 같다 [meog-eun geot ga-ta]\n eaten (past tense) + I think\n\n Let's see some example sentence\n 미나는 먹는 것 같아요\n [mi-na-neun meog-neun geot ga-ta-yo]\n I think Mina is eating\n\n",
 					"내일 회의를 할 것 같아요\n [nae-il hoe-ui-leul hal geot ga-ta-yo]\n Tomorrow, I think will have meeting\n\n 나중에 비 올 것 같아요\n [na-jung-e bi ol geot ga-ta-yo]\n I think will rain later\n\n 이게 제일 좋은 것 같아요\n [i-ge je-il jo-eun geot ga-ta-yo]\n I think this is the most good / best\n\n"
-				]
+				],
+				"title": "I think"
 			},
 			{
 				"questions": ["Keep up the good work", "Congratulations on finishing the work"],
@@ -8852,7 +8974,8 @@
 				"pages": [
 					"수고하세요 [su-go-ha-se-yo] = Keep up the good work\n\n If you watched Korean movies, you most probably come across 수고하세요 [su-go-ha-se-yo] alot. 수고 actually means hard work or effort. As you have learned in previous lessons, 하세요 means please do.\n\n So when combined, it literally means 'please continue the hard work'. However, it's not really that meaning. When you say 수고하세요 to someone, it actually means you want to show your appreciation and support of their hardwork.\n\n",
 					"Please note that you can't say this to someone much older than you. It will appear as rude.\n You can also say 수고해요 [su-go-hae-yo] or 수고해 [su-go-hae] if someone is very close to you or younger than you.\n\n 수고하셨습니다 [su-go-ha-syeot-sseum-ni-da] = You made alot of effort doing this\n\n If you say 수고하셨습니다 [su-go-ha-syeot-sseum-ni-da] to someone who just finished the work, it means 'Congratulations on finishing it'\n\n You can also say 수고했어요 [su-go-hae-sseo-yo] if someone is very close to you or younger than you."
-				]
+				],
+				"title": "Keep up the good work"
 			},
 			{
 				"questions": [
@@ -8889,7 +9012,8 @@
 					"(으)ㄹ 뻔했다 [eu/l ppeon-haess-da] = Almost did\n\n To say 'almost did something' we use\n\n Verb + (으)ㄹ 뻔했다\n\n 뻔 = nearly getting into a situation where something happens\n\n 먹다 [meog-da] = to eat\n 먹을 뻔했어요\n [meo-geul ppeon-hae-sseo-yo]\n almost eat\n\n 하다 [ha-da] = to do\n 할 뻔했어요\n [hal ppeon-hae-sseo-yo]\n almost did\n\n",
 					"사다 [sa-da] = to buy\n 살 뻔했어요\n [sal ppeon-hae-sseo-yo]\n almost bought\n\n 가다 [ga-da] = to go\n 갈 뻔했어요\n [gal ppeon-hae-sseo-yo]\n almost went\n\n 죽다 [juk-da] = to die\n 죽을 뻔했어요\n [ju-geul ppeon-hae-sseo-yo]\n almost died",
 					"Let's see some example sentence\n\n 너무 추워서 죽을 뻔했어요\n [neo-mu chu-wo-seo jug-eul ppeon-hae-sseo-yo]\n It was so cold, I almost died\n\n 사기꾼의 말을 믿을 뻔했어요\n [sa-gi-ggu-neui ma-reul mi-deul ppeon-hae-sseo-yo]\n I almost believe the con artist\n\n 돈을 잃을 뻔했어요\n [do-neul ppeon-hae-sseo-yo]\n I almost lost money\n\n"
-				]
+				],
+				"title": "Almost did"
 			},
 			{
 				"questions": [
@@ -8923,7 +9047,8 @@
 					"To say 'as soon as' you do something, we use 자마자 [ja-ma-ja]. The structure is\n\n Verb + 자마자 [ja-ma-ja]\n\n Let's see example\n\n 끝나다 [kkeut-na-da] = to finish\n 끝나자마자 [kkeut-na-ja-ma-ja]\n as soon as it finish\n\n 가다 [ga-da] = to go\n 가자마자 [ga-ja-ma-ja]\n as soon as you/i went\n\n",
 					"사다 [sa-da]\n 사자마자 [sa-ja-ma-ja]\n as soon as you/i buy\n\n 하다 [ha-da]\n 하자마자 [ha-ja-ma-ja]\n as soon as you/i did\n\n Let's see some example sentences\n\n 집에 오자마자 먹었어요\n [ji-be o-ja-ma-ja meo-geo-sseo-yo]\n As soon as I came home, I ate\n\n 이거 보자마자 좋아했어요\n [i-go bo-ja-ma-ja joh-a-hae-sseo-yo]\n As soon as saw it, I like it",
 					"가자마자 일을 시작할 거예요\n [ga-ja-ma-ja i-reul si-jak-hal geo-ye-yo]\n As soon as I went there, I will start working\n 시작하다 = to start\n\n As you can see from the examples, the tenses is shown at the end of the sentence."
-				]
+				],
+				"title": "As soon as"
 			},
 			{
 				"questions": [
@@ -9020,7 +9145,8 @@
 					"가자마자 일을 시작할 거예요",
 					"이자마자"
 				],
-				"pages": ["Let's revise what we have leared"]
+				"pages": ["Let's revise what we have leared"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -9058,7 +9184,8 @@
 				],
 				"pages": [
 					"문 [mun] is related to writing or letter. Let's see some examples of words that has 문 [mun]\n\n 문서 [mun-seo] = document\n 문장 [mun-jang] = sentence\n 문자 [mun-ja] = character / text\n 문학 [mun-hak] = literature\n 문법 [mun-beop] = grammar\n 문화 [mun-hwa] = culture\n 문화재 [mun-hwa-jae] = cultural properties\n 주문 [ju-mun] = order\n 논문 [non-mun] = thesis"
-				]
+				],
+				"title": "Writing / Letter"
 			},
 			{
 				"questions": [
@@ -9134,7 +9261,8 @@
 					"For descriptive verb, we use the structure\n\n Verb + (으)ㄴ가 봐요 (for present tense)\n Verb + 았/었/였나 봐요 (for past tense)\n\n 예쁘다 [ye-ppeu-da] = to be pretty\n 예쁜가 봐요 [ye-ppeun-ga bwa-yo]\n I guess it is pretty (present tense)\n\n 예뻤나 봐요 [ye-ppeot-na bwa-yo]\n I guess it was pretty (past tense)\n\n 작다 [jak-da] = to be small\n 작은가 봐요 [jag-eun-ga bwa-yo]\n I guess it is small\n\n 작았나 봐요 [jag-at-na bwa-yo]\n I guess it was small\n\n",
 					"많아다 [manh-a-da] = to be many\n 많은가 봐요 [ma-neun-ga bwa-yo]\n I guess it is many\n\n 많았나 봐요 [manh-at-na bwa-yo]\n I guess it was many\n\n If the descriptive verb contains 있다 [it-da] or 없다 [eop-da], we use the structure\n\n Verb + 나 봐요 [na bwa-yo]\n\n 재미있다 [jae-mi-it-da]\n to be fun, to be interesting\n 재미있나 봐요 [jae-mi-it-na bwa-yo]\n I guess it's fun\n\n 재미있었나 봐요\n [jae-mi-it-seot-na-na bwa-yo]\n I guess it was fun",
 					"Let's see some example sentences\n\n 미나는 아직 모르나 봐요\n [mi-na-neun a-jik mo-reu-na bwa-yo]\n I guess Mina still doesn’t know\n\n 돈이 없나 봐요\n [don-i eob-na bwa-yo]\n I guess he/she/they don't have money\n\n 눈이 오나 봐요\n [nu-ni o-na bwa-yo]\n I guess it's snowning\n\n 돈이 많았나 봐요\n [don-i ma-nat-na bwa-yo]\n I guess there was a lot of money\n\n"
-				]
+				],
+				"title": "I guess / assume"
 			},
 			{
 				"questions": [
@@ -9168,7 +9296,8 @@
 					"In Korean, there's alot of ways to express future tense. Today we will learn another one. Let's review what we have learned so far.\n\n 하다 [ha-da] = to do\n 할 거예요 [hal geo-ye-yo]\n I’m going to do (plain future tense)\n\n 할게요 [hal-ge-yo] = I'm going to do (looking for someone's reaction)\n\n 할래요 [hal-lae-yo] = I'm going to do (show determination to do)\n\n",
 					"Today we will learn\n\n Verb + (으)려고 하다 [(eu)ryeo-go ha-da]\n\n We use this when:- \n 1. Something is about to happen\n 2. Someone about to do something\n\n Let's see some examples\n\n 오다 [o-da] = to come\n 오려고 해요 [o-lyeo-go hae-yo]\n about to come\n\n 울다 [ul-da] = to cry\n 울려고 해요 [ul-lyeo-go hae-yo]\n about to cry\n\n",
 					"만나다 [man-na-da] = to meet\n 만나려고 해요 [man-na-ryeo-go hae-yo]\n about to meet\n\n 사다 [sa-da] = to buy\n 사려고 해요 [sa-ryeo-go hae-yo]\n about to buy\n\n Let's see some example sentences\n\n 친구가 울려고 해요\n [chin-gu-ga ul-lyeo-go hae-yo]\n My friend is about to cry\n\n"
-				]
+				],
+				"title": "About to"
 			},
 			{
 				"questions": [
@@ -9202,7 +9331,8 @@
 					"To quote 'that it is ABC', we use the structure\n\n Nouns ending with consonant + 이라고 [i-ra-go]\n Nouns ending with vowel + 라고 [ra-go]\n For example: \n\n 사과 [sa-gwa] = apple\n 사과라고 [sa-gwa-ra-go] = that it is apple\n\n Usually this is used along with\n 말하다 [mal-ha-da] = to say\n 대답하다 [dae-dab-ha-da] = to answer\n or just 하다 [ha-da] = to say (normally it mean to do, but in this context it's to say)\n\n",
 					"사과라고 말하다\n [sa-gwa-ra-go ma-ra-da]\n To say 'that it is apple'\n\n 안녕이라고 말하다\n [an-nyeong-i-ra-go ma-ra-da]\n To say '안녕'\n\n 이거라고 하다\n [i-geo-ra-go ha-da]\n To say that 'this is this'\n\n Let's see some example sentence for better understanding\n\n 중국 사람이라고 했어요\n [jung-guk sa-ra-mi-ra-go hae-sseo-yo]\n He/she/they said he/she/they is a Chinese person",
 					"제가 제일이라고 들었어요\n [je-ga je-il-i-ra-go deu-reo-sseo-yo.]\n I heard he/she/they say I am the best\n\n 여기가 도서관이라고 말해요\n [yeo-gi-ga do-seo-gwan-i-ra-go ma-rae-yo]\n He/she/they say that this is the library\n\n 뭐라고 말했어요?\n [mwo-ra-go ma-rae-sseo-yo?]\n What did you say?"
-				]
+				],
+				"title": "To say 'this is ...'"
 			},
 			{
 				"questions": [
@@ -9224,7 +9354,8 @@
 				"pages": [
 					"Today we will learn how to describe a gradual transition from action A to action B. For example\n\n I was studying and then I fell asleep\n I was exercising and got injured\n\n To join this actions, we use the structure\n\n Verb + 다가 [da-ga]\n\n 가다 [ga-da] = to go\n 가다가 [ga-da-ga]\n\n 오다 [o-da] = to come\n 오다가 [o-da-ga]\n\n 먹다 [meog-da] = to eat\n 먹다가 [meog-da-ga]",
 					"Let's see some example sentences\n\n 집에 오다가 선생님을 만났어요\n [ji-be o-da-ga seon-saeng-nim-eul man-na-sseo-yo]\n While coming home, I met my teacher\n\n 여행을 하다가 아팠어요\n [yeo-haeng-eul ha-da-ga a-pass-eo-yo]\n While going vacation, I got sick\n\n 밥 먹다가 친구를 왔어요\n [bap meok-da-ga chin-gu-reul wa-sseo-yo]\n I was eating and my friend came\n\n"
-				]
+				],
+				"title": "While doing A, then B happen"
 			},
 			{
 				"questions": [
@@ -9459,7 +9590,8 @@
 					"밥 먹다가 친구를 왔어요",
 					"이자마자"
 				],
-				"pages": ["It's revision day again. Let's revise!"]
+				"pages": ["It's revision day again. Let's revise!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -9489,7 +9621,8 @@
 					"Reason\n 지금 피곤해요\n [ji-geum pi-gon-hae-yo]\n I'm tired now\n\n Result\n 나중에 전화해 주세요\n [na-jung-e jeon-hwa-hae ju-se-yo]\n Please call me later\n\n 지금 피곤하니까 나중에 전화해 주세요\n [ji-geum pi-gon-ha-ni-kka na-jung-e jeon-hwa-hae ju-se-yo]\n I'm tired now, so please call me later\n\n",
 					"Besides joining sentences (reason/result), we can also use 으니까 to mark the ending when you are answering question\n\n 이거 왜 먹었어요?\n [i-geo wae meo-geo-sseo-yo?]\n Why did you ate this?\n\n 맛있으니까\n [mas-iss-eu-ni-kka]\n Because it is delicious\n\n",
 					"Have you heard of the music video 여자이니까 [yeo-ja-i-ni-kka]?\n\nIf we join with noun, and the noun end with consonant, we use 이니까 [i-ni-kka].\n\nIf it's not end with consonant, then you can use either 이니까 [i-ni-kka] or 니까 [ni-kka]\n\n 여자이니까\n [yeo-ja-i-ni-kka]\n Because I'm a girl\n\n 오늘 토요일이니까 내일 하세요\n [o-neul to-yo-il-i-ni-kka na-eil ha-se-yo]\n Today is Saturday so do it tomorrow"
-				]
+				],
+				"title": "Because of A, then B happen"
 			},
 			{
 				"questions": [
@@ -9503,7 +9636,8 @@
 				"pages": [
 					"(ㄴ/는)다\n\n Have you wondered why sometimes sentences ended with 다 [da] instead of 요 [yo]? For example people says\n\n 예쁘다 [ye-ppeu-da] instead of 예뻐요 [yep-peo-yo] = pretty\n\n We use (ㄴ/는)다 to\n\n 1. Show reaction when talking about something\n\n 예쁘다 [ye-ppeu-da] = pretty! (show surprised or excitement)\n 예뻐요 [yep-peo-yo] = pretty (statement)",
 					"2. Talk about regular activity\n 매일 공부해야 한다\n [mae-il gong-bu-hae-ya han-da]\n You need to study everyday\n\n 3. Talk about present activity as third person and expecting some reaction from the one listening\n 저기 내 누나들 온다.\n [jeo-gi nae nu-na-deul on-da]\n There comes my sister\n\n"
-				]
+				],
+				"title": "End sentence with 다"
 			},
 			{
 				"questions": [
@@ -9553,7 +9687,8 @@
 				],
 				"pages": [
 					"Let's learn more vocabulary today.\n 회 [hoe] is related to 'gathering'. For examples:\n\n 회의 [hoe-ui] = meeting\n 회의실 [hoe-ui-sil] = meeting room\n 회사 [hoe-sa] = company\n 회사원 [hoe-sa-won] = employee\n 회원 [hoe-won] = member\n 회비 [hoe-bi] = membership fee\n 회계 [hoe-gyeo] = accounting\n 동호회 [dong-ho-hoe] = club\n 회화 [hoe-hwo] = conversation\n 사회 [sa-hoe] = society\n 국회 [guk-hoe] = parliamentary meeting\n 교회 [gyo-hoe] = church\n 대회 [dae-hoe] = competition\n"
-				]
+				],
+				"title": "Gathering"
 			},
 			{
 				"questions": [
@@ -9590,7 +9725,8 @@
 					"Today we will learn about (이)라도 [(i)-ra-do]. We use (이)라도 when\n\n 1. Any choice is fine\n Used on 아무 [a-mu] (any), 누구 [nu-gu] (who), 어디 [eo-di] (where), 언제 [eon-je] (when), 어느 [eo-neu] (which)\n\n 누구라도 [nu-g-ra-do]\n Anyone is fine\n\n 언제라도 [eon-je-ra-do]\n Anytime is fine\n\n 어디라도 갈 수 있어요 [eo-di-ra-do gal su i-sseo-yo]\n I can go anywhere (Any location is fine)\n\n",
 					"2. Not the best out of all choices\n 커피라도 [keo-pi-ra-do]\n coffee (but not the best of all choices)\n\n 사과라도 [sa-gwa-ra-do]\n apple (but not the best of all choices)\n\n 영화라도 볼래요?\n [yeong-hwa-ra-do bol-lae-yo?]\n Maybe we can watch movie? (you suggest watching movie but it's not the best activity, but it's better than doing nothing)\n\n 이거라도 주세요\n [i-geo-ra-do ju-se-yo]\n Give me this (If you don't have anything better)\n\n\n",
 					"3. Show suspicion\n 파티라도 났어요?\n [pa-ti-ra-do na-sseo-yo?]\n You had a party? (You suspect the person had a party)\n\n For words ending with consonant, we use 이라도 [i-ra-do]\n\n For words ending with vowel, we use 라도 [ra-do]\n"
-				]
+				],
+				"title": "Any choice is fine"
 			},
 			{
 				"questions": [
@@ -9625,7 +9761,8 @@
 					"If join with verb, we use\n Verb + 는 + 대신에\n\n 사다 [sa-da] = to buy\n 사는 대신에 [sa-neun dae-sin-e]\n instead of buying\n\n 가다 [ga-da] = to buy\n 가는 대신에 [ga-neun dae-sin-e]\n instead of going\n\n Let's see some example sentence\n\n 카메라 대신에 컴퓨터를 샀어요\n [ka-me-ra dae-si-ne keom-pyu-teo-reul sa-sseo-yo]\n I bought computer instead of camera\n\n",
 					"저 대신에 엄마가 올 거예요\n [jeo dae-si-ne eom-ma-ga ol geo-ye-yo]\n My mother will come instead of me\n\n 친구를 기다리는 대신에 혼자 갔어요\n [chin-gu-leul gi-da-li-neun dae-sin-e hon-ja gass-eo-yo]\n Instead of waiting for my friend I went alone\n\n 여행을 가는 대신에 컴퓨터 게임을 했어요\n [yeo-haeng-eul ga-neun dae-si-ne keom-pyu-teo ge-im-eul hae-sseo-yo]\n Instead of travelling, I played computer games\n\n",
 					"Besides meaning 'instead of', if you use 대신에 between verbs, it can also means 'in return'. For example:-\n\n 이번에는 제가 도와 줄게요. 대신에, 내일 일찍 와야 돼요\n [i-beon-e-neun je-ga do-wa jul-ge-yo. dae-si-ne, nae-il il-jjik wa-ya dwae-yo]\n I will help you this time. But in return, you have to be here early tomorrow"
-				]
+				],
+				"title": "Instead of"
 			},
 			{
 				"questions": [
@@ -9970,7 +10107,8 @@
 					"저 대신에 엄마가 올 거예요",
 					"친구를 기다리는 대신에 혼자 갔어요"
 				],
-				"pages": ["It's revision day again!"]
+				"pages": ["It's revision day again!"],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -9995,7 +10133,8 @@
 					"In Month 5 Lesson 10, you have learned about 라고 [ra-go]. Today, we will learn about (으)라고 [(eu)-ra-go]\n\n We use the following to talk about someone tell someone to do something (you as the narrative). \n\n Verb + (으)라고 [(eu)-ra-go] +  하다 [ha-da]\n\n If verb ending with consonant, we use 으라고 [eu-ra-go]\n If verb ending with vowel, we use 라고 [ra-go]\n",
 					"Let's see example\n 보다 [bo-da] = to watch\n 보라고 하다 [bo-ra-go ha-da]\n to tell someone to look (you as the narative)\n\n 친구가 영화를 보라고 해요\n [chin-gu-ga yeong-hwa-reul bo-la-go hae-yo]\n My friend tell me to watch movie\n\n 공부하다 [gong-bu-ha-da] = to study\n 공부하라고 하다 [gong-bu-ha-ra-go ha-da]\n to tell someone to study\n 친구가 공부하라고 해요 [chin-gu-ga gong-bu-ha-ra-go hae-yo]\n My friend tell me to study\n\n",
 					"가다 [ga-da] = to go\n 가라고 하다 [ga-ra-go ha-da]\n to tell someone to go\n\n 누가 가라고 했어요?\n [nu-ga ga-ra-go haess-o-yo?]\n Who told me/he/she/them to go?\n\n 오다 [o-da] = to come\n 오라고 하다 [o-ra-go ha-da]\n to tell someone to come\n\n 친구가 우리 오라고 했어요\n [chin-gu-ga u-ri o-ra-go haess-o-yo]\n My friend told us to come\n\n"
-				]
+				],
+				"title": "Quote someone tell someone to do ..."
 			},
 			{
 				"questions": [
@@ -10011,9 +10150,10 @@
 					"친구가 우리 했어요?"
 				],
 				"pages": [
-					"In the first month, you have learned object marker is (을/를). In spoken Korean, we can shorten 를 by joining ㄹ to the previous word\n\n Here's some of the common words that's shorten when we speak\n\n 저 [jeo] = me\n 저를 [jeo-reul] can be shorten to 절 [jeol]\n\n 여기 [yeo-gi] = here\n 여기를 [yeo-gi-reul] ---shorten--&gt; 여길 [yeo-gil]\n\n 뭐 [mwo] = what\n 뭐를 [mwo-reul] ---shorten--&gt; 뭘 [mwol]",
-					"이거 [i-geo] = what\n 이거를 [i-geo-reul] ---shorten--&gt; 이걸 [i-geol]\n\n Let's see some examples\n\n 누가 절 불렀어요?\n [nu-ga jeol bul-leo-sseo-yo?]\n Who called me?\n\n 뭘 도와 드릴까요?\n [mwol do-wa deu-lil-kka-yo?]\n What can I do for you?\n\n 이걸 누구한테 줘야 돼요?\n [i-geol nu-gu-han-te jwo-ya dwae-yo?]\n Whom should I give this to?\n\n"
-				]
+					"In the first month, you have learned object marker is (을/를). In spoken Korean, we can shorten 를 by joining ㄹ to the previous word\n\n Here's some of the common words that's shorten when we speak\n\n 저 [jeo] = me\n 저를 [jeo-reul] can be shorten to 절 [jeol]\n\n 여기 [yeo-gi] = here\n 여기를 [yeo-gi-reul] ---shorten--> 여길 [yeo-gil]\n\n 뭐 [mwo] = what\n 뭐를 [mwo-reul] ---shorten--> 뭘 [mwol]",
+					"이거 [i-geo] = what\n 이거를 [i-geo-reul] ---shorten--> 이걸 [i-geol]\n\n Let's see some examples\n\n 누가 절 불렀어요?\n [nu-ga jeol bul-leo-sseo-yo?]\n Who called me?\n\n 뭘 도와 드릴까요?\n [mwol do-wa deu-lil-kka-yo?]\n What can I do for you?\n\n 이걸 누구한테 줘야 돼요?\n [i-geol nu-gu-han-te jwo-ya dwae-yo?]\n Whom should I give this to?\n\n"
+				],
+				"title": "Short form"
 			},
 			{
 				"questions": [
@@ -10048,7 +10188,8 @@
 					"For verb ending with a vowel, we use 려나 보다 [ryeo-na bo-da]\n\n For verb ending with a consonant, we use 으려나 보다 [eu-ryeo-na bo-da]\n\n Let's see some examples\n\n 닫다 [dat-da] = to close\n 닫으려나 보다\n [da-deu-ryeo-na bo-da]\n I assume will close / It looks it will close\n\n 시작하다 [si-jak-ha-da] = to start\n 시작하려나 보다\n [si-jak-ha-ryeo-na bo-da]\n I assume will start / It looks it will start\n",
 					"가다 [ga-da] = to go\n 가려나 보다\n [ga-ryeo-na bo-da]\n I assume will go / It looks will go\n\n 춥다 [chub-da] = to be cold\n 추우려나 보다\n [chu-u-ryeo-na bo-da]\n I assume will be cold / It looks like will be cold\n\n Let's see some example sentences\n\n 나중에 시작하려나 봐요\n [na-jung-e si-ja-ka-ryeo-na bwa-yo]\n It looks like it's going to start later\n\n",
 					"도서관에 가려나 봐요\n [do-seo-gwan-e ga-ryeo-na bwa-yo]\n It looks like he/she will go to library\n\n 날씨가 추우려나 봐요.\n [nal-ssi-ga chu-u-ryeo-na bwa-yo]\n It looks like the weather will be cold\n\n"
-				]
+				],
+				"title": "I assume (pretty sure will happen)"
 			},
 			{
 				"questions": [
@@ -10089,7 +10230,8 @@
 				],
 				"pages": [
 					"Today we will learn words that has 식 [sik]. If the words has 식, it's usually related to food or eating\n\n For example\n\n 식당 [sik-dang] = restaurant\n 음식 [eum-sik] = food\n 식사 [sik-sa] = meal\n 식품 [sik-pum] = food products\n 후식 [hu-sik] = dessert\n 식탁 [sik-tak] = dining table\n 시식 [si-sik] = food sampling\n 간식 [gan-sik] = snack\n 외식 [oe-sik] = to eat outside\n 과식 [gwa-sik] = overeat\n"
-				]
+				],
+				"title": "Food / eating"
 			},
 			{
 				"questions": [
@@ -10113,7 +10255,8 @@
 				"pages": [
 					"In Month 3 Lesson 1 you have learned 지 마세요 [ji ma-se-yo] = Don't do something.\n\nTo review, this expression comes from 말다 [mal-da] = to stop doing\n\n In order to say 'not noun A but noun B', we say\n Noun A + 말고 + Noun B\n\n If you want to say 'not verb A but verb B', we say\n Verb A + 지 말고 + Verb B\n\n Let's see some examples\n 빵 말고 커피 주세요\n [ppang mal-go keo-pi ju-se-yo]\n Please give me coffee, not bread",
 					"이거 말고 저거 주세요\n [i-geo mal-go jeo-geo ju-se-yo]\n Please give me that, not this\n\n 늦지 말고 일찍 가세요\n [neut-ji mal-go il-jjik ga-se-yo]\n Don't be late and go early\n\n 전화하지 말고 조금만 기다리세요\n [jeon-hwa-ha-ji mal-go jo-geum-man gi-da-li-se-yo]\n Don't call me but wait for me a while\n\n"
-				]
+				],
+				"title": "This. Not that"
 			},
 			{
 				"questions": [
@@ -10542,7 +10685,8 @@
 					"늦지 말고 일찍 가세요",
 					"전화하지 말고 조금만 기다리세요"
 				],
-				"pages": ["Let's revise what we have learned."]
+				"pages": ["Let's revise what we have learned."],
+				"title": "Revision"
 			},
 			{
 				"questions": [
@@ -10579,7 +10723,8 @@
 					"To describe something that is not so definitive (rather big, abit big), we use\n\n ㄴ/은/는 편이다 [n/eu/neun pyeo-ni-da]\n\n Action verb present tense\n Verb + 는 편이다\n Action verb past tense\n Verb + ㄴ/은 편이다\n\n Descriptive verb\n Verb ending with vowel + ㄴ 편이다\n Verb ending with consonant + 은 편이다\n\n Let's see some examples\n 크다 [keu-da] = to be big\n 커요 [keo-yo] = big\n 큰 편이에요 [keun pyeon-i-e-yo]\n rather big / abit big\n",
 					"작다 [jag-da] = to be small\n 작아요 [jag-a-yo] = small\n 작은 편이에요 [jag-eun pyeon-i-e-yo]\n rather small / abit small\n\n 바쁘다 [ba-ppeu-da] = to be busy\n 바빠요 [ba-ppa-yo] = busy\n 바쁜 편이에요 [ba-ppeun pyeon-i-e-yo]\n rather busy / abit busy\n\n 오다 [o-da] = to come\n 자주 와요 [ja-ju wa-yo] = frequent come\n 자주 오는 편이에요\n [ja-ju o-neun pyeo-ni-e-yo]\n rather frequent come",
 					"빠르다 [ppa-leu-da] = to be fast\n 빨라요 [ppal-la-yo] = fast\n 빠른 편이에요 [ppa-leun pyeon-i-e-yo]\n rather fast\n\n Let's see some example sentences\n\n 저도 도서관에 자주 가는 편이에요\n [jeo-do do-seo-gwan-e ja-ju ga-neun pyeo-ni-e-yo]\n I go library rather frequent too\n\n 이거 큰 편이에요\n [i-geo keun pyeon-i-e-yo]\n This is rather big\n\n 테니스를 잘 치는 편이에요\n [te-ni-seu-leul jal chi-neun pyeon-i-e-yo]\n I play tennis rather well\n\n"
-				]
+				],
+				"title": "Rather / Abit"
 			},
 			{
 				"questions": [
@@ -10603,7 +10748,8 @@
 				"pages": [
 					"In Month 2 Lesson 22, you have learned 보다 [bo-da] is used to compare things. Another commonly used expression is\n\n 에 비해서 [e bi-hae-seo]\n\n 비 comes from the word 비교 which means comparison\n\n Let's see examples:\n\n 어제에 비해서 바쁜 편이에요\n [o-je-e bi-hae-seo ba-ppeun pyeo-ni-e-yo]\n I'm rather busy as compared to yesterday\n\n 저거에 비해서 비싼 편이에요\n [jeo-go-e bi-hae-seo bi-ssan pyeon-i-e-yo]\n It's rather expensive as compared to that\n\n",
 					"한국은 중국에 비해서 작은 편이에요\n [han-gug-eun jung-gug-e bi-hae-seo jag-eun pyeon-i-e-yo]\n Compared to China, Korea is rather small\n\n 한국은 태국에 비해서 인터넷이 정말 빨라요\n [han-gug-eun tae-gug-e bi-hae-seo in-teo-net jeong-mal ppal-la-yo]\n Compared to Thailand, internet in Korea is really fast\n\n"
-				]
+				],
+				"title": "As compared to"
 			},
 			{
 				"questions": [
@@ -10640,7 +10786,8 @@
 					"To ask someone to agree with your or to correct someone, we use the expression\n\n 잖아요 [ja-na-yo]\n\n Remember 지 않아요 [ji anh-a-yo] in Month 1 Lesson 25 which means 'to not'? 잖아요 [ja-na-yo] comes from this, but in this case, it's used to ask someone to agree with your or to correct them.\n\n Let's see examples:\n\n 알다 [al-da] = to know\n 알아요 [a-la-yo] = know\n 알잖아요 [al-ja-na-yo] = Come on, you know right?",
 					"예쁘다 [ye-ppeu-da] = to be pretty\n 예뻐요 [yep-peo-yo] = pretty\n 예뻐잖아요 [yep-peo-ja-na-yo] = Come on, pretty right? / No it's not true. It's pretty\n\n 춥다 [chup-da] = to be cold\n 추워요 [chu-wo-yo] = cold\n 춥잖아요 [chup-ja-na-yo] = You see right? It's cold. / No it's not true. It's cold.\n 춥지 않아요 [chup-ji a-na-yo] = It is not cold.\n\n 하다 [ha-da] = to do\n 해요 [hae-yo] = do\n 하잖아요 [ha-ja-na-yo] = You see right? I'm doing. / No it's not true. I do.\n 하지 않아요 [ha-ja a-na-yo] = I don't do.\n\n",
 					"있다 [ha-da] = to have\n 있어요 [iss-eo-yo] = has\n 있잖아요 [it-ja-na-yo] = You know right? It has.\n\n Let's see some more example\n\n 오늘 춥잖아요 [o-neul chup-ja-na-yo]\n Come on, today is cold, right?\n\n 이거 예뻐잖아요 [i-geo yep-peo-ja-na-yo]\n Come on, this is pretty, right?\n\n"
-				]
+				],
+				"title": "True right?"
 			},
 			{
 				"questions": [
@@ -10671,7 +10818,8 @@
 					"Today, we will learn to say 'to have no other choice but'. We use the structure\n\n (으)ㄹ 수밖에 없다 [(eu)l su ba-kke eopda]\n\n If you break down the structure, you will have something you learned before\n\n (으)ㄹ 수 없다 [(eu)l su eop-da]\n cannot (Month 2 Lesson 17)\n 밖에 + negative sentence = only\n\n When put together it literally means 'no other choice but'\n\n Let's see example\n 하다 [ha-da] = to do\n 할 수밖에 없다 [hal su-ba-kke eop-da]\n to have no other choice but to do\n\n",
 					"사다 [sa-da] = to buy\n 살 수밖에 없다 [sal su-ba-kke eop-da]\n to have no other choice but to buy\n\n 팔다 [pal-da] = to sell\n 팔 수밖에 없다 [pal su-ba-kke eop-da]\n to have no other choice but to sell\n\n 어렵다 [eo-lyeob-da] = to be difficult\n 어려울 수밖에 없다\n [eo-lyeo-ul su-ba-kke eop-da]\n to have no other choice but be difficult\n\n",
 					"Let's see some example sentence\n\n 이렇게 할 수밖에 없어요\n [i-reo-ke hal su-ba-kke eop-seo-yo]\n There's no other choice but to do it this way\n\n 고기를 먹을 수밖에 없어요\n [go-gi-leul meog-eul su-ba-kke eop-seo-yo]\n There's no other choice but to eat meat\n\n"
-				]
+				],
+				"title": "To have no other choice but"
 			},
 			{
 				"questions": [
@@ -10698,7 +10846,8 @@
 				"pages": [
 					"To say 'in the middle of something' we use the structure\n\n Verb + 고 있는 중이다 [go it-neun jung-i-da]\n\n 가다 [ga-da] = to go\n 가고 있는 중이에요\n [ga-go it-neun jung-i-e-yo]\n In the middle of going / on the way\n\n 먹다 [meog-da] = to eat\n 먹고 있는 중이에요\n [meog-go it-neun jung-i-e-yo]\n In the middle of eating\n\n",
 					"공부하다 [gong-bu-ha-da] = to study\n 공부하고 있는 중이에요\n [gong-bu-ha-go it-neun jung-i-e-yo]\n In the middle of studying\n\n 사다 [sa-da] = to buy\n 사고 있는 중이에요\n [sa-go it-neun jung-i-e-yo]\n In the middle of buying\n\n 기다리다 [gi-da-ri-da] = to wait\n 기다리고 있는 중이에요\n [gi-da-ri-go it-neun jung-i-e-yo]\n In the middle of waiting\n\n"
-				]
+				],
+				"title": "In the middle of"
 			},
 			{
 				"questions": [
@@ -11220,7 +11369,8 @@
 					"사고 있는 중이에요",
 					"기다리고 있는 중이에요"
 				],
-				"pages": ["You have learned alot. Let's conclude this month with exam!\n"]
+				"pages": ["You have learned alot. Let's conclude this month with exam!\n"],
+				"title": "Exam"
 			}
 		]
 	],
@@ -17457,11 +17607,11 @@
 		"Add (w) sound\n\n ㅘ (wa)\n ㅝ (wo)\n ㅙ (wae)\n ㅞ (we)",
 		"Since, these vowels are not the representations of your organs, you can only memorize these by remembering positive and negative sounds.",
 		"Alright, so we have learn all the consonants and vowels. Let's see how these consonants and vowels are combined to form a character.\n\n Character combination is based on the picture below",
-		"When you read, the sounds will come from 1. Consonant --&gt; 2. Vowel --&gt; 3. Final Consonant as of previous diagram.\n\n If ㅇ is in 1. position, there's no sound for ㅇ. If it's on 3. position, it will sound (ng).\n\n Let's review the most common phrase in Korea. 안녕하세요 [an-nyeong-ha-se-yo].\n\n For 안 we read from 1. Consonant --&gt; 2. Vowel --&gt; 3. Final Consonant. ㅇ is in 1. position, so there's no sound for ㅇ.",
-		"For 녕 we read from 1. Consonant --&gt; 2. Vowel --&gt; 3. Final Consonant. ㅇ is in 3. position, so ㅇ sounds (ng)",
-		"For 하 we read from 1. Consonant --&gt; 2. Vowel.",
-		"For 세 we read from 1. Consonant --&gt; 2. Vowel.",
-		"For 요 we read from 1. Consonant --&gt; 2. Vowel. ㅇ is in 1. position, so there's no sound for ㅇ.",
+		"When you read, the sounds will come from 1. Consonant --> 2. Vowel --> 3. Final Consonant as of previous diagram.\n\n If ㅇ is in 1. position, there's no sound for ㅇ. If it's on 3. position, it will sound (ng).\n\n Let's review the most common phrase in Korea. 안녕하세요 [an-nyeong-ha-se-yo].\n\n For 안 we read from 1. Consonant --> 2. Vowel --> 3. Final Consonant. ㅇ is in 1. position, so there's no sound for ㅇ.",
+		"For 녕 we read from 1. Consonant --> 2. Vowel --> 3. Final Consonant. ㅇ is in 3. position, so ㅇ sounds (ng)",
+		"For 하 we read from 1. Consonant --> 2. Vowel.",
+		"For 세 we read from 1. Consonant --> 2. Vowel.",
+		"For 요 we read from 1. Consonant --> 2. Vowel. ㅇ is in 1. position, so there's no sound for ㅇ.",
 		"Let's pair consonants with vowel ㅏ (a)\n\n 가 (ga) 나 (na) 다 (da) 라 (l/ra) 마 (ma)\n\n 바 (ba) 사 (sa) 아 (a)  자 (ja)   차 (cha)\n\n 카 (ka) 타 (ta) 파 (pa) 하 (ha)\n\n **** Again reminder, the romanization is just to aid you. The sound is actually the shape of your vocal organs as of the characters!",
 		"Double consonants with vowel ㅏ (a)\n\n 까 (kka)\n 따 (tta)\n 빠 (ppa)\n 싸 (ssa)\n 짜 (jja)\n",
 		"Can you differentiate this?\n\n 가 (ga)\n 카 (ka)\n 까 (kka)\n\n 다 (da)\n 타 (ta)\n 따 (tta)\n\n 바 (ba)\n 파 (pa)\n 빠 (ppa)\n\n 자 (ja)\n 차 (cha)\n 짜 (jja)\n\n",

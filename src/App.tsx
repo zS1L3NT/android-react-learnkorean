@@ -6,7 +6,7 @@ import GameList from "./pages/GameList"
 import HangulList from "./pages/HangulList"
 import LessonList from "./pages/LessonList"
 
-const Drawer = createDrawerNavigator<RootDrawerParamList>()
+const Drawer = createDrawerNavigator<iRootDrawerParamList>()
 
 const App = (): JSX.Element => {
 	return (

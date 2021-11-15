@@ -3,14 +3,14 @@ import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } fr
 import { Games as games } from "../data.json"
 
 const GameList = (): JSX.Element => {
-	const handleGame = (title: string) => {}
+	const handleGame = (game: iGame) => {}
 
 	return (
 		<SafeAreaView>
 			<ScrollView>
-				{Object.keys(games).map(title => (
+				{Object.entries(games).map(([title, game]) => (
 					<View key={title}>
-						<TouchableOpacity style={styles.touchable}>
+						<TouchableOpacity style={styles.touchable} onPress={() => handleGame(game)}>
 							<Text style={styles.text}>{title}</Text>
 						</TouchableOpacity>
 					</View>

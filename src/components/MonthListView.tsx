@@ -1,9 +1,9 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import React from "react"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { Lessons as lessons } from "../../data.json"
+import { Lessons as lessons } from "../data.json"
 
-type Props = NativeStackScreenProps<LessonsStackParamList, "Months">
+type Props = NativeStackScreenProps<iLessonsStackParamList, "Months">
 
 const LessonsMonthListView = (props: Props): JSX.Element => {
 	const handleMonth = (month: number) => {
