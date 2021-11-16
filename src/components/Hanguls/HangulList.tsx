@@ -1,9 +1,14 @@
 import React from "react"
+import { Hanguls as hanguls } from "../../data.json"
+import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { Hanguls as hanguls } from "../data.json"
 
-const HangulList = (): JSX.Element => {
-	const handleHangul = (hangul: string) => {}
+type Props = NativeStackScreenProps<iHangulsStackParamList, "HangulList">
+
+const HangulList = (props: Props): JSX.Element => {
+	const handleHangul = (hangul: string) => {
+		props.navigation.push("Hangul", { hangul })
+	}
 
 	return (
 		<SafeAreaView>

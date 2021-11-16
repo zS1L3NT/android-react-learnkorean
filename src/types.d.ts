@@ -5,8 +5,20 @@ type iRootDrawerParamList = {
 }
 
 type iLessonsStackParamList = {
-	Months: undefined
-	Days: { month: number }
+	MonthList: undefined
+	DayList: { month: number }
+	Lesson: { lesson: iLesson }
+	LessonQuiz: { lesson: iLesson }
+}
+
+type iHangulsStackParamList = {
+	HangulList: undefined
+	Hangul: { hangul: string }
+}
+
+type iGamesStackParamList = {
+	GameList: undefined
+	Game: { game: iGame }
 }
 
 type iLesson = {

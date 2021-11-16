@@ -1,10 +1,10 @@
+import Games from "./pages/Games"
+import Hanguls from "./pages/Hanguls"
+import Lessons from "./pages/Lessons"
+import React from "react"
 import { createDrawerNavigator } from "@react-navigation/drawer"
 import { NavigationContainer } from "@react-navigation/native"
-import React from "react"
 import { ThemeProvider } from "react-native-magnus"
-import GameList from "./pages/GameList"
-import HangulList from "./pages/HangulList"
-import LessonList from "./pages/LessonList"
 
 const Drawer = createDrawerNavigator<iRootDrawerParamList>()
 
@@ -13,9 +13,9 @@ const App = (): JSX.Element => {
 		<ThemeProvider>
 			<NavigationContainer>
 				<Drawer.Navigator initialRouteName="Lessons" backBehavior="history">
-					<Drawer.Screen name="Lessons" component={LessonList} />
-					<Drawer.Screen name="Memory Games" component={GameList} />
-					<Drawer.Screen name="Learning to Read" component={HangulList} />
+					<Drawer.Screen name="Lessons" component={Lessons} />
+					<Drawer.Screen name="Memory Games" component={Games} />
+					<Drawer.Screen name="Learning to Read" component={Hanguls} />
 				</Drawer.Navigator>
 			</NavigationContainer>
 		</ThemeProvider>

@@ -1,13 +1,13 @@
-import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import React from "react"
+import { Lessons as lessons } from "../../data.json"
+import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { Lessons as lessons } from "../data.json"
 
-type Props = NativeStackScreenProps<iLessonsStackParamList, "Months">
+type Props = NativeStackScreenProps<iLessonsStackParamList, "MonthList">
 
-const LessonsMonthListView = (props: Props): JSX.Element => {
+const MonthList = (props: Props): JSX.Element => {
 	const handleMonth = (month: number) => {
-		props.navigation.push("Days", { month })
+		props.navigation.push("DayList", { month })
 	}
 
 	return (
@@ -43,4 +43,4 @@ const styles = StyleSheet.create({
 	}
 })
 
-export default LessonsMonthListView
+export default MonthList

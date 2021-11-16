@@ -1,9 +1,14 @@
 import React from "react"
+import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { Games as games } from "../data.json"
+import { Games as games } from "../../data.json"
 
-const GameList = (): JSX.Element => {
-	const handleGame = (game: iGame) => {}
+type Props = NativeStackScreenProps<iGamesStackParamList, "GameList">
+
+const GameList = (props: Props): JSX.Element => {
+	const handleGame = (game: iGame) => {
+		props.navigation.push("Game", { game })
+	}
 
 	return (
 		<SafeAreaView>

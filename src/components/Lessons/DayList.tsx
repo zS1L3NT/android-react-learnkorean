@@ -1,23 +1,25 @@
-import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import React from "react"
-import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
 import { Button, Div, Icon } from "react-native-magnus"
-import { Lessons as lessons } from "../data.json"
+import { Lessons as lessons } from "../../data.json"
+import { NativeStackScreenProps } from "@react-navigation/native-stack"
+import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
 
-type Props = NativeStackScreenProps<iLessonsStackParamList, "Days">
+type Props = NativeStackScreenProps<iLessonsStackParamList, "DayList">
 
-const LessonsDayListView = (props: Props): JSX.Element => {
+const DayList = (props: Props): JSX.Element => {
 	const { month } = props.route.params
 
 	const handlePrevious = () => {
-		props.navigation.navigate("Days", { month: month - 1 })
+		props.navigation.navigate("DayList", { month: month - 1 })
 	}
 
 	const handleNext = () => {
-		props.navigation.navigate("Days", { month: month + 1 })
+		props.navigation.navigate("DayList", { month: month + 1 })
 	}
 
-	const handleLesson = (lesson: iLesson) => {}
+	const handleLesson = (lesson: iLesson) => {
+		props.navigation.push("Lesson", { lesson })
+	}
 
 	return (
 		<SafeAreaView>
@@ -43,16 +45,17 @@ const LessonsDayListView = (props: Props): JSX.Element => {
 				</Button>
 			</Div>
 			<ScrollView style={styles.scroll}>
-				{lessons[month - 1]
-					.map((lesson, i) => (
-						<View key={i}>
-							<TouchableOpacity
-								style={styles.touchable}
-								onPress={() => handleLesson(lesson)}>
-								<Text style={styles.touchableText}>Day {i + 1} - {lesson.title}</Text>
-							</TouchableOpacity>
-						</View>
-					))}
+				{lessons[month - 1].map((lesson, i) => (
+					<View key={i}>
+						<TouchableOpacity
+							style={styles.touchable}
+							onPress={() => handleLesson(lesson)}>
+							<Text style={styles.touchableText}>
+								Day {i + 1} - {lesson.title}
+							</Text>
+						</TouchableOpacity>
+					</View>
+				))}
 			</ScrollView>
 		</SafeAreaView>
 	)
@@ -87,4 +90,4 @@ const styles = StyleSheet.create({
 	}
 })
 
-export default LessonsDayListView
+export default DayList
