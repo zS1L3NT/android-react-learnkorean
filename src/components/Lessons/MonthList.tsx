@@ -1,11 +1,22 @@
-import React from "react"
+import React, { useContext, useEffect } from "react"
 import { Lessons as lessons } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { SetTitleContext } from "../../App"
+import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "MonthList">
 
 const MonthList = (props: Props): JSX.Element => {
+	const isFocused = useIsFocused()
+	const setTitle = useContext(SetTitleContext)
+
+	useEffect(() => {
+		if (isFocused) {
+			setTitle("Lessons")
+		}
+	}, [isFocused])
+
 	const handleMonth = (month: number) => {
 		props.navigation.push("DayList", { month })
 	}

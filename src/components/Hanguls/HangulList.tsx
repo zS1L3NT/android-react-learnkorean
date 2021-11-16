@@ -1,27 +1,41 @@
-import React from "react"
+import React, { useContext, useEffect } from "react"
 import { Hanguls as hanguls } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { useIsFocused } from "@react-navigation/native"
+import { SetTitleContext } from "../../App"
 
 type Props = NativeStackScreenProps<iHangulsStackParamList, "HangulList">
 
 const HangulList = (props: Props): JSX.Element => {
-	const handleHangul = (hangul: string) => {
-		props.navigation.push("Hangul", { hangul })
+	const isFocused = useIsFocused()
+	const setTitle = useContext(SetTitleContext)
+
+	useEffect(() => {
+		if (isFocused) {
+			setTitle("Learning to Read")
+		}
+	}, [isFocused])
+
+	const handlePage = (page: number) => {
+		props.navigation.push("Hangul", { hangul: hanguls[page] })
+		setTitle(`Learning to Read - Page ${page}`)
 	}
 
 	return (
 		<SafeAreaView>
 			<ScrollView>
-				{hanguls.map((hangul, i) => (
-					<View key={i}>
-						<TouchableOpacity
-							style={styles.touchable}
-							onPress={() => handleHangul(hangul)}>
-							<Text style={styles.text}>Page {i + 1}</Text>
-						</TouchableOpacity>
-					</View>
-				))}
+				{hanguls
+					.map((_, i) => i + 1)
+					.map(page => (
+						<View key={page}>
+							<TouchableOpacity
+								style={styles.touchable}
+								onPress={() => handlePage(page)}>
+								<Text style={styles.text}>Page {page}</Text>
+							</TouchableOpacity>
+						</View>
+					))}
 			</ScrollView>
 		</SafeAreaView>
 	)
