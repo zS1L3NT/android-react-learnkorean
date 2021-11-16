@@ -1,7 +1,7 @@
 import Games from "./pages/Games"
 import Hanguls from "./pages/Hanguls"
 import Lessons from "./pages/Lessons"
-import React, { createContext, useMemo, useState } from "react"
+import React, { createContext, useState } from "react"
 import { createDrawerNavigator } from "@react-navigation/drawer"
 import { NavigationContainer } from "@react-navigation/native"
 import { ThemeProvider } from "react-native-magnus"

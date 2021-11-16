@@ -2,14 +2,14 @@ import React, { useContext, useEffect } from "react"
 import { Hanguls as hanguls } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { useIsFocused } from "@react-navigation/native"
 import { SetTitleContext } from "../../App"
+import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iHangulsStackParamList, "HangulList">
 
 const HangulList = (props: Props): JSX.Element => {
-	const isFocused = useIsFocused()
 	const setTitle = useContext(SetTitleContext)
+	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {

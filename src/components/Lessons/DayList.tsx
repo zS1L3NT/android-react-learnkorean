@@ -3,15 +3,16 @@ import { Button, Div, Icon } from "react-native-magnus"
 import { Lessons as lessons } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { useIsFocused } from "@react-navigation/native"
 import { SetTitleContext } from "../../App"
+import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "DayList">
 
 const DayList = (props: Props): JSX.Element => {
-	const isFocused = useIsFocused()
-	const setTitle = useContext(SetTitleContext)
 	const { month } = props.route.params
+
+	const setTitle = useContext(SetTitleContext)
+	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {

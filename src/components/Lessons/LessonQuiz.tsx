@@ -7,9 +7,10 @@ import { useIsFocused } from "@react-navigation/native"
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 
 const LessonQuiz = (props: Props): JSX.Element => {
-	const isFocused = useIsFocused()
-	const setTitle = useContext(SetTitleContext)
 	const { lesson } = props.route.params
+
+	const setTitle = useContext(SetTitleContext)
+	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {

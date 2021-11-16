@@ -1,15 +1,15 @@
 import React, { useContext, useEffect } from "react"
+import { Games as games } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-import { Games as games } from "../../data.json"
-import { useIsFocused } from "@react-navigation/native"
 import { SetTitleContext } from "../../App"
+import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iGamesStackParamList, "GameList">
 
 const GameList = (props: Props): JSX.Element => {
-	const isFocused = useIsFocused()
 	const setTitle = useContext(SetTitleContext)
+	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {

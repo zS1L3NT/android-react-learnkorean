@@ -8,8 +8,8 @@ import { useIsFocused } from "@react-navigation/native"
 type Props = NativeStackScreenProps<iLessonsStackParamList, "MonthList">
 
 const MonthList = (props: Props): JSX.Element => {
-	const isFocused = useIsFocused()
 	const setTitle = useContext(SetTitleContext)
+	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {
