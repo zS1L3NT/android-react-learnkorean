@@ -1,5 +1,13 @@
 import React, { useContext, useEffect, useRef, useState } from "react"
-import { Animated, SafeAreaView, StyleSheet, Text } from "react-native"
+import {
+	Animated,
+	LayoutAnimation,
+	Platform,
+	SafeAreaView,
+	StyleSheet,
+	Text,
+	UIManager
+} from "react-native"
 import { Button, Div, Icon } from "react-native-magnus"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
@@ -16,6 +24,12 @@ const Lesson = (props: Props): JSX.Element => {
 	const opacity = useRef(new Animated.Value(1)).current
 
 	useEffect(() => {
+		if (Platform.OS === "android") {
+			UIManager.setLayoutAnimationEnabledExperimental(true)
+		}
+	}, [])
+
+	useEffect(() => {
 		if (isFocused) {
 			setTitle(lesson.title)
 		}
@@ -24,13 +38,20 @@ const Lesson = (props: Props): JSX.Element => {
 	const handlePrevious = () => {
 		Animated.timing(opacity, {
 			toValue: 0,
-			duration: 100,
+			duration: 250,
 			useNativeDriver: true
 		}).start(() => {
+			LayoutAnimation.configureNext(
+				LayoutAnimation.create(
+					250,
+					LayoutAnimation.Types.easeInEaseOut,
+					LayoutAnimation.Properties.scaleY
+				)
+			)
 			setPage(page - 1)
 			Animated.timing(opacity, {
 				toValue: 1,
-				duration: 250,
+				duration: 500,
 				useNativeDriver: true
 			}).start()
 		})
@@ -39,13 +60,20 @@ const Lesson = (props: Props): JSX.Element => {
 	const handleNext = () => {
 		Animated.timing(opacity, {
 			toValue: 0,
-			duration: 100,
+			duration: 250,
 			useNativeDriver: true
 		}).start(() => {
+			LayoutAnimation.configureNext(
+				LayoutAnimation.create(
+					250,
+					LayoutAnimation.Types.easeInEaseOut,
+					LayoutAnimation.Properties.scaleY
+				)
+			)
 			setPage(page + 1)
 			Animated.timing(opacity, {
 				toValue: 1,
-				duration: 250,
+				duration: 500,
 				useNativeDriver: true
 			}).start()
 		})
