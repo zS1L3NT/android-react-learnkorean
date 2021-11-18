@@ -17,7 +17,8 @@
 		"strictNullChecks": true,
 		"strictFunctionTypes": true,
 		"outDir": "build",
-		"rootDir": "src"
+		"rootDir": "src",
+		"typeRoots": ["./node_modules/@types", "./src/@types"]
 	},
 	"exclude": ["**/*.test.*", "node_modules", "babel.config.js", "metro.config.js"]
 }
