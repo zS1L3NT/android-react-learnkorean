@@ -4,6 +4,7 @@ import {
 	LayoutAnimation,
 	Platform,
 	SafeAreaView,
+	ScrollView,
 	StyleSheet,
 	Text,
 	UIManager
@@ -16,7 +17,7 @@ import { useIsFocused } from "@react-navigation/native"
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 
 const Lesson = (props: Props): JSX.Element => {
-	const { lesson } = props.route.params
+	const { lesson, month } = props.route.params
 
 	const setTitle = useContext(SetTitleContext)
 	const isFocused = useIsFocused()
@@ -80,45 +81,47 @@ const Lesson = (props: Props): JSX.Element => {
 	}
 
 	const handleContinue = () => {
-		props.navigation.push("LessonQuiz", { lesson })
+		props.navigation.push("LessonQuiz", { lesson, month })
 	}
 
 	return (
 		<SafeAreaView>
-			<Animated.View style={{ opacity }}>
-				<Text style={styles.text}>{lesson.pages[page]}</Text>
-			</Animated.View>
-			<Div row style={styles.buttons}>
-				<Button
-					disabled={page === 0}
-					bg="white"
-					h={40}
-					w={40}
-					rounded="circle"
-					shadow="sm"
-					onPress={handlePrevious}>
-					<Icon name="left" fontSize={16} />
-				</Button>
-				<Button
-					disabled={page !== lesson.pages.length - 1}
-					bg="green400"
-					rounded="circle"
-					shadow="sm"
-					style={styles.continueButton}
-					onPress={handleContinue}>
-					<Text>Continue</Text>
-				</Button>
-				<Button
-					disabled={page === lesson.pages.length - 1}
-					bg="white"
-					h={40}
-					w={40}
-					rounded="circle"
-					shadow="sm"
-					onPress={handleNext}>
-					<Icon name="right" fontSize={16} />
-				</Button>
-			</Div>
+			<ScrollView>
+				<Animated.View style={{ opacity }}>
+					<Text style={styles.text}>{lesson.pages[page]}</Text>
+				</Animated.View>
+				<Div row style={styles.buttons}>
+					<Button
+						disabled={page === 0}
+						bg="white"
+						h={40}
+						w={40}
+						rounded="circle"
+						shadow="sm"
+						onPress={handlePrevious}>
+						<Icon name="left" fontSize={16} />
+					</Button>
+					<Button
+						disabled={page !== lesson.pages.length - 1}
+						bg="green400"
+						rounded="circle"
+						shadow="sm"
+						style={styles.continueButton}
+						onPress={handleContinue}>
+						<Text>Continue</Text>
+					</Button>
+					<Button
+						disabled={page === lesson.pages.length - 1}
+						bg="white"
+						h={40}
+						w={40}
+						rounded="circle"
+						shadow="sm"
+						onPress={handleNext}>
+						<Icon name="right" fontSize={16} />
+					</Button>
+				</Div>
+			</ScrollView>
 		</SafeAreaView>
 	)
 }

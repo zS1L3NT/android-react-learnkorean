@@ -29,7 +29,7 @@ const DayList = (props: Props): JSX.Element => {
 	}
 
 	const handleLesson = (lesson: iLesson) => {
-		props.navigation.push("Lesson", { lesson })
+		props.navigation.push("Lesson", { lesson, month })
 	}
 
 	return (

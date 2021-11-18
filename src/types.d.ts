@@ -7,8 +7,8 @@ type iRootDrawerParamList = {
 type iLessonsStackParamList = {
 	MonthList: undefined
 	DayList: { month: number }
-	Lesson: { lesson: iLesson }
-	LessonQuiz: { lesson: iLesson }
+	Lesson: { lesson: iLesson; month: number }
+	LessonQuiz: { lesson: iLesson; month: number }
 }
 
 type iHangulsStackParamList = {
