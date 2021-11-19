@@ -1,7 +1,7 @@
 import Animated from "react-native-reanimated"
 import React, { useCallback, useContext, useEffect, useState } from "react"
 import { Button, Div } from "react-native-magnus"
-import { LayoutAnimation, SafeAreaView, StyleSheet, Text } from "react-native"
+import { LayoutAnimation, Platform, SafeAreaView, StyleSheet, Text, UIManager } from "react-native"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
 import { useIsFocused } from "@react-navigation/native"
@@ -23,6 +23,12 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			.map((_, i) => i)
 			.sort(() => Math.random() - 0.5)
 	)
+
+	useEffect(() => {
+		if (Platform.OS === "android") {
+			UIManager.setLayoutAnimationEnabledExperimental(true)
+		}
+	}, [])
 
 	useEffect(() => {
 		if (isFocused) {
