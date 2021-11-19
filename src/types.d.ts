@@ -24,7 +24,7 @@ type iGamesStackParamList = {
 type iLesson = {
 	questions: string[]
 	answers: string[]
-	choices: string[]
+	options: string[]
 	pages: string[]
 	title: string
 }
@@ -32,5 +32,5 @@ type iLesson = {
 type iGame = {
 	questions: string[]
 	answers: string[]
-	choices: string[]
+	options: string[]
 }

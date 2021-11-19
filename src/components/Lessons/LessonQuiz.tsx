@@ -37,8 +37,8 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}, [isFocused])
 
 	useEffect(() => {
-		const options = [lesson.choices[order[index]]]
-		let answers = lesson.choices
+		const options = [lesson.options[order[index]]]
+		let answers = lesson.options
 
 		for (let i = 0; i < 3; i++) {
 			answers = answers.filter(a => !options.includes(a))
