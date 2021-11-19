@@ -17,12 +17,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	const [index, setIndex] = useState(0)
 	const [choice, setChoice] = useState<string | null>(null)
 	const [options, setOptions] = useState<string[]>()
-	const [order] = useState(
-		Array(lesson.questions.length)
-			.fill(0)
-			.map((_, i) => i)
-			.sort(() => Math.random() - 0.5)
-	)
+	const [order] = useState(Object.keys(lesson.qna).sort(() => Math.random() - 0.5))
 
 	useEffect(() => {
 		if (Platform.OS === "android") {
@@ -37,21 +32,21 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}, [isFocused])
 
 	useEffect(() => {
-		const options = [lesson.options[order[index]]]
-		let answers = lesson.options
+		const optionsShown = [lesson.qna[order[index]]]
+		const optionsLeft = lesson.options.slice()
 
 		for (let i = 0; i < 3; i++) {
-			answers = answers.filter(a => !options.includes(a))
-			options.push(answers[Math.floor(Math.random() * answers.length)])
+			optionsLeft.splice(optionsLeft.indexOf(optionsShown.slice(-1)[0]!), 1)
+			optionsShown.push(optionsLeft[Math.floor(Math.random() * optionsLeft.length)])
 		}
 
-		options.sort(() => Math.random() - 0.5)
-		setOptions(options)
+		optionsShown.sort(() => Math.random() - 0.5)
+		setOptions(optionsShown)
 	}, [index])
 
 	const getOptionColor = useCallback(
 		(option: string) => {
-			const answer = lesson.answers[order[index]]
+			const answer = lesson.qna[order[index]]
 			if (choice !== null) {
 				if (option === answer) {
 					return "green500"
@@ -67,7 +62,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 
 	const getOptionBackground = useCallback(
 		(option: string) => {
-			const answer = lesson.answers[order[index]]
+			const answer = lesson.qna[order[index]]
 			if (choice !== null && choice === option) {
 				if (option === answer) {
 					return "green200"
@@ -90,7 +85,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			)
 		)
 
-		const answer = lesson.answers[order[index]]
+		const answer = lesson.qna[order[index]]
 		setChoice(option)
 
 		if (option === answer) {
@@ -99,7 +94,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}
 
 	const handleContinue = () => {
-		if (index < lesson.questions.length - 1) {
+		if (index < Object.keys(lesson.qna).length - 1) {
 			LayoutAnimation.configureNext(
 				LayoutAnimation.create(
 					250,
@@ -119,7 +114,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 		<SafeAreaView>
 			<Animated.View>
 				<Div h="100%" justifyContent="center">
-					<Text style={styles.question}>{lesson.questions[order[index]]}</Text>
+					<Text style={styles.question}>{order[index]}</Text>
 					<Div alignSelf="center">
 						{options?.map(option => (
 							<Button
@@ -144,7 +139,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 						))}
 						{choice && (
 							<Button mt="xl" w={200} rounded="lg" onPress={handleContinue}>
-								{index < lesson.questions.length - 1 ? "Continue" : "Exit"}
+								{index < Object.keys(lesson.qna).length - 1 ? "Continue" : "Exit"}
 							</Button>
 						)}
 					</Div>

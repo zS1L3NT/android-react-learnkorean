@@ -1,5 +1,5 @@
 type iRootDrawerParamList = {
-	Lessons: undefined
+	"Lessons": undefined
 	"Learning to Read": undefined
 	"Memory Games": undefined
 }
@@ -22,15 +22,13 @@ type iGamesStackParamList = {
 }
 
 type iLesson = {
-	questions: string[]
-	answers: string[]
-	options: string[]
-	pages: string[]
 	title: string
+	pages: string[]
+	qna: { [question: string]: string }
+	options: string[]
 }
 
 type iGame = {
-	questions: string[]
-	answers: string[]
+	qna: { [question: string]: string }
 	options: string[]
 }

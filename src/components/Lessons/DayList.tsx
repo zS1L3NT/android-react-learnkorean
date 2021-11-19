@@ -56,7 +56,7 @@ const DayList = (props: Props): JSX.Element => {
 				</Button>
 			</Div>
 			<ScrollView style={styles.scroll}>
-				{lessons[month - 1].map((lesson, i) => (
+				{(lessons as iLesson[][])[month - 1].map((lesson, i) => (
 					<View key={i}>
 						<TouchableOpacity
 							style={styles.touchable}
