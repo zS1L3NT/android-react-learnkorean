@@ -21,6 +21,7 @@ type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 const Lesson = (props: Props): JSX.Element => {
 	const { lesson, month, day } = props.route.params
 
+	//#region Hooks
 	const setTitle = useContext(SetTitleContext)
 	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
@@ -28,7 +29,9 @@ const Lesson = (props: Props): JSX.Element => {
 	const [page, setPage] = useState(0)
 	const [overlayVisible, setOverlayVisible] = useState(false)
 	const opacity = useRef(new Animated.Value(1)).current
+	//#endregion
 
+	//#region Effects
 	useEffect(() => {
 		if (Platform.OS === "android") {
 			UIManager.setLayoutAnimationEnabledExperimental(true)
@@ -40,7 +43,9 @@ const Lesson = (props: Props): JSX.Element => {
 			setTitle(lesson.title)
 		}
 	}, [isFocused])
+	//#endregion
 
+	//#region Functions
 	const handlePrevious = () => {
 		Animated.timing(opacity, {
 			toValue: 0,
@@ -106,6 +111,7 @@ const Lesson = (props: Props): JSX.Element => {
 
 		props.navigation.push("LessonQuiz", { lesson, month, day })
 	}
+	//#endregion
 
 	return (
 		<SafeAreaView>

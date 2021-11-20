@@ -8,18 +8,24 @@ import { useIsFocused } from "@react-navigation/native"
 type Props = NativeStackScreenProps<iLessonsStackParamList, "MonthList">
 
 const MonthList = (props: Props): JSX.Element => {
+	//#region Hooks
 	const setTitle = useContext(SetTitleContext)
 	const isFocused = useIsFocused()
+	//#endregion
 
+	//#region Effects
 	useEffect(() => {
 		if (isFocused) {
 			setTitle("Lessons")
 		}
 	}, [isFocused])
+	//#endregion
 
+	//#region Functions
 	const handleMonth = (month: number) => {
 		props.navigation.push("DayList", { month })
 	}
+	//#endregion
 
 	return (
 		<SafeAreaView>

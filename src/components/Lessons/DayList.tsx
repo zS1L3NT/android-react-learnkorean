@@ -11,15 +11,20 @@ type Props = NativeStackScreenProps<iLessonsStackParamList, "DayList">
 const DayList = (props: Props): JSX.Element => {
 	const { month } = props.route.params
 
+	//#region Hooks
 	const setTitle = useContext(SetTitleContext)
 	const isFocused = useIsFocused()
+	//#endregion
 
+	//#region Effects
 	useEffect(() => {
 		if (isFocused) {
 			setTitle(`Lessons - Month ${month}`)
 		}
 	}, [isFocused, month])
+	//#endregion
 
+	//#region Functions
 	const handlePrevious = () => {
 		props.navigation.navigate("DayList", { month: month - 1 })
 	}
@@ -31,6 +36,7 @@ const DayList = (props: Props): JSX.Element => {
 	const handleLesson = (lesson: iLesson, i: number) => {
 		props.navigation.push("Lesson", { lesson, month, day: i + 1 })
 	}
+	//#endregion
 
 	return (
 		<SafeAreaView>

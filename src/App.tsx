@@ -14,7 +14,9 @@ const Drawer = createDrawerNavigator<iRootDrawerParamList>()
 export const SetTitleContext = createContext<(title: string) => void>(() => {})
 
 const App = (): JSX.Element => {
+	//#region Hooks
 	const [title, setTitle] = useState("Learn Korean")
+	//#endregion
 
 	return (
 		<ThemeProvider>
