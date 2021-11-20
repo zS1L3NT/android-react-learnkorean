@@ -1,8 +1,9 @@
 import React, { useContext, useEffect } from "react"
 import { Games as games } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
 import { SetTitleContext } from "../../App"
+import { Text } from "react-native-magnus"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iGamesStackParamList, "GameList">
@@ -30,7 +31,7 @@ const GameList = (props: Props): JSX.Element => {
 						<TouchableOpacity
 							style={styles.touchable}
 							onPress={() => handleTitle(title)}>
-							<Text style={styles.text}>{title}</Text>
+							<Text>{title}</Text>
 						</TouchableOpacity>
 					</View>
 				))}
@@ -47,9 +48,6 @@ const styles = StyleSheet.create({
 		marginEnd: 10,
 		borderRadius: 10,
 		backgroundColor: "#fefefe"
-	},
-	text: {
-		fontSize: 18
 	}
 })
 

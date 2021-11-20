@@ -4,6 +4,7 @@ import Lessons from "./pages/Lessons"
 import persistStore from "redux-persist/es/persistStore"
 import React, { createContext, useState } from "react"
 import store from "./store"
+import theme from "./theme"
 import { createDrawerNavigator } from "@react-navigation/drawer"
 import { NavigationContainer } from "@react-navigation/native"
 import { PersistGate } from "redux-persist/integration/react"
@@ -19,7 +20,7 @@ const App = (): JSX.Element => {
 	//#endregion
 
 	return (
-		<ThemeProvider>
+		<ThemeProvider theme={theme}>
 			<Provider store={store}>
 				<PersistGate persistor={persistStore(store)}>
 					<SetTitleContext.Provider value={setTitle}>

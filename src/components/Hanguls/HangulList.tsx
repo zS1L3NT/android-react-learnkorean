@@ -1,8 +1,9 @@
 import React, { useContext, useEffect } from "react"
 import { Hanguls as hanguls } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
 import { SetTitleContext } from "../../App"
+import { Text } from "react-native-magnus"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iHangulsStackParamList, "HangulList">
@@ -32,7 +33,7 @@ const HangulList = (props: Props): JSX.Element => {
 							<TouchableOpacity
 								style={styles.touchable}
 								onPress={() => handlePage(page)}>
-								<Text style={styles.text}>Page {page}</Text>
+								<Text>Page {page}</Text>
 							</TouchableOpacity>
 						</View>
 					))}
@@ -49,9 +50,6 @@ const styles = StyleSheet.create({
 		marginEnd: 10,
 		borderRadius: 10,
 		backgroundColor: "#fefefe"
-	},
-	text: {
-		fontSize: 18
 	}
 })
 

@@ -1,13 +1,13 @@
 import Animated from "react-native-reanimated"
 import equal from "deep-equal"
 import React, { useCallback, useContext, useEffect, useState } from "react"
-import { Button, Div } from "react-native-magnus"
+import { Button, Div, Text } from "react-native-magnus"
 import {
 	clearLessonQuizAnswers,
 	setLessonCompleted,
 	setLessonQuizAnswers
 } from "../../actions/LessonsActions"
-import { LayoutAnimation, Platform, SafeAreaView, StyleSheet, Text, UIManager } from "react-native"
+import { LayoutAnimation, Platform, SafeAreaView, UIManager } from "react-native"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
 import { useDispatch, useSelector } from "react-redux"
@@ -158,9 +158,8 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	return (
 		<SafeAreaView>
 			<Animated.View>
-				<Div h="100%" justifyContent="center">
-					<Text style={styles.question}>
-						{Object.keys(qna || {}).length + 1}/{Object.keys(lesson.qna || {}).length}:{" "}
+				<Div justifyContent="center" h="100%">
+					<Text fontSize="xl" textAlign="center" m="md" mb="xl">
 						{order[0]}
 					</Text>
 					<Div alignSelf="center">
@@ -169,25 +168,27 @@ const LessonQuiz = (props: Props): JSX.Element => {
 								key={option}
 								w={200}
 								mt="lg"
-								px="xl"
-								py="lg"
 								bg={getOptionBackground(option)}
 								textAlign="center"
 								alignSelf="center"
 								rounded="lg"
-								shadow="sm"
-								fontSize={18}
 								borderWidth={2}
 								borderColor={getOptionColor(option)}
-								color={getOptionColor(option)}
 								disabled={choice !== null}
 								onPress={() => handleOption(option)}>
-								{option}
+								<Text color={getOptionColor(option)}>{option}</Text>
 							</Button>
 						))}
 						{choice && (
-							<Button mt="xl" w={200} rounded="lg" onPress={handleContinue}>
-								{order.length !== 1 ? "Continue" : "Exit"}
+							<Button
+								mt="xl"
+								bg="blue300"
+								w={200}
+								rounded="lg"
+								onPress={handleContinue}>
+								<Text fontSize="sm">
+									{order.length !== 1 ? "Continue" : "Exit"}
+								</Text>
 							</Button>
 						)}
 					</Div>
@@ -196,14 +197,5 @@ const LessonQuiz = (props: Props): JSX.Element => {
 		</SafeAreaView>
 	)
 }
-
-const styles = StyleSheet.create({
-	question: {
-		fontSize: 22,
-		textAlign: "center",
-		margin: 10,
-		marginBottom: 30
-	}
-})
 
 export default LessonQuiz

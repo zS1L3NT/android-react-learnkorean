@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from "react"
-import { Button, Div, Icon } from "react-native-magnus"
+import { Button, Div, Icon, Text } from "react-native-magnus"
 import { Lessons as lessons } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
 import { SetTitleContext } from "../../App"
 import { useIsFocused } from "@react-navigation/native"
 
@@ -40,24 +40,20 @@ const DayList = (props: Props): JSX.Element => {
 
 	return (
 		<SafeAreaView>
-			<Div bg="white" rounded="sm" shadow="sm" style={styles.month} row>
-				<Button
-					disabled={month === 1}
-					bg="white"
-					h={40}
-					w={40}
-					rounded="circle"
-					onPress={handlePrevious}>
+			<Div
+				justifyContent="space-between"
+				mt="lg"
+				mx="lg"
+				p="lg"
+				bg="white"
+				rounded="sm"
+				shadow="sm"
+				row>
+				<Button disabled={month === 1} bg="white" h={40} w={40} onPress={handlePrevious}>
 					<Icon name="left" fontSize={16} />
 				</Button>
-				<Text style={styles.monthText}>Month {month}</Text>
-				<Button
-					disabled={month === 5}
-					bg="white"
-					h={40}
-					w={40}
-					rounded="circle"
-					onPress={handleNext}>
+				<Text textAlign="center">Month {month}</Text>
+				<Button disabled={month === 5} bg="white" h={40} w={40} onPress={handleNext}>
 					<Icon name="right" fontSize={16} />
 				</Button>
 			</Div>
@@ -67,7 +63,7 @@ const DayList = (props: Props): JSX.Element => {
 						<TouchableOpacity
 							style={styles.touchable}
 							onPress={() => handleLesson(lesson, i)}>
-							<Text style={styles.touchableText}>
+							<Text>
 								Day {i + 1} - {lesson.title}
 							</Text>
 						</TouchableOpacity>
@@ -79,18 +75,6 @@ const DayList = (props: Props): JSX.Element => {
 }
 
 const styles = StyleSheet.create({
-	month: {
-		padding: 12,
-		marginTop: 8,
-		marginStart: 10,
-		marginEnd: 10,
-		justifyContent: "space-between"
-	},
-	monthText: {
-		alignSelf: "center",
-		textAlign: "center",
-		fontSize: 18
-	},
 	scroll: {
 		marginTop: 10
 	},
@@ -101,9 +85,6 @@ const styles = StyleSheet.create({
 		marginEnd: 10,
 		borderRadius: 10,
 		backgroundColor: "#fefefe"
-	},
-	touchableText: {
-		fontSize: 18
 	}
 })
 

@@ -5,11 +5,9 @@ import {
 	Platform,
 	SafeAreaView,
 	ScrollView,
-	StyleSheet,
-	Text,
 	UIManager
 } from "react-native"
-import { Button, Div, Icon, Overlay } from "react-native-magnus"
+import { Button, Div, Icon, Overlay, Text } from "react-native-magnus"
 import { clearLessonQuizAnswers } from "../../actions/LessonsActions"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
@@ -117,63 +115,44 @@ const Lesson = (props: Props): JSX.Element => {
 		<SafeAreaView>
 			<ScrollView>
 				<Animated.View style={{ opacity }}>
-					<Text style={styles.text}>{lesson.pages[page]}</Text>
+					<Text m="lg">{lesson.pages[page]}</Text>
 				</Animated.View>
-				<Div row style={styles.buttons}>
-					<Button
-						disabled={page === 0}
-						bg="white"
-						h={40}
-						w={40}
-						rounded="circle"
-						shadow="sm"
-						onPress={handlePrevious}>
-						<Icon name="left" fontSize={16} />
+				<Div justifyContent="space-between" m="md" p="md" row>
+					<Button disabled={page === 0} bg="white" h={40} w={40} onPress={handlePrevious}>
+						<Icon name="left" />
 					</Button>
 					<Button
 						disabled={page !== lesson.pages.length - 1}
 						bg="green400"
-						rounded="circle"
-						shadow="sm"
-						style={styles.textButton}
+						px="xl"
 						onPress={handleContinue}>
-						<Text>Continue</Text>
+						Continue
 					</Button>
 					<Button
 						disabled={page === lesson.pages.length - 1}
 						bg="white"
 						h={40}
 						w={40}
-						rounded="circle"
-						shadow="sm"
 						onPress={handleNext}>
-						<Icon name="right" fontSize={16} />
+						<Icon name="right" />
 					</Button>
 				</Div>
 				<Overlay visible={overlayVisible}>
-					<Text style={styles.overlayTitle}>Quiz Incomplete!</Text>
-					<Text style={styles.overlayMessage}>
+					<Text textAlign="center" fontSize="lg" mb="md">
+						Quiz Incomplete!
+					</Text>
+					<Text textAlign="center">
 						{"Do you want to "}
-						<Text style={styles.bold}>restart your progress</Text>
+						<Text fontWeight="bold">restart your progress</Text>
 						{" or "}
-						<Text style={styles.bold}>continue the quiz</Text>
+						<Text fontWeight="bold">continue the quiz</Text>
 						{"?"}
 					</Text>
-					<Div mt="xl" justifyContent="space-evenly" row>
-						<Button
-							bg="red400"
-							rounded="circle"
-							shadow="sm"
-							style={styles.textButton}
-							onPress={handleOverlayRestart}>
+					<Div justifyContent="space-evenly" mt="xl" row>
+						<Button bg="red400" px="xl" onPress={handleOverlayRestart}>
 							Restart
 						</Button>
-						<Button
-							bg="green400"
-							rounded="circle"
-							shadow="sm"
-							style={styles.textButton}
-							onPress={handleOverlayContinue}>
+						<Button bg="green400" px="xl" onPress={handleOverlayContinue}>
 							Continue
 						</Button>
 					</Div>
@@ -182,33 +161,5 @@ const Lesson = (props: Props): JSX.Element => {
 		</SafeAreaView>
 	)
 }
-
-const styles = StyleSheet.create({
-	text: {
-		fontSize: 18,
-		margin: 16
-	},
-	textButton: {
-		paddingStart: 12,
-		paddingEnd: 12
-	},
-	buttons: {
-		margin: 12,
-		padding: 12,
-		justifyContent: "space-between"
-	},
-	overlayTitle: {
-		fontSize: 22,
-		textAlign: "center",
-		marginBottom: 12
-	},
-	overlayMessage: {
-		fontSize: 18,
-		textAlign: "center"
-	},
-	bold: {
-		fontWeight: "bold"
-	}
-})
 
 export default Lesson
