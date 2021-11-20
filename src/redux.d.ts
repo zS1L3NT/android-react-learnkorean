@@ -3,18 +3,8 @@
  */
 export type iLessonsData = {
 	completed: boolean
-	page: number
 	qna: Record<string, string>
 }[][]
-
-export interface iSetLessonPage {
-	type: "SET_LESSON_PAGE"
-	payload: {
-		day: number
-		month: number
-		page: number
-	}
-}
 
 export interface iSetLessonQuizAnswers {
 	type: "SET_LESSON_QUIZ_ANSWERS"
@@ -42,7 +32,6 @@ export interface iClearLessonQuizAnswers {
 }
 
 export type iLessonsActions =
-	| iSetLessonPage
 	| iSetLessonQuizAnswers
 	| iSetLessonCompleted
 	| iClearLessonQuizAnswers

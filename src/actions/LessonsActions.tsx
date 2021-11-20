@@ -1,18 +1,8 @@
 import {
 	iClearLessonQuizAnswers,
 	iSetLessonCompleted,
-	iSetLessonPage,
 	iSetLessonQuizAnswers
 } from "../redux"
-
-export const setLessonPage = (day: number, month: number, page: number): iSetLessonPage => ({
-	type: "SET_LESSON_PAGE",
-	payload: {
-		day,
-		month,
-		page
-	}
-})
 
 export const setLessonQuizAnswers = (
 	day: number,
