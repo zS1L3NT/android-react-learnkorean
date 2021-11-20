@@ -1,5 +1,5 @@
 type iRootDrawerParamList = {
-	"Lessons": undefined
+	Lessons: undefined
 	"Learning to Read": undefined
 	"Memory Games": undefined
 }
@@ -7,8 +7,8 @@ type iRootDrawerParamList = {
 type iLessonsStackParamList = {
 	MonthList: undefined
 	DayList: { month: number }
-	Lesson: { lesson: iLesson; month: number }
-	LessonQuiz: { lesson: iLesson; month: number }
+	Lesson: { lesson: iLesson; month: number; day: number }
+	LessonQuiz: { lesson: iLesson; month: number; day: number }
 }
 
 type iHangulsStackParamList = {
@@ -24,11 +24,11 @@ type iGamesStackParamList = {
 type iLesson = {
 	title: string
 	pages: string[]
-	qna: { [question: string]: string }
+	qna: Record<string, string>
 	options: string[]
 }
 
 type iGame = {
-	qna: { [question: string]: string }
+	qna: Record<string, string>
 	options: string[]
 }

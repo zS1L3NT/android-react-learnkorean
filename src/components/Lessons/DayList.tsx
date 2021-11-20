@@ -28,8 +28,8 @@ const DayList = (props: Props): JSX.Element => {
 		props.navigation.navigate("DayList", { month: month + 1 })
 	}
 
-	const handleLesson = (lesson: iLesson) => {
-		props.navigation.push("Lesson", { lesson, month })
+	const handleLesson = (lesson: iLesson, i: number) => {
+		props.navigation.push("Lesson", { lesson, month, day: i + 1 })
 	}
 
 	return (
@@ -60,7 +60,7 @@ const DayList = (props: Props): JSX.Element => {
 					<View key={i}>
 						<TouchableOpacity
 							style={styles.touchable}
-							onPress={() => handleLesson(lesson)}>
+							onPress={() => handleLesson(lesson, i)}>
 							<Text style={styles.touchableText}>
 								Day {i + 1} - {lesson.title}
 							</Text>

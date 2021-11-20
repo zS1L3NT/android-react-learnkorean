@@ -5,20 +5,27 @@ import { LayoutAnimation, Platform, SafeAreaView, StyleSheet, Text, UIManager } 
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
 import { useIsFocused } from "@react-navigation/native"
+import { useDispatch, useSelector } from "react-redux"
+import { setLessonQuizAnswers } from "../../actions/LessonsActions"
+import equal from "deep-equal"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 
 const LessonQuiz = (props: Props): JSX.Element => {
-	const { lesson, month } = props.route.params
+	const { lesson, month, day } = props.route.params
 
+	//#region Hooks
 	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
-	const [score, setScore] = useState(0)
-	const [index, setIndex] = useState(0)
-	const [choice, setChoice] = useState<string | null>(null)
-	const [options, setOptions] = useState<string[]>()
-	const [order] = useState(Object.keys(lesson.qna).sort(() => Math.random() - 0.5))
+	const progress = useSelector(state => state.lessons[month - 1][day - 1].qna)
+	const [qna, setQNA] = useState<Record<string, string>>()
+	const [order, setOrder] = useState<string[]>([]) // order of questions to display
+	const [options, setOptions] = useState<string[]>() // current question options
+	const [choice, setChoice] = useState<string | null>(null) // current question user's selection
+	//#endregion
 
+	//#region Effects
 	useEffect(() => {
 		if (Platform.OS === "android") {
 			UIManager.setLayoutAnimationEnabledExperimental(true)
@@ -32,7 +39,26 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}, [isFocused])
 
 	useEffect(() => {
-		const optionsShown = [lesson.qna[order[index]]]
+		console.log("create", day, month, qna, progress)
+		if (!qna && progress) {
+			const unanswered = Object.keys(lesson.qna).filter(q => !(q in progress))
+			console.log("unanswered", unanswered)
+			setOrder(unanswered.sort(() => Math.random() - 0.5))
+			setQNA(progress) // answered set here so wrap scope in "if"
+		}
+		return () => {
+			console.log("destroy", qna, progress)
+			if (qna && !equal(qna, progress)) {
+				console.log("destroying", qna, progress)
+				dispatch(setLessonQuizAnswers(day, month, qna))
+			}
+		}
+	}, [qna, progress])
+
+	useEffect(() => {
+		if (order.length === 0) return
+
+		const optionsShown = [lesson.qna[order[0]]]
 		const optionsLeft = lesson.options.slice()
 
 		for (let i = 0; i < 3; i++) {
@@ -42,11 +68,13 @@ const LessonQuiz = (props: Props): JSX.Element => {
 
 		optionsShown.sort(() => Math.random() - 0.5)
 		setOptions(optionsShown)
-	}, [index])
+	}, [order])
+	//#endregion
 
+	//#region Functions
 	const getOptionColor = useCallback(
 		(option: string) => {
-			const answer = lesson.qna[order[index]]
+			const answer = lesson.qna[order[0]]
 			if (choice !== null) {
 				if (option === answer) {
 					return "green500"
@@ -62,7 +90,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 
 	const getOptionBackground = useCallback(
 		(option: string) => {
-			const answer = lesson.qna[order[index]]
+			const answer = lesson.qna[order[0]]
 			if (choice !== null && choice === option) {
 				if (option === answer) {
 					return "green200"
@@ -85,16 +113,15 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			)
 		)
 
-		const answer = lesson.qna[order[index]]
 		setChoice(option)
-
-		if (option === answer) {
-			setScore(score + 1)
-		}
+		setQNA(prev => ({
+			...prev,
+			[order[0]]: option
+		}))
 	}
 
 	const handleContinue = () => {
-		if (index < Object.keys(lesson.qna).length - 1) {
+		if (order.length !== 1) {
 			LayoutAnimation.configureNext(
 				LayoutAnimation.create(
 					250,
@@ -104,17 +131,21 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			)
 
 			setChoice(null)
-			setIndex(index + 1)
+			setOrder(order => order.slice(1, order.length))
 		} else {
 			props.navigation.navigate("DayList", { month })
 		}
 	}
+	//#endregion
 
 	return (
 		<SafeAreaView>
 			<Animated.View>
 				<Div h="100%" justifyContent="center">
-					<Text style={styles.question}>{order[index]}</Text>
+					<Text style={styles.question}>
+						{Object.keys(qna || {}).length + 1}/
+						{Object.keys(lesson.qna || {}).length}: {order[0]}
+					</Text>
 					<Div alignSelf="center">
 						{options?.map(option => (
 							<Button
@@ -139,7 +170,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 						))}
 						{choice && (
 							<Button mt="xl" w={200} rounded="lg" onPress={handleContinue}>
-								{index < Object.keys(lesson.qna).length - 1 ? "Continue" : "Exit"}
+								{order.length !== 1 ? "Continue" : "Exit"}
 							</Button>
 						)}
 					</Div>

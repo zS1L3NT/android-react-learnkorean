@@ -17,7 +17,7 @@ import { useIsFocused } from "@react-navigation/native"
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 
 const Lesson = (props: Props): JSX.Element => {
-	const { lesson, month } = props.route.params
+	const { lesson, month, day } = props.route.params
 
 	const setTitle = useContext(SetTitleContext)
 	const isFocused = useIsFocused()
@@ -81,7 +81,7 @@ const Lesson = (props: Props): JSX.Element => {
 	}
 
 	const handleContinue = () => {
-		props.navigation.push("LessonQuiz", { lesson, month })
+		props.navigation.push("LessonQuiz", { lesson, month, day })
 	}
 
 	return (
