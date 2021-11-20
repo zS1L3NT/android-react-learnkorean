@@ -1,4 +1,9 @@
-import { iClearLessonQuizAnswers, iSetLessonPage, iSetLessonQuizAnswers } from "../redux"
+import {
+	iClearLessonQuizAnswers,
+	iSetLessonCompleted,
+	iSetLessonPage,
+	iSetLessonQuizAnswers
+} from "../redux"
 
 export const setLessonPage = (day: number, month: number, page: number): iSetLessonPage => ({
 	type: "SET_LESSON_PAGE",
@@ -19,6 +24,14 @@ export const setLessonQuizAnswers = (
 		day,
 		month,
 		qna
+	}
+})
+
+export const setLessonCompleted = (day: number, month: number): iSetLessonCompleted => ({
+	type: "SET_LESSON_COMPLETED",
+	payload: {
+		day,
+		month
 	}
 })
 

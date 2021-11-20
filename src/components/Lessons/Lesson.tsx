@@ -9,9 +9,11 @@ import {
 	Text,
 	UIManager
 } from "react-native"
-import { Button, Div, Icon } from "react-native-magnus"
+import { Button, Div, Icon, Overlay } from "react-native-magnus"
+import { clearLessonQuizAnswers } from "../../actions/LessonsActions"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
+import { useDispatch, useSelector } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
@@ -20,8 +22,11 @@ const Lesson = (props: Props): JSX.Element => {
 	const { lesson, month, day } = props.route.params
 
 	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
+	const progress = useSelector(state => state.lessons[month - 1][day - 1].qna)
 	const [page, setPage] = useState(0)
+	const [overlayVisible, setOverlayVisible] = useState(false)
 	const opacity = useRef(new Animated.Value(1)).current
 
 	useEffect(() => {
@@ -81,6 +86,24 @@ const Lesson = (props: Props): JSX.Element => {
 	}
 
 	const handleContinue = () => {
+		if (Object.keys(progress).length === 0) {
+			props.navigation.push("LessonQuiz", { lesson, month, day })
+		} else {
+			setOverlayVisible(true)
+		}
+	}
+
+	const handleOverlayRestart = () => {
+		setOverlayVisible(false)
+		dispatch(clearLessonQuizAnswers(day, month))
+		console.log(`Cleared lesson progress (${day}, ${month})`)
+
+		props.navigation.push("LessonQuiz", { lesson, month, day })
+	}
+
+	const handleOverlayContinue = () => {
+		setOverlayVisible(false)
+
 		props.navigation.push("LessonQuiz", { lesson, month, day })
 	}
 
@@ -106,7 +129,7 @@ const Lesson = (props: Props): JSX.Element => {
 						bg="green400"
 						rounded="circle"
 						shadow="sm"
-						style={styles.continueButton}
+						style={styles.textButton}
 						onPress={handleContinue}>
 						<Text>Continue</Text>
 					</Button>
@@ -121,6 +144,34 @@ const Lesson = (props: Props): JSX.Element => {
 						<Icon name="right" fontSize={16} />
 					</Button>
 				</Div>
+				<Overlay visible={overlayVisible}>
+					<Text style={styles.overlayTitle}>Quiz Incomplete!</Text>
+					<Text style={styles.overlayMessage}>
+						{"Do you want to "}
+						<Text style={styles.bold}>restart your progress</Text>
+						{" or "}
+						<Text style={styles.bold}>continue the quiz</Text>
+						{"?"}
+					</Text>
+					<Div mt="xl" justifyContent="space-evenly" row>
+						<Button
+							bg="red400"
+							rounded="circle"
+							shadow="sm"
+							style={styles.textButton}
+							onPress={handleOverlayRestart}>
+							Restart
+						</Button>
+						<Button
+							bg="green400"
+							rounded="circle"
+							shadow="sm"
+							style={styles.textButton}
+							onPress={handleOverlayContinue}>
+							Continue
+						</Button>
+					</Div>
+				</Overlay>
 			</ScrollView>
 		</SafeAreaView>
 	)
@@ -131,7 +182,7 @@ const styles = StyleSheet.create({
 		fontSize: 18,
 		margin: 16
 	},
-	continueButton: {
+	textButton: {
 		paddingStart: 12,
 		paddingEnd: 12
 	},
@@ -139,6 +190,18 @@ const styles = StyleSheet.create({
 		margin: 12,
 		padding: 12,
 		justifyContent: "space-between"
+	},
+	overlayTitle: {
+		fontSize: 22,
+		textAlign: "center",
+		marginBottom: 12
+	},
+	overlayMessage: {
+		fontSize: 18,
+		textAlign: "center"
+	},
+	bold: {
+		fontWeight: "bold"
 	}
 })
 

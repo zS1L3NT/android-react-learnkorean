@@ -1,13 +1,17 @@
 import Animated from "react-native-reanimated"
+import equal from "deep-equal"
 import React, { useCallback, useContext, useEffect, useState } from "react"
 import { Button, Div } from "react-native-magnus"
+import {
+	clearLessonQuizAnswers,
+	setLessonCompleted,
+	setLessonQuizAnswers
+} from "../../actions/LessonsActions"
 import { LayoutAnimation, Platform, SafeAreaView, StyleSheet, Text, UIManager } from "react-native"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SetTitleContext } from "../../App"
-import { useIsFocused } from "@react-navigation/native"
 import { useDispatch, useSelector } from "react-redux"
-import { setLessonQuizAnswers } from "../../actions/LessonsActions"
-import equal from "deep-equal"
+import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "Lesson">
 
@@ -39,21 +43,34 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}, [isFocused])
 
 	useEffect(() => {
-		console.log("create", day, month, qna, progress)
 		if (!qna && progress) {
+			// If qna is unset and previous progress exists
+			// Should only run once
 			const unanswered = Object.keys(lesson.qna).filter(q => !(q in progress))
-			console.log("unanswered", unanswered)
 			setOrder(unanswered.sort(() => Math.random() - 0.5))
-			setQNA(progress) // answered set here so wrap scope in "if"
-		}
-		return () => {
-			console.log("destroy", qna, progress)
-			if (qna && !equal(qna, progress)) {
-				console.log("destroying", qna, progress)
-				dispatch(setLessonQuizAnswers(day, month, qna))
-			}
+			setQNA(progress)
 		}
 	}, [qna, progress])
+
+	useEffect(() => {
+		if (qna) {
+			if (Object.keys(qna).length === Object.keys(lesson.qna).length) {
+				// If all questions answered, regardless if correct or wrong
+				dispatch(clearLessonQuizAnswers(day, month))
+				console.log(`Cleared lesson progress (${day}, ${month})`)
+
+				if (equal(qna, lesson.qna)) {
+					// If all questions are correct
+					dispatch(setLessonCompleted(day, month))
+					console.log(`Set lesson complete (${day}, ${month})`)
+				}
+			} else {
+				// Not all questions answered yet, save progress
+				dispatch(setLessonQuizAnswers(day, month, qna))
+				console.log(`Saving lesson progress (${day}, ${month})`, qna)
+			}
+		}
+	}, [qna])
 
 	useEffect(() => {
 		if (order.length === 0) return
@@ -85,7 +102,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 				return "grey"
 			}
 		},
-		[choice]
+		[choice, order]
 	)
 
 	const getOptionBackground = useCallback(
@@ -101,7 +118,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 				return "white"
 			}
 		},
-		[choice]
+		[choice, order]
 	)
 
 	const handleOption = (option: string) => {
@@ -143,8 +160,8 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			<Animated.View>
 				<Div h="100%" justifyContent="center">
 					<Text style={styles.question}>
-						{Object.keys(qna || {}).length + 1}/
-						{Object.keys(lesson.qna || {}).length}: {order[0]}
+						{Object.keys(qna || {}).length + 1}/{Object.keys(lesson.qna || {}).length}:{" "}
+						{order[0]}
 					</Text>
 					<Div alignSelf="center">
 						{options?.map(option => (
