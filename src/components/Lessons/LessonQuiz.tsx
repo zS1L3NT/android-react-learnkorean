@@ -1,7 +1,7 @@
 import Animated from "react-native-reanimated"
 import equal from "deep-equal"
 import React, { useCallback, useContext, useEffect, useState } from "react"
-import { Button, Div, Text } from "react-native-magnus"
+import { Button, Div, Overlay, Text } from "react-native-magnus"
 import {
 	clearLessonQuizAnswers,
 	setLessonCompleted,
@@ -49,6 +49,14 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			// Should only run once
 			const unanswered = Object.keys(lesson.qna).filter(q => !(q in progress))
 			setOrder(unanswered.sort(() => Math.random() - 0.5))
+
+			LayoutAnimation.configureNext(
+				LayoutAnimation.create(
+					250,
+					LayoutAnimation.Types.easeInEaseOut,
+					LayoutAnimation.Properties.opacity
+				)
+			)
 			setQNA(progress)
 		}
 	}, [qna, progress])
@@ -90,37 +98,37 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	//#endregion
 
 	//#region Functions
-	const getOptionColor = useCallback(
+	const getOptionBackground = useCallback(
 		(option: string) => {
 			const answer = lesson.qna[order[0]]
 			if (choice !== null) {
-				if (option === answer) {
-					return "green500"
-				} else {
-					return "red500"
+				if (choice === option) {
+					if (choice === answer) {
+						return "green200"
+					} else {
+						return "red200"
+					}
 				}
-			} else {
-				return "grey"
+
+				if (option === answer) {
+					return "green200"
+				}
 			}
+			return "white"
 		},
 		[choice, order]
 	)
 
-	const getOptionBackground = useCallback(
-		(option: string) => {
-			const answer = lesson.qna[order[0]]
-			if (choice !== null && choice === option) {
-				if (option === answer) {
-					return "green200"
-				} else {
-					return "red200"
-				}
-			} else {
-				return "white"
+	const getScore = useCallback(() => {
+		let score = 0
+		for (const question in qna) {
+			if (qna[question] === lesson.qna[question]) {
+				score++
 			}
-		},
-		[choice, order]
-	)
+		}
+
+		return score
+	}, [qna])
 
 	const handleOption = (option: string) => {
 		LayoutAnimation.configureNext(
@@ -139,72 +147,84 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	}
 
 	const handleContinue = () => {
-		if (order.length !== 1) {
-			// Continue button
-			LayoutAnimation.configureNext(
-				LayoutAnimation.create(
-					250,
-					LayoutAnimation.Types.easeInEaseOut,
-					LayoutAnimation.Properties.opacity
-				)
+		LayoutAnimation.configureNext(
+			LayoutAnimation.create(
+				250,
+				LayoutAnimation.Types.easeInEaseOut,
+				LayoutAnimation.Properties.opacity
 			)
+		)
 
-			setChoice(null)
-			setOrder(order => order.slice(1, order.length))
-		} else {
-			// Edit button
-			let score = 0
-			for (const question in qna) {
-				if (qna[question] === lesson.qna[question]) {
-					score++
-				}
-			}
+		setChoice(null)
+		setOrder(order => order.slice(1, order.length))
+	}
 
-			dispatch(setLessonQuizHighest(day, month, score))
-			props.navigation.navigate("DayList", { month })
-		}
+	const handleExit = () => {
+		dispatch(setLessonQuizHighest(day, month, getScore()))
+		props.navigation.navigate("DayList", { month })
 	}
 	//#endregion
 
 	return (
 		<SafeAreaView>
 			<Animated.View>
-				<Div justifyContent="center" h="100%">
-					<Text fontSize="xl" textAlign="center" m="md" mb="xl">
-						{order[0]}
-					</Text>
-					<Div alignSelf="center">
+				<Div justifyContent="center" h="90%">
+					<Div alignSelf="center" bg="white" w="90%" mb="xl" shadow="sm" rounded="xl">
+						<Text
+							fontSize="md"
+							fontWeight="300"
+							textAlign="center"
+							m="md"
+							mb="xl"
+							opacity={0.4}>
+							Q{Object.keys(lesson.qna).length - order.length + 1}/
+							{Object.keys(lesson.qna).length}
+						</Text>
+						<Text fontSize="lg" textAlign="center" m="md" mb="lg">
+							{order[0]}
+						</Text>
+					</Div>
+					<Div alignSelf="center" w="90%">
 						{options?.map(option => (
 							<Button
 								key={option}
-								w={200}
+								w="100%"
 								mt="lg"
 								bg={getOptionBackground(option)}
+								rounded="xl"
 								textAlign="center"
 								alignSelf="center"
-								rounded="lg"
-								borderWidth={2}
-								borderColor={getOptionColor(option)}
 								disabled={choice !== null}
 								onPress={() => handleOption(option)}>
-								<Text color={getOptionColor(option)}>{option}</Text>
+								<Text color="grey">{option}</Text>
 							</Button>
 						))}
-						{choice && (
+						{choice && order.length !== 1 && (
 							<Button
+								alignSelf="center"
 								mt="xl"
 								bg="blue300"
 								w={200}
 								rounded="lg"
 								onPress={handleContinue}>
-								<Text fontSize="sm">
-									{order.length !== 1 ? "Continue" : "Exit"}
-								</Text>
+								<Text fontSize="sm">Continue</Text>
 							</Button>
 						)}
 					</Div>
 				</Div>
 			</Animated.View>
+			<Overlay visible={choice !== null && order.length === 1} rounded="xl">
+				<Text fontSize="xl" textAlign="center" mb="md">
+					Quiz Complete!
+				</Text>
+				<Text textAlign="center">Your Score:</Text>
+				<Text textAlign="center" fontWeight="bold">
+					{getScore()}/{Object.keys(lesson.qna).length}
+				</Text>
+				<Text textAlign="center" color="blue500" mt="2xl" onPress={handleExit}>
+					Exit
+				</Text>
+			</Overlay>
 		</SafeAreaView>
 	)
 }

@@ -149,12 +149,12 @@ const Lesson = (props: Props): JSX.Element => {
 						{"?"}
 					</Text>
 					<Div justifyContent="space-evenly" mt="xl" row>
-						<Button bg="red400" px="xl" onPress={handleOverlayRestart}>
+						<Text color="red500" onPress={handleOverlayRestart}>
 							Restart
-						</Button>
-						<Button bg="green400" px="xl" onPress={handleOverlayContinue}>
+						</Text>
+						<Text color="green500" onPress={handleOverlayContinue}>
 							Continue
-						</Button>
+						</Text>
 					</Div>
 				</Overlay>
 			</ScrollView>
