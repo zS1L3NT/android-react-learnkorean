@@ -95,6 +95,10 @@ const Lesson = (props: Props): JSX.Element => {
 		}
 	}
 
+	const handleClose = () => {
+		setOverlayVisible(false)
+	}
+
 	const handleOverlayRestart = () => {
 		setOverlayVisible(false)
 		dispatch(clearLessonQuizAnswers(day, month))
@@ -137,7 +141,7 @@ const Lesson = (props: Props): JSX.Element => {
 					</Button>
 				</Div>
 			</ScrollView>
-			<Overlay visible={overlayVisible}>
+			<Overlay visible={overlayVisible} onBackdropPress={handleClose}>
 				<Text textAlign="center" fontSize="lg" mb="md">
 					Quiz Incomplete!
 				</Text>
