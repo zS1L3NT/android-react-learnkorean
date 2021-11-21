@@ -23,7 +23,7 @@ const Lesson = (props: Props): JSX.Element => {
 	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 	const progress = useSelector(state => state.lessons[month - 1][day - 1].qna)
-	const [page, setPage] = useState(0)
+	const [page, setPage] = useState(1)
 	const [overlayVisible, setOverlayVisible] = useState(false)
 	const opacity = useRef(new Animated.Value(1)).current
 	//#endregion
@@ -114,21 +114,21 @@ const Lesson = (props: Props): JSX.Element => {
 		<SafeAreaView>
 			<ScrollView>
 				<Animated.View style={{ opacity }}>
-					<Text m="lg">{lesson.pages[page]}</Text>
+					<Text m="lg">{lesson.pages[page - 1]}</Text>
 				</Animated.View>
 				<Div justifyContent="space-between" m="md" p="md" row>
-					<Button disabled={page === 0} bg="white" h={40} w={40} onPress={handleBack}>
+					<Button disabled={page === 1} bg="white" h={40} w={40} onPress={handleBack}>
 						<Icon name="left" />
 					</Button>
 					<Button
-						disabled={page !== lesson.pages.length - 1}
+						disabled={page !== lesson.pages.length}
 						bg="green400"
 						px="xl"
 						onPress={handleContinue}>
 						Continue
 					</Button>
 					<Button
-						disabled={page === lesson.pages.length - 1}
+						disabled={page === lesson.pages.length}
 						bg="white"
 						h={40}
 						w={40}
