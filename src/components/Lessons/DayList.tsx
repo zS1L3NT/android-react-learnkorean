@@ -32,7 +32,10 @@ const DayList = (props: Props): JSX.Element => {
 			if (progress[day - 1].completed) {
 				return "#c6f6d5"
 			}
-			if (Object.keys(progress[day - 1].qna).length > 0) {
+			if (
+				progress[day - 1].highest !== null ||
+				Object.keys(progress[day - 1].qna).length > 0
+			) {
 				return "#fefcbf"
 			}
 			return "#fed7d7"

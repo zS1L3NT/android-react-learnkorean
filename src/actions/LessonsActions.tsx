@@ -1,8 +1,22 @@
 import {
 	iClearLessonQuizAnswers,
 	iSetLessonCompleted,
-	iSetLessonQuizAnswers
+	iSetLessonQuizAnswers,
+	iSetLessonQuizHighest
 } from "../redux"
+
+export const setLessonQuizHighest = (
+	day: number,
+	month: number,
+	highest: number
+): iSetLessonQuizHighest => ({
+	type: "SET_LESSON_QUIZ_HIGHEST",
+	payload: {
+		day,
+		month,
+		highest
+	}
+})
 
 export const setLessonQuizAnswers = (
 	day: number,

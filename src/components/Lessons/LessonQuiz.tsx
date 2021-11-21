@@ -5,7 +5,8 @@ import { Button, Div, Text } from "react-native-magnus"
 import {
 	clearLessonQuizAnswers,
 	setLessonCompleted,
-	setLessonQuizAnswers
+	setLessonQuizAnswers,
+	setLessonQuizHighest
 } from "../../actions/LessonsActions"
 import { LayoutAnimation, Platform, SafeAreaView, UIManager } from "react-native"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
@@ -139,6 +140,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 
 	const handleContinue = () => {
 		if (order.length !== 1) {
+			// Continue button
 			LayoutAnimation.configureNext(
 				LayoutAnimation.create(
 					250,
@@ -150,6 +152,15 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			setChoice(null)
 			setOrder(order => order.slice(1, order.length))
 		} else {
+			// Edit button
+			let score = 0
+			for (const question in qna) {
+				if (qna[question] === lesson.qna[question]) {
+					score++
+				}
+			}
+
+			dispatch(setLessonQuizHighest(day, month, score))
 			props.navigation.navigate("DayList", { month })
 		}
 	}

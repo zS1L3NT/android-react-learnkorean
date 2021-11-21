@@ -3,8 +3,18 @@
  */
 export type iLessonsData = {
 	completed: boolean
+	highest: number | null
 	qna: Record<string, string>
 }[][]
+
+export interface iSetLessonQuizHighest {
+	type: "SET_LESSON_QUIZ_HIGHEST"
+	payload: {
+		day: number
+		month: number
+		highest: number
+	}
+}
 
 export interface iSetLessonQuizAnswers {
 	type: "SET_LESSON_QUIZ_ANSWERS"
@@ -32,6 +42,7 @@ export interface iClearLessonQuizAnswers {
 }
 
 export type iLessonsActions =
+	| iSetLessonQuizHighest
 	| iSetLessonQuizAnswers
 	| iSetLessonCompleted
 	| iClearLessonQuizAnswers
