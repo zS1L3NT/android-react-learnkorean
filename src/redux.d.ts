@@ -108,3 +108,17 @@ export type iGamesActions =
 	| iSetGameAnswers
 	| iSetGameCompleted
 	| iClearGameAnswers
+
+/**
+ * Hanguls
+ */
+export type iHangulsData = number
+
+export interface iSetHanguls {
+	type: "SET_HANGULS"
+	payload: {
+		hanguls: number
+	}
+}
+
+export type iHangulsActions = iSetHanguls

@@ -43,7 +43,7 @@ const Lesson = (props: Props): JSX.Element => {
 	//#endregion
 
 	//#region Functions
-	const handlePrevious = () => {
+	const handleBack = () => {
 		Animated.timing(opacity, {
 			toValue: 0,
 			duration: 250,
@@ -117,7 +117,7 @@ const Lesson = (props: Props): JSX.Element => {
 					<Text m="lg">{lesson.pages[page]}</Text>
 				</Animated.View>
 				<Div justifyContent="space-between" m="md" p="md" row>
-					<Button disabled={page === 0} bg="white" h={40} w={40} onPress={handlePrevious}>
+					<Button disabled={page === 0} bg="white" h={40} w={40} onPress={handleBack}>
 						<Icon name="left" />
 					</Button>
 					<Button
