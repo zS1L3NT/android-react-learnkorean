@@ -1,26 +1,27 @@
-import React, { useContext, useEffect } from "react"
+import React, { useEffect } from "react"
 import { Hanguls as hanguls } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
 import { Text } from "react-native-magnus"
+import { useDispatch } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iHangulsStackParamList, "HangulList">
 
 const HangulList = (props: Props): JSX.Element => {
-	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {
-			setTitle("Learning to Read")
+			dispatch(setTitle("Learning to Read"))
 		}
 	}, [isFocused])
 
 	const handlePage = (page: number) => {
 		props.navigation.push("Hangul", { hangul: hanguls[page] })
-		setTitle(`Learning to Read - Page ${page}`)
+		dispatch(setTitle(`Learning to Read - Page ${page}`))
 	}
 
 	return (

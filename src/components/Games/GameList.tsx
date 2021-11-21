@@ -1,26 +1,27 @@
-import React, { useContext, useEffect } from "react"
+import React, { useEffect } from "react"
 import { Games as games } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
 import { Text } from "react-native-magnus"
+import { useDispatch } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iGamesStackParamList, "GameList">
 
 const GameList = (props: Props): JSX.Element => {
-	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 
 	useEffect(() => {
 		if (isFocused) {
-			setTitle("Memory Games")
+			dispatch(setTitle("Memory Games"))
 		}
 	}, [isFocused])
 
 	const handleTitle = (title: keyof typeof games) => {
 		props.navigation.push("Game", { game: games[title] })
-		setTitle(title)
+		dispatch(setTitle(title))
 	}
 
 	return (

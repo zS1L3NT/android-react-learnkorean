@@ -1,11 +1,11 @@
-import React, { useCallback, useContext, useEffect } from "react"
+import React, { useCallback, useEffect } from "react"
 import { Button, Div, Icon, Text } from "react-native-magnus"
 import { Lessons as lessons } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
+import { useDispatch, useSelector } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
-import { useSelector } from "react-redux"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "DayList">
 
@@ -13,7 +13,7 @@ const DayList = (props: Props): JSX.Element => {
 	const { month } = props.route.params
 
 	//#region Hooks
-	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 	const progress = useSelector(state => state.lessons[month - 1])
 	//#endregion
@@ -21,7 +21,7 @@ const DayList = (props: Props): JSX.Element => {
 	//#region Effects
 	useEffect(() => {
 		if (isFocused) {
-			setTitle(`Lessons - Month ${month}`)
+			dispatch(setTitle(`Lessons - Month ${month}`))
 		}
 	}, [isFocused, month])
 	//#endregion

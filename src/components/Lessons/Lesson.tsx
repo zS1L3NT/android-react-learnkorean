@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import {
 	Animated,
 	LayoutAnimation,
@@ -10,7 +10,7 @@ import {
 import { Button, Div, Icon, Overlay, Text } from "react-native-magnus"
 import { clearLessonQuizAnswers } from "../../actions/LessonsActions"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
 import { useDispatch, useSelector } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
@@ -20,7 +20,6 @@ const Lesson = (props: Props): JSX.Element => {
 	const { lesson, month, day } = props.route.params
 
 	//#region Hooks
-	const setTitle = useContext(SetTitleContext)
 	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 	const progress = useSelector(state => state.lessons[month - 1][day - 1].qna)
@@ -38,7 +37,7 @@ const Lesson = (props: Props): JSX.Element => {
 
 	useEffect(() => {
 		if (isFocused) {
-			setTitle(lesson.title)
+			dispatch(setTitle(lesson.title))
 		}
 	}, [isFocused])
 	//#endregion

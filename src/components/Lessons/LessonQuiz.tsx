@@ -1,6 +1,6 @@
 import Animated from "react-native-reanimated"
 import equal from "deep-equal"
-import React, { useCallback, useContext, useEffect, useState } from "react"
+import React, { useCallback, useEffect, useState } from "react"
 import { Button, Div, Overlay, Text } from "react-native-magnus"
 import {
 	clearLessonQuizAnswers,
@@ -10,7 +10,7 @@ import {
 } from "../../actions/LessonsActions"
 import { LayoutAnimation, Platform, SafeAreaView, UIManager } from "react-native"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
 import { useDispatch, useSelector } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
@@ -20,7 +20,6 @@ const LessonQuiz = (props: Props): JSX.Element => {
 	const { lesson, month, day } = props.route.params
 
 	//#region Hooks
-	const setTitle = useContext(SetTitleContext)
 	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 	const progress = useSelector(state => state.lessons[month - 1][day - 1].qna)
@@ -39,7 +38,7 @@ const LessonQuiz = (props: Props): JSX.Element => {
 
 	useEffect(() => {
 		if (isFocused) {
-			setTitle("Lesson Quiz")
+			dispatch(setTitle("Lesson Quiz"))
 		}
 	}, [isFocused])
 

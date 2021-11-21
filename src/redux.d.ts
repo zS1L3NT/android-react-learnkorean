@@ -1,4 +1,18 @@
 /**
+ * Title
+ */
+export type iTitleData = string
+
+export interface iSetTitle {
+	type: "SET_TITLE"
+	payload: {
+		title: string
+	}
+}
+
+export type iTitleActions = iSetTitle
+
+/**
  * Lessons
  */
 export type iLessonsData = {

@@ -1,23 +1,24 @@
-import React, { useContext, useEffect } from "react"
+import React, { useEffect } from "react"
 import { Lessons as lessons } from "../../data.json"
 import { NativeStackScreenProps } from "@react-navigation/native-stack"
 import { SafeAreaView, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native"
-import { SetTitleContext } from "../../App"
+import { setTitle } from "../../actions/TitleActions"
 import { Text } from "react-native-magnus"
+import { useDispatch } from "react-redux"
 import { useIsFocused } from "@react-navigation/native"
 
 type Props = NativeStackScreenProps<iLessonsStackParamList, "MonthList">
 
 const MonthList = (props: Props): JSX.Element => {
 	//#region Hooks
-	const setTitle = useContext(SetTitleContext)
+	const dispatch = useDispatch()
 	const isFocused = useIsFocused()
 	//#endregion
 
 	//#region Effects
 	useEffect(() => {
 		if (isFocused) {
-			setTitle("Lessons")
+			dispatch(setTitle("Lessons"))
 		}
 	}, [isFocused])
 	//#endregion
