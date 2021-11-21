@@ -2,6 +2,7 @@ type iRootDrawerParamList = {
 	Lessons: undefined
 	"Learning to Read": undefined
 	"Memory Games": undefined
+	"Credits": undefined
 }
 
 type iLessonsStackParamList = {

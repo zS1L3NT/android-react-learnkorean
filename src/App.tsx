@@ -1,6 +1,7 @@
 import Games from "./pages/Games"
 import Hanguls from "./pages/Hanguls"
 import Lessons from "./pages/Lessons"
+import Credits from "./pages/Credits"
 import React from "react"
 import { createDrawerNavigator } from "@react-navigation/drawer"
 import { NavigationContainer } from "@react-navigation/native"
@@ -22,6 +23,7 @@ const App = (): JSX.Element => {
 				<Drawer.Screen name="Lessons" component={Lessons} />
 				<Drawer.Screen name="Memory Games" component={Games} />
 				<Drawer.Screen name="Learning to Read" component={Hanguls} />
+				<Drawer.Screen name="Credits" component={Credits} />
 			</Drawer.Navigator>
 		</NavigationContainer>
 	)
