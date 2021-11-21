@@ -169,17 +169,11 @@ const LessonQuiz = (props: Props): JSX.Element => {
 			<Animated.View>
 				<Div justifyContent="center" h="90%">
 					<Div alignSelf="center" bg="white" w="90%" mb="xl" shadow="sm" rounded="xl">
-						<Text
-							fontSize="md"
-							fontWeight="300"
-							textAlign="center"
-							m="md"
-							mb="xl"
-							opacity={0.4}>
+						<Text fontSize="md" fontWeight="300" m="md" mb="xl" opacity={0.4}>
 							Q{Object.keys(lesson.qna).length - order.length + 1}/
 							{Object.keys(lesson.qna).length}
 						</Text>
-						<Text fontSize="lg" textAlign="center" m="md" mb="lg">
+						<Text fontSize="lg" m="md" mb="lg">
 							{order[0]}
 						</Text>
 					</Div>
@@ -213,14 +207,14 @@ const LessonQuiz = (props: Props): JSX.Element => {
 				</Div>
 			</Animated.View>
 			<Overlay visible={choice !== null && order.length === 1} rounded="xl">
-				<Text fontSize="xl" textAlign="center" mb="md">
+				<Text fontSize="xl" mb="md">
 					Quiz Complete!
 				</Text>
-				<Text textAlign="center">Your Score:</Text>
-				<Text textAlign="center" fontWeight="bold">
+				<Text>Your Score:</Text>
+				<Text fontWeight="bold">
 					{getScore()}/{Object.keys(lesson.qna).length}
 				</Text>
-				<Text textAlign="center" color="blue500" mt="2xl" onPress={handleExit}>
+				<Text color="blue500" mt="2xl" onPress={handleExit}>
 					Exit
 				</Text>
 			</Overlay>

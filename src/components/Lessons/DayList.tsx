@@ -76,7 +76,7 @@ const DayList = (props: Props): JSX.Element => {
 						onPress={handlePrevious}>
 						<Icon name="left" fontSize={16} />
 					</Button>
-					<Text textAlign="center">Month {month}</Text>
+					<Text>Month {month}</Text>
 					<Button disabled={month === 5} bg="white" h={40} w={40} onPress={handleNext}>
 						<Icon name="right" fontSize={16} />
 					</Button>
@@ -90,7 +90,7 @@ const DayList = (props: Props): JSX.Element => {
 								{ marginBottom: i === 29 ? 10 : 0 }
 							]}
 							onPress={() => handleLesson(lesson, i)}>
-							<Text>
+							<Text textAlign="left">
 								Day {i + 1} - {lesson.title}
 							</Text>
 						</TouchableOpacity>

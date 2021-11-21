@@ -118,7 +118,9 @@ const Lesson = (props: Props): JSX.Element => {
 		<SafeAreaView>
 			<ScrollView>
 				<Animated.View style={{ opacity }}>
-					<Text m="lg">{lesson.pages[page - 1]}</Text>
+					<Text textAlign="left" m="lg">
+						{lesson.pages[page - 1]}
+					</Text>
 				</Animated.View>
 				<Div justifyContent="space-between" m="md" p="md" row>
 					<Button disabled={page === 1} bg="white" h={40} w={40} onPress={handleBack}>
@@ -142,10 +144,10 @@ const Lesson = (props: Props): JSX.Element => {
 				</Div>
 			</ScrollView>
 			<Overlay visible={overlayVisible} onBackdropPress={handleClose}>
-				<Text textAlign="center" fontSize="lg" mb="md">
+				<Text fontSize="lg" mb="md">
 					Quiz Incomplete!
 				</Text>
-				<Text textAlign="center">
+				<Text>
 					{"Do you want to "}
 					<Text fontWeight="bold">restart your progress</Text>
 					{" or "}

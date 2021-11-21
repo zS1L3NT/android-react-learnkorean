@@ -15,6 +15,9 @@ const theme: ThemeType = {
 			rounded: "circle",
 			shadow: "sm",
 			fontSize: "sm"
+		},
+		Text: {
+			textAlign: "center"
 		}
 	}
 }

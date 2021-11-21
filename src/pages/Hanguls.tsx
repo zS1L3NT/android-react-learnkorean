@@ -93,12 +93,14 @@ const Hanguls = (): JSX.Element => {
 					rounded="sm"
 					shadow="sm"
 					row>
-					<Text fontWeight="bold" textAlign="center" w="100%">
+					<Text fontWeight="bold" w="100%">
 						{progress} / {hanguls.length}
 					</Text>
 				</Div>
 				<Animated.View style={{ opacity }}>
-					<Text m="lg">{hanguls[progress]}</Text>
+					<Text textAlign="left" m="lg">
+						{hanguls[progress]}
+					</Text>
 				</Animated.View>
 				<Div justifyContent="space-between" m="md" p="md" row>
 					<Button disabled={progress === 1} bg="green400" px="xl" onPress={handleBack}>

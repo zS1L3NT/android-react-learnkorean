@@ -98,25 +98,25 @@ const GameList = (props: Props): JSX.Element => {
 								{ marginBottom: i === 18 ? 10 : 0 }
 							]}
 							onPress={() => handleGame(title)}>
-							<Text>{title}</Text>
+							<Text textAlign="left">{title}</Text>
 						</TouchableOpacity>
 					</View>
 				))}
 			</ScrollView>
 			<Overlay visible={lockedOverlayVisible} onBackdropPress={hideLockedOverlay}>
-				<Text textAlign="center" fontSize="lg" mb="md">
+				<Text fontSize="lg" mb="md">
 					Game locked!
 				</Text>
-				<Text textAlign="center">Complete previous game to unlock this game first!</Text>
-				<Text textAlign="center" color="red500" mt="xl" onPress={hideLockedOverlay}>
+				<Text>Complete previous game to unlock this game first!</Text>
+				<Text color="red500" mt="xl" onPress={hideLockedOverlay}>
 					Ok
 				</Text>
 			</Overlay>
 			<Overlay visible={incompleteOverlayVisible} onBackdropPress={hideIncompleteOverlay}>
-				<Text textAlign="center" fontSize="lg" mb="md">
+				<Text fontSize="lg" mb="md">
 					Quiz Incomplete!
 				</Text>
-				<Text textAlign="center">
+				<Text>
 					{"Do you want to "}
 					<Text fontWeight="bold">restart your progress</Text>
 					{" or "}

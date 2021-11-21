@@ -56,7 +56,7 @@ const MonthList = (props: Props): JSX.Element => {
 									{ backgroundColor: getBackgroundColor(month) }
 								]}
 								onPress={() => handleMonth(month)}>
-								<Text>Month {month}</Text>
+								<Text textAlign="left">Month {month}</Text>
 							</TouchableOpacity>
 						</View>
 					))}
