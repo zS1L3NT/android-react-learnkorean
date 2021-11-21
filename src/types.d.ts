@@ -18,7 +18,7 @@ type iHangulsStackParamList = {
 
 type iGamesStackParamList = {
 	GameList: undefined
-	Game: { game: iGame }
+	Game: { game: iGame; title: string }
 }
 
 type iLesson = {

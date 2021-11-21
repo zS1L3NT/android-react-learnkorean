@@ -60,3 +60,51 @@ export type iLessonsActions =
 	| iSetLessonQuizAnswers
 	| iSetLessonCompleted
 	| iClearLessonQuizAnswers
+
+/**
+ * Games
+ */
+export type iGamesData = Record<
+	string,
+	{
+		completed: boolean
+		highest: number | null
+		qna: Record<string, string>
+	}
+>
+
+export interface iSetGameHighest {
+	type: "SET_GAME_HIGHEST"
+	payload: {
+		title: string
+		highest: number
+	}
+}
+
+export interface iSetGameAnswers {
+	type: "SET_GAME_ANSWERS"
+	payload: {
+		title: string
+		qna: Record<string, string>
+	}
+}
+
+export interface iSetGameCompleted {
+	type: "SET_GAME_COMPLETED"
+	payload: {
+		title: string
+	}
+}
+
+export interface iClearGameAnswers {
+	type: "CLEAR_GAME_ANSWERS"
+	payload: {
+		title: string
+	}
+}
+
+export type iGamesActions =
+	| iSetGameHighest
+	| iSetGameAnswers
+	| iSetGameCompleted
+	| iClearGameAnswers

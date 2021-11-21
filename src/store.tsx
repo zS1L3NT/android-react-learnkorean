@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage"
 import devToolsEnhancer from "remote-redux-devtools"
+import games from "./reducers/GamesReducer"
 import lessons from "./reducers/LessonsReducer"
 import title from "./reducers/TitleReducer"
 import { combineReducers, createStore } from "redux"
@@ -7,7 +8,8 @@ import { persistReducer } from "redux-persist"
 
 const rootReducer = combineReducers({
 	title,
-	lessons
+	lessons,
+	games
 })
 
 const persistedReducer = persistReducer(
