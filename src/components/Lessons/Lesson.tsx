@@ -136,27 +136,27 @@ const Lesson = (props: Props): JSX.Element => {
 						<Icon name="right" />
 					</Button>
 				</Div>
-				<Overlay visible={overlayVisible}>
-					<Text textAlign="center" fontSize="lg" mb="md">
-						Quiz Incomplete!
-					</Text>
-					<Text textAlign="center">
-						{"Do you want to "}
-						<Text fontWeight="bold">restart your progress</Text>
-						{" or "}
-						<Text fontWeight="bold">continue the quiz</Text>
-						{"?"}
-					</Text>
-					<Div justifyContent="space-evenly" mt="xl" row>
-						<Text color="red500" onPress={handleOverlayRestart}>
-							Restart
-						</Text>
-						<Text color="green500" onPress={handleOverlayContinue}>
-							Continue
-						</Text>
-					</Div>
-				</Overlay>
 			</ScrollView>
+			<Overlay visible={overlayVisible}>
+				<Text textAlign="center" fontSize="lg" mb="md">
+					Quiz Incomplete!
+				</Text>
+				<Text textAlign="center">
+					{"Do you want to "}
+					<Text fontWeight="bold">restart your progress</Text>
+					{" or "}
+					<Text fontWeight="bold">continue the quiz</Text>
+					{"?"}
+				</Text>
+				<Div justifyContent="space-evenly" mt="xl" row>
+					<Text color="red500" onPress={handleOverlayRestart}>
+						Restart
+					</Text>
+					<Text color="green500" onPress={handleOverlayContinue}>
+						Continue
+					</Text>
+				</Div>
+			</Overlay>
 		</SafeAreaView>
 	)
 }
