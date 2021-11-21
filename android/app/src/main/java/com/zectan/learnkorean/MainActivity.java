@@ -1,4 +1,4 @@
-package com.android_react_learnkorean;
+package com.zectan.learnkorean;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "android_react_learnkorean";
+    return "LearnKorean";
   }
 }

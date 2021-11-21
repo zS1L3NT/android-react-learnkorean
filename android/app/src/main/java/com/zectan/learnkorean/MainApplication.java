@@ -1,4 +1,4 @@
-package com.android_react_learnkorean;
+package com.zectan.learnkorean;
 
 import android.app.Application;
 import android.content.Context;
@@ -62,7 +62,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.android_react_learnkorean.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.zectan.learnkorean.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

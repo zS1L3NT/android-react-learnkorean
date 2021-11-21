@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface android_react_learnkoreanTests : XCTestCase
+@interface LearnKoreanTests : XCTestCase
 
 @end
 
-@implementation android_react_learnkoreanTests
+@implementation LearnKoreanTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
