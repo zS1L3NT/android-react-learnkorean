@@ -23,6 +23,7 @@ const Credits = (): JSX.Element => {
 	const handleOpen = () => {
 		Linking.openURL("market://details?id=com.jensonm.understandkorean")
 	}
+	//#endregion
 
 	return (
 		<SafeAreaView>
