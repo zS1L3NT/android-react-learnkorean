@@ -1,6 +1,6 @@
 # LearnKorean
 
-![License](https://img.shields.io/github/license/zS1L3NT/.github?style=for-the-badge) ![Languages](https://img.shields.io/github/languages/count/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Top Language](https://img.shields.io/github/languages/top/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Commit Activity](https://img.shields.io/github/commit-activity/y/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Last commit](https://img.shields.io/github/last-commit/zS1L3NT/android-react-learnkorean?style=for-the-badge)
+![License](https://img.shields.io/github/license/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Languages](https://img.shields.io/github/languages/count/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Top Language](https://img.shields.io/github/languages/top/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Commit Activity](https://img.shields.io/github/commit-activity/y/zS1L3NT/android-react-learnkorean?style=for-the-badge) ![Last commit](https://img.shields.io/github/last-commit/zS1L3NT/android-react-learnkorean?style=for-the-badge)
 
 LearnKorean is an app that helps you learn korean through lessons, tests and games. The lesson datasets were all extracted from [Understanding Korean - 30 days course](https://play.google.com/store/apps/details?id=com.jensonm.understandkorean&hl=en&gl=US).
 
