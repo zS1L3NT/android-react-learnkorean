@@ -42,10 +42,10 @@ I took all datasets from [Understanding Korean - 30 days course](https://play.go
 ## Built with
 
 -   TypeScript
-    -   [![typescript](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/typescript?style=flat-square)](https://npmjs.com/package/typescript)
     -   [![@types/deep-equal](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/@types/deep-equal?style=flat-square)](https://npmjs.com/package/@types/deep-equal)
     -   [![@types/react-native](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/@types/react-native?style=flat-square)](https://npmjs.com/package/@types/react-native)
     -   [![@types/remote-redux-devtools](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/@types/remote-redux-devtools?style=flat-square)](https://npmjs.com/package/@types/remote-redux-devtools)
+    -   [![typescript](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/typescript?style=flat-square)](https://npmjs.com/package/typescript)
 -   React Native
     -   [![@babel/core](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/dev/@babel/core?style=flat-square)](https://npmjs.com/package/@babel/core)
     -   [![@react-native-async-storage/async-storage](https://img.shields.io/github/package-json/dependency-version/zS1L3NT/android-react-learnkorean/@react-native-async-storage/async-storage?style=flat-square)](https://npmjs.com/package/@react-native-async-storage/async-storage)
