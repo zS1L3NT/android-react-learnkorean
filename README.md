@@ -25,7 +25,7 @@ With `yarn`
 
 ```
 $ yarn
-$ npm run android
+$ yarn android
 ```
 
 With `npm`
